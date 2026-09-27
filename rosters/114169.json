@@ -1,0 +1,3363 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 114169,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "CB UCAM Murcia",
+  "away": "Club Joventut Badalona",
+  "score": [
+   80,
+   77
+  ],
+  "date": "2025-12-14",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "CB UCAM Murcia",
+   "side": "home",
+   "players": [
+    {
+     "id": 59092,
+     "name": "Toni Nakic",
+     "surname": "Nakic",
+     "jersey": "99",
+     "season": {
+      "games": 30,
+      "fg": [
+       57,
+       135
+      ],
+      "three": [
+       39,
+       104
+      ],
+      "cns_three": [
+       34,
+       92
+      ],
+      "contested": [
+       33,
+       94
+      ],
+      "points": 189,
+      "picks": {
+       "n": 6,
+       "points": 5,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 29,
+       "blowby": 3,
+       "points": 13,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 1711.0,
+      "distance_ft": 9884.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 3,
+       "three_made": 1,
+       "quality": 34.895,
+       "points": 3
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 25,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 24,
+      "rebounds": [
+       1,
+       5
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Montesdeoca",
+        "seconds": 276.0
+       },
+       {
+        "who": "Drell",
+        "seconds": 117.0
+       },
+       {
+        "who": "Kraag",
+        "seconds": 66.0
+       }
+      ],
+      "extra": {
+       "mean": -0.14,
+       "within_3": 0.855,
+       "n": 3001
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 4.5,
+       "end": 4.72,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 1.78,
+       "quality": 32.579
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 15394,
+     "name": "David Dejulius",
+     "surname": "Dejulius",
+     "jersey": "5",
+     "season": {
+      "games": 31,
+      "fg": [
+       193,
+       415
+      ],
+      "three": [
+       68,
+       173
+      ],
+      "cns_three": [
+       24,
+       59
+      ],
+      "contested": [
+       125,
+       290
+      ],
+      "points": 546,
+      "picks": {
+       "n": 563,
+       "points": 447,
+       "turnovers": 36
+      },
+      "drives": {
+       "n": 288,
+       "blowby": 39,
+       "points": 202,
+       "assists": 15
+      }
+     },
+     "game": {
+      "seconds": 1624.6,
+      "distance_ft": 9175.0,
+      "top_speed": 16.0,
+      "shots": {
+       "n": 13,
+       "made": 4,
+       "three": 5,
+       "three_made": 3,
+       "quality": 40.713,
+       "points": 11
+      },
+      "assists": 3,
+      "turnovers": 0,
+      "passes": 40,
+      "drives": 6,
+      "blowby": 2,
+      "picks_handler": 30,
+      "screens": 5,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Rubio",
+        "seconds": 255.0
+       },
+       {
+        "who": "Hakanson",
+        "seconds": 99.0
+       },
+       {
+        "who": "Hunt",
+        "seconds": 75.0
+       }
+      ],
+      "extra": {
+       "mean": -1.54,
+       "within_3": 0.909,
+       "n": 2771
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 15.36,
+       "end": 5.87,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 3.74,
+       "quality": 30.677
+      },
+      "price": {
+       "value": 0.76,
+       "n": 3,
+       "kinds": {
+        "late close-out": 1,
+        "nobody on him": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59095,
+     "name": "Dylan Ennis",
+     "surname": "Ennis",
+     "jersey": "31",
+     "season": {
+      "games": 24,
+      "fg": [
+       88,
+       228
+      ],
+      "three": [
+       34,
+       106
+      ],
+      "cns_three": [
+       18,
+       50
+      ],
+      "contested": [
+       53,
+       166
+      ],
+      "points": 256,
+      "picks": {
+       "n": 224,
+       "points": 152,
+       "turnovers": 24
+      },
+      "drives": {
+       "n": 159,
+       "blowby": 32,
+       "points": 72,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1614.6,
+      "distance_ft": 9182.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 15,
+       "made": 4,
+       "three": 6,
+       "three_made": 1,
+       "quality": 37.113,
+       "points": 9
+      },
+      "assists": 6,
+      "turnovers": 1,
+      "passes": 23,
+      "drives": 12,
+      "blowby": 3,
+      "picks_handler": 31,
+      "screens": 4,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hunt",
+        "seconds": 165.0
+       },
+       {
+        "who": "Kraag",
+        "seconds": 116.0
+       },
+       {
+        "who": "Hanga",
+        "seconds": 80.0
+       }
+      ],
+      "extra": {
+       "mean": 1.14,
+       "within_3": 0.745,
+       "n": 2864
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.94,
+       "end": 4.17,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 12,
+       "made": 6,
+       "distance": 4.32,
+       "quality": 48.797
+      },
+      "price": {
+       "value": -0.11,
+       "n": 3,
+       "kinds": {
+        "help not recovered": 2,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59090,
+     "name": "Emanuel Ion Cate",
+     "surname": "Cate",
+     "jersey": "15",
+     "season": {
+      "games": 31,
+      "fg": [
+       76,
+       132
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       43,
+       84
+      ],
+      "points": 196,
+      "picks": {
+       "n": 3,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 9,
+       "blowby": 4,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1576.4,
+      "distance_ft": 9028.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 9,
+       "made": 5,
+       "three": 0,
+       "three_made": 0,
+       "quality": 59.404,
+       "points": 10
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 22,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 63,
+      "rebounds": [
+       5,
+       6
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Tomic",
+        "seconds": 365.0
+       },
+       {
+        "who": "Montesdeoca",
+        "seconds": 25.0
+       },
+       {
+        "who": "Kraag",
+        "seconds": 22.0
+       }
+      ],
+      "extra": {
+       "mean": 3.94,
+       "within_3": 0.444,
+       "n": 2478
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 17.39,
+       "end": 11.54,
+       "pts": 1.8,
+       "actions": {
+        "shot": 4,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 19,
+       "made": 9,
+       "distance": 4.21,
+       "quality": 45.35
+      },
+      "price": {
+       "value": 1.51,
+       "n": 6,
+       "kinds": {
+        "help not recovered": 2,
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59036,
+     "name": "Howard Sant-Roos",
+     "surname": "Sant-Roos",
+     "jersey": "8",
+     "season": {
+      "games": 31,
+      "fg": [
+       74,
+       141
+      ],
+      "three": [
+       16,
+       47
+      ],
+      "cns_three": [
+       14,
+       38
+      ],
+      "contested": [
+       47,
+       96
+      ],
+      "points": 222,
+      "picks": {
+       "n": 61,
+       "points": 49,
+       "turnovers": 5
+      },
+      "drives": {
+       "n": 109,
+       "blowby": 12,
+       "points": 72,
+       "assists": 11
+      }
+     },
+     "game": {
+      "seconds": 1169.8,
+      "distance_ft": 6930.0,
+      "top_speed": 18.2,
+      "shots": {
+       "n": 4,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 68.017,
+       "points": 6
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 11,
+      "drives": 4,
+      "blowby": 0,
+      "picks_handler": 4,
+      "screens": 4,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hakanson",
+        "seconds": 100.0
+       },
+       {
+        "who": "Rubio",
+        "seconds": 98.0
+       },
+       {
+        "who": "Hanga",
+        "seconds": 78.0
+       }
+      ],
+      "extra": {
+       "mean": 0.59,
+       "within_3": 0.773,
+       "n": 2091
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 8.34,
+       "end": 0.06,
+       "pts": 2.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 2,
+       "distance": 4.23,
+       "quality": 38.277
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59091,
+     "name": "Sander Raieste",
+     "surname": "Raieste",
+     "jersey": "2",
+     "season": {
+      "games": 26,
+      "fg": [
+       45,
+       113
+      ],
+      "three": [
+       17,
+       60
+      ],
+      "cns_three": [
+       16,
+       55
+      ],
+      "contested": [
+       25,
+       78
+      ],
+      "points": 134,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 35,
+       "blowby": 10,
+       "points": 18,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 1095.6,
+      "distance_ft": 7225.0,
+      "top_speed": 18.3,
+      "shots": {
+       "n": 2,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 67.577,
+       "points": 2
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 5,
+      "rebounds": [
+       0,
+       6
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kraag",
+        "seconds": 249.0
+       },
+       {
+        "who": "Ruzic",
+        "seconds": 45.0
+       },
+       {
+        "who": "Drell",
+        "seconds": 30.0
+       }
+      ],
+      "extra": {
+       "mean": 1.11,
+       "within_3": 0.77,
+       "n": 1979
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 14.99,
+       "end": 4.04,
+       "pts": 0.0,
+       "actions": {
+        "other": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 2.98,
+       "quality": 42.004
+      },
+      "price": {
+       "value": 0.39,
+       "n": 1,
+       "kinds": {
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 24504,
+     "name": "Jonah Radebaugh",
+     "surname": "Radebaugh",
+     "jersey": "12",
+     "season": {
+      "games": 28,
+      "fg": [
+       80,
+       170
+      ],
+      "three": [
+       43,
+       112
+      ],
+      "cns_three": [
+       26,
+       66
+      ],
+      "contested": [
+       55,
+       127
+      ],
+      "points": 227,
+      "picks": {
+       "n": 111,
+       "points": 93,
+       "turnovers": 13
+      },
+      "drives": {
+       "n": 71,
+       "blowby": 11,
+       "points": 45,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 756.6,
+      "distance_ft": 4786.0,
+      "top_speed": 17.9,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 3,
+       "three_made": 1,
+       "quality": 53.998,
+       "points": 5
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 12,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 7,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hakanson",
+        "seconds": 99.0
+       },
+       {
+        "who": "Hunt",
+        "seconds": 56.0
+       },
+       {
+        "who": "Hanga",
+        "seconds": 48.0
+       }
+      ],
+      "extra": {
+       "mean": 0.02,
+       "within_3": 0.867,
+       "n": 1404
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 21.07,
+       "end": 9.26,
+       "pts": 3.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 3.76,
+       "quality": 39.936
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      }
+     ]
+    },
+    {
+     "id": 15362,
+     "name": "Michael Forrest",
+     "surname": "Forrest",
+     "jersey": "1",
+     "season": {
+      "games": 31,
+      "fg": [
+       124,
+       294
+      ],
+      "three": [
+       62,
+       176
+      ],
+      "cns_three": [
+       23,
+       61
+      ],
+      "contested": [
+       86,
+       220
+      ],
+      "points": 377,
+      "picks": {
+       "n": 285,
+       "points": 223,
+       "turnovers": 29
+      },
+      "drives": {
+       "n": 184,
+       "blowby": 29,
+       "points": 111,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 744.8,
+      "distance_ft": 4527.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 6,
+       "made": 2,
+       "three": 4,
+       "three_made": 1,
+       "quality": 44.228,
+       "points": 5
+      },
+      "assists": 0,
+      "turnovers": 2,
+      "passes": 13,
+      "drives": 4,
+      "blowby": 2,
+      "picks_handler": 13,
+      "screens": 5,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Vives",
+        "seconds": 80.0
+       },
+       {
+        "who": "Hakanson",
+        "seconds": 61.0
+       },
+       {
+        "who": "Hanga",
+        "seconds": 52.0
+       }
+      ],
+      "extra": {
+       "mean": 0.51,
+       "within_3": 0.776,
+       "n": 1378
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 15.85,
+       "end": 4.53,
+       "pts": 3.0,
+       "actions": {
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 2,
+       "distance": 2.55,
+       "quality": 38.991
+      },
+      "price": {
+       "value": 0.02,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      }
+     ]
+    },
+    {
+     "id": 59089,
+     "name": "Moussa Diagne",
+     "surname": "Diagne",
+     "jersey": "21",
+     "season": {
+      "games": 17,
+      "fg": [
+       13,
+       22
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       6,
+       13
+      ],
+      "points": 42,
+      "picks": {
+       "n": 3,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 699.0,
+      "distance_ft": 3791.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 49.741,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 3,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 26,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Ruzic",
+        "seconds": 101.0
+       },
+       {
+        "who": "Tomic",
+        "seconds": 77.0
+       },
+       {
+        "who": "Hakanson",
+        "seconds": 45.0
+       }
+      ],
+      "extra": {
+       "mean": -0.29,
+       "within_3": 0.851,
+       "n": 1572
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 10.13,
+       "end": 5.35,
+       "pts": 1.0,
+       "actions": {
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 0,
+       "distance": 4.65,
+       "quality": 50.7
+      },
+      "price": {
+       "value": 0.09,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      }
+     ]
+    },
+    {
+     "id": 8673,
+     "name": "Zach Hicks",
+     "surname": "Hicks",
+     "jersey": "24",
+     "season": {
+      "games": 14,
+      "fg": [
+       8,
+       30
+      ],
+      "three": [
+       8,
+       28
+      ],
+      "cns_three": [
+       8,
+       28
+      ],
+      "contested": [
+       7,
+       22
+      ],
+      "points": 27,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 281.6,
+      "distance_ft": 1845.0,
+      "top_speed": 18.0,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 35.636,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 4,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 4,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Drell",
+        "seconds": 48.0
+       },
+       {
+        "who": "Montesdeoca",
+        "seconds": 23.0
+       },
+       {
+        "who": "Kraag",
+        "seconds": 13.0
+       }
+      ],
+      "extra": {
+       "mean": -0.41,
+       "within_3": 0.892,
+       "n": 508
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 0,
+       "distance": 3.09,
+       "quality": 26.912
+      },
+      "price": null
+     },
+     "plays": []
+    },
+    {
+     "id": 59093,
+     "name": "Wilhelm Falk",
+     "surname": "Falk",
+     "jersey": "13",
+     "season": {
+      "games": 29,
+      "fg": [
+       24,
+       64
+      ],
+      "three": [
+       2,
+       20
+      ],
+      "cns_three": [
+       1,
+       18
+      ],
+      "contested": [
+       12,
+       36
+      ],
+      "points": 77,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 1,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 166.8,
+      "distance_ft": 949.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 2,
+       "three_made": 0,
+       "quality": 41.442,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 1,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Montesdeoca",
+        "seconds": 50.0
+       },
+       {
+        "who": "Hunt",
+        "seconds": 11.0
+       },
+       {
+        "who": "Hakanson",
+        "seconds": 6.0
+       }
+      ],
+      "extra": {
+       "mean": -1.02,
+       "within_3": 0.876,
+       "n": 394
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 4.83,
+       "quality": 46.417
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      }
+     ]
+    },
+    {
+     "id": 59094,
+     "name": "De La Torre Ruben Lopez",
+     "surname": "Lopez",
+     "jersey": "16",
+     "season": {
+      "games": 4,
+      "fg": [
+       2,
+       3
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       1,
+       1
+      ],
+      "points": 4,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 3,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 5.2,
+      "distance_ft": 33.0,
+      "top_speed": null,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Rubio",
+        "seconds": 4.0
+       }
+      ],
+      "extra": {
+       "mean": -2.63,
+       "within_3": 1.0,
+       "n": 20
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 0,
+       "distance": 2.53,
+       "quality": 11.338
+      },
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  },
+  {
+   "team": "Club Joventut Badalona",
+   "side": "away",
+   "players": [
+    {
+     "id": 59096,
+     "name": "Ante Tomic",
+     "surname": "Tomic",
+     "jersey": "44",
+     "season": {
+      "games": 23,
+      "fg": [
+       117,
+       211
+      ],
+      "three": [
+       2,
+       5
+      ],
+      "cns_three": [
+       2,
+       4
+      ],
+      "contested": [
+       71,
+       139
+      ],
+      "points": 291,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1617.4,
+      "distance_ft": 8935.0,
+      "top_speed": 14.4,
+      "shots": {
+       "n": 17,
+       "made": 8,
+       "three": 3,
+       "three_made": 2,
+       "quality": 43.896,
+       "points": 18
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 29,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 41,
+      "rebounds": [
+       3,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Cate",
+        "seconds": 458.0
+       },
+       {
+        "who": "Diagne",
+        "seconds": 42.0
+       },
+       {
+        "who": "Dejulius",
+        "seconds": 8.0
+       }
+      ],
+      "extra": {
+       "mean": 1.87,
+       "within_3": 0.712,
+       "n": 2701
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 10.78,
+       "end": 5.09,
+       "pts": 2.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 13,
+       "made": 5,
+       "distance": 4.29,
+       "quality": 50.341
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59100,
+     "name": "Yannick Kraag",
+     "surname": "Kraag",
+     "jersey": "1",
+     "season": {
+      "games": 32,
+      "fg": [
+       68,
+       153
+      ],
+      "three": [
+       23,
+       80
+      ],
+      "cns_three": [
+       21,
+       74
+      ],
+      "contested": [
+       40,
+       96
+      ],
+      "points": 183,
+      "picks": {
+       "n": 4,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 22,
+       "blowby": 2,
+       "points": 14,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1595.2,
+      "distance_ft": 9612.0,
+      "top_speed": 17.3,
+      "shots": {
+       "n": 6,
+       "made": 2,
+       "three": 3,
+       "three_made": 0,
+       "quality": 38.968,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 14,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 7,
+      "rebounds": [
+       2,
+       5
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Raieste",
+        "seconds": 271.0
+       },
+       {
+        "who": "Sant-Roos",
+        "seconds": 96.0
+       },
+       {
+        "who": "Nakic",
+        "seconds": 93.0
+       }
+      ],
+      "extra": {
+       "mean": 0.62,
+       "within_3": 0.794,
+       "n": 2697
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 14.51,
+       "end": 5.48,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1,
+        "shot": 3,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 3.79,
+       "quality": 50.79
+      },
+      "price": {
+       "value": 0.21,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 34943,
+     "name": "Ricky Rubio",
+     "surname": "Rubio",
+     "jersey": "9",
+     "season": {
+      "games": 29,
+      "fg": [
+       108,
+       270
+      ],
+      "three": [
+       30,
+       101
+      ],
+      "cns_three": [
+       22,
+       50
+      ],
+      "contested": [
+       74,
+       184
+      ],
+      "points": 395,
+      "picks": {
+       "n": 391,
+       "points": 256,
+       "turnovers": 37
+      },
+      "drives": {
+       "n": 353,
+       "blowby": 76,
+       "points": 203,
+       "assists": 43
+      }
+     },
+     "game": {
+      "seconds": 1498.6,
+      "distance_ft": 8927.0,
+      "top_speed": 15.8,
+      "shots": {
+       "n": 13,
+       "made": 5,
+       "three": 3,
+       "three_made": 0,
+       "quality": 31.003,
+       "points": 10
+      },
+      "assists": 8,
+      "turnovers": 2,
+      "passes": 40,
+      "drives": 19,
+      "blowby": 4,
+      "picks_handler": 33,
+      "screens": 0,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Dejulius",
+        "seconds": 317.0
+       },
+       {
+        "who": "Forrest",
+        "seconds": 109.0
+       },
+       {
+        "who": "Sant-Roos",
+        "seconds": 34.0
+       }
+      ],
+      "extra": {
+       "mean": 0.47,
+       "within_3": 0.794,
+       "n": 2543
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 12.42,
+       "end": 4.42,
+       "pts": 1.5,
+       "actions": {
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 6.07,
+       "quality": 45.381
+      },
+      "price": {
+       "value": -0.1,
+       "n": 2,
+       "kinds": {
+        "nobody on him": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 30735,
+     "name": "Cameron Hunt",
+     "surname": "Hunt",
+     "jersey": "24",
+     "season": {
+      "games": 31,
+      "fg": [
+       168,
+       348
+      ],
+      "three": [
+       59,
+       149
+      ],
+      "cns_three": [
+       26,
+       55
+      ],
+      "contested": [
+       130,
+       279
+      ],
+      "points": 502,
+      "picks": {
+       "n": 404,
+       "points": 295,
+       "turnovers": 36
+      },
+      "drives": {
+       "n": 276,
+       "blowby": 50,
+       "points": 200,
+       "assists": 18
+      }
+     },
+     "game": {
+      "seconds": 1338.6,
+      "distance_ft": 7518.0,
+      "top_speed": 15.2,
+      "shots": {
+       "n": 12,
+       "made": 3,
+       "three": 5,
+       "three_made": 2,
+       "quality": 36.441,
+       "points": 8
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 13,
+      "drives": 8,
+      "blowby": 2,
+      "picks_handler": 18,
+      "screens": 7,
+      "rebounds": [
+       1,
+       0
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Ennis",
+        "seconds": 205.0
+       },
+       {
+        "who": "Radebaugh",
+        "seconds": 81.0
+       },
+       {
+        "who": "Dejulius",
+        "seconds": 72.0
+       }
+      ],
+      "extra": {
+       "mean": -0.15,
+       "within_3": 0.871,
+       "n": 2184
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 16.45,
+       "end": 4.27,
+       "pts": 1.2,
+       "actions": {
+        "shot": 2,
+        "pass": 1,
+        "drive": 2
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 4,
+       "distance": 4.97,
+       "quality": 53.108
+      },
+      "price": {
+       "value": 0.1,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59101,
+     "name": "Miguel Allen Montesdeoca",
+     "surname": "Montesdeoca",
+     "jersey": "21",
+     "season": {
+      "games": 21,
+      "fg": [
+       20,
+       35
+      ],
+      "three": [
+       1,
+       4
+      ],
+      "cns_three": [
+       1,
+       4
+      ],
+      "contested": [
+       13,
+       25
+      ],
+      "points": 48,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 5,
+       "blowby": 0,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1314.0,
+      "distance_ft": 7636.0,
+      "top_speed": 18.5,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 60.338,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 18,
+      "rebounds": [
+       1,
+       5
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Nakic",
+        "seconds": 234.0
+       },
+       {
+        "who": "Falk",
+        "seconds": 42.0
+       },
+       {
+        "who": "Cate",
+        "seconds": 38.0
+       }
+      ],
+      "extra": {
+       "mean": 1.0,
+       "within_3": 0.788,
+       "n": 2036
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 13.8,
+       "end": 6.19,
+       "pts": 0.0,
+       "actions": {
+        "shot": 3,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 0,
+       "distance": 3.9,
+       "quality": 38.889
+      },
+      "price": {
+       "value": 0.28,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-1-15",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "7:15",
+       "story": "Isolation → 1 pass → Tomic, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-1-7",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:36",
+       "story": "Drive → 1 pass → Tomic, two, 51 %"
+      },
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Pass from Hunt → Tomic, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 59099,
+     "name": "Ludvig Hakanson",
+     "surname": "Hakanson",
+     "jersey": "12",
+     "season": {
+      "games": 31,
+      "fg": [
+       88,
+       200
+      ],
+      "three": [
+       47,
+       123
+      ],
+      "cns_three": [
+       28,
+       57
+      ],
+      "contested": [
+       40,
+       120
+      ],
+      "points": 262,
+      "picks": {
+       "n": 270,
+       "points": 158,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 100,
+       "blowby": 30,
+       "points": 57,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1302.0,
+      "distance_ft": 8247.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 7,
+       "made": 2,
+       "three": 4,
+       "three_made": 1,
+       "quality": 52.376,
+       "points": 5
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 37,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 19,
+      "screens": 4,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Radebaugh",
+        "seconds": 105.0
+       },
+       {
+        "who": "Dejulius",
+        "seconds": 85.0
+       },
+       {
+        "who": "Sant-Roos",
+        "seconds": 77.0
+       }
+      ],
+      "extra": {
+       "mean": -0.04,
+       "within_3": 0.847,
+       "n": 2039
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 9.54,
+       "end": 4.57,
+       "pts": 0.333,
+       "actions": {
+        "pass": 1,
+        "shot": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 4,
+       "distance": 3.81,
+       "quality": 43.939
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-4-196",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:31",
+       "story": "Ball screen · over → 1 pass → Nakic, three, 33 %"
+      }
+     ]
+    },
+    {
+     "id": 59097,
+     "name": "Adam Hanga",
+     "surname": "Hanga",
+     "jersey": "88",
+     "season": {
+      "games": 31,
+      "fg": [
+       72,
+       172
+      ],
+      "three": [
+       22,
+       95
+      ],
+      "cns_three": [
+       18,
+       69
+      ],
+      "contested": [
+       38,
+       115
+      ],
+      "points": 187,
+      "picks": {
+       "n": 105,
+       "points": 67,
+       "turnovers": 6
+      },
+      "drives": {
+       "n": 84,
+       "blowby": 22,
+       "points": 59,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 968.4,
+      "distance_ft": 6123.0,
+      "top_speed": 17.9,
+      "shots": {
+       "n": 4,
+       "made": 0,
+       "three": 3,
+       "three_made": 0,
+       "quality": 36.438,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 17,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 8,
+      "screens": 6,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Ennis",
+        "seconds": 115.0
+       },
+       {
+        "who": "Sant-Roos",
+        "seconds": 110.0
+       },
+       {
+        "who": "Radebaugh",
+        "seconds": 23.0
+       }
+      ],
+      "extra": {
+       "mean": 0.43,
+       "within_3": 0.818,
+       "n": 1449
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.21,
+       "end": 6.55,
+       "pts": 1.5,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 4.75,
+       "quality": 27.898
+      },
+      "price": {
+       "value": 0.22,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-185",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:26",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 41 %"
+      },
+      {
+       "chance": "chance-114169-4-193",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:55",
+       "story": "Ball screen · over → 2 passes → Dejulius, three, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59102,
+     "name": "Michael Ruzic",
+     "surname": "Ruzic",
+     "jersey": "23",
+     "season": {
+      "games": 27,
+      "fg": [
+       73,
+       129
+      ],
+      "three": [
+       11,
+       31
+      ],
+      "cns_three": [
+       11,
+       29
+      ],
+      "contested": [
+       40,
+       78
+      ],
+      "points": 182,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 5,
+       "blowby": 3,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 765.0,
+      "distance_ft": 4429.0,
+      "top_speed": 17.6,
+      "shots": {
+       "n": 5,
+       "made": 5,
+       "three": 1,
+       "three_made": 1,
+       "quality": 54.03,
+       "points": 11
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 30,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Diagne",
+        "seconds": 113.0
+       },
+       {
+        "who": "Nakic",
+        "seconds": 55.0
+       },
+       {
+        "who": "Cate",
+        "seconds": 21.0
+       }
+      ],
+      "extra": {
+       "mean": 0.5,
+       "within_3": 0.837,
+       "n": 1151
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 4,
+       "made": 2,
+       "distance": 4.04,
+       "quality": 49.853
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-2-62",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "8:05",
+       "story": "Ball screen · switch → 2 passes → Kraag, three, 34 %"
+      },
+      {
+       "chance": "chance-114169-2-64",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:45",
+       "story": "Ball screen · over → 2 passes → Falk, three, 42 %"
+      },
+      {
+       "chance": "chance-114169-2-66",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:12",
+       "story": "Ball screen · over → no pass → Dejulius, two, 32 %"
+      },
+      {
+       "chance": "chance-114169-4-166",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:46",
+       "story": "Ball screen · switch → 1 pass → Forrest, three, 35 %"
+      },
+      {
+       "chance": "chance-114169-4-175",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:16",
+       "story": "Ball screen · switch → 1 pass → Ruzic, two, 49 %"
+      }
+     ]
+    },
+    {
+     "id": 34905,
+     "name": "Henri Drell",
+     "surname": "Drell",
+     "jersey": "0",
+     "season": {
+      "games": 32,
+      "fg": [
+       52,
+       122
+      ],
+      "three": [
+       11,
+       51
+      ],
+      "cns_three": [
+       11,
+       46
+      ],
+      "contested": [
+       32,
+       79
+      ],
+      "points": 151,
+      "picks": {
+       "n": 2,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 41,
+       "blowby": 9,
+       "points": 14,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 672.0,
+      "distance_ft": 4322.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 61.944,
+       "points": 4
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 9,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 7,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Nakic",
+        "seconds": 109.0
+       },
+       {
+        "who": "Hicks",
+        "seconds": 40.0
+       },
+       {
+        "who": "Ennis",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": 1.34,
+       "within_3": 0.734,
+       "n": 950
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 12.15,
+       "end": 3.74,
+       "pts": 1.5,
+       "actions": {
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 2.91,
+       "quality": 43.524
+      },
+      "price": {
+       "value": -0.03,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      },
+      {
+       "chance": "chance-114169-4-160",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:57",
+       "story": "Drive → 1 pass → Nakic, three, 37 %"
+      }
+     ]
+    },
+    {
+     "id": 59098,
+     "name": "Guillem Vives",
+     "surname": "Vives",
+     "jersey": "16",
+     "season": {
+      "games": 27,
+      "fg": [
+       40,
+       82
+      ],
+      "three": [
+       31,
+       65
+      ],
+      "cns_three": [
+       18,
+       36
+      ],
+      "contested": [
+       27,
+       53
+      ],
+      "points": 119,
+      "picks": {
+       "n": 102,
+       "points": 60,
+       "turnovers": 14
+      },
+      "drives": {
+       "n": 25,
+       "blowby": 8,
+       "points": 18,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 374.8,
+      "distance_ft": 2148.0,
+      "top_speed": 16.5,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 13,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 1,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Forrest",
+        "seconds": 37.0
+       },
+       {
+        "who": "Dejulius",
+        "seconds": 30.0
+       },
+       {
+        "who": "Ennis",
+        "seconds": 28.0
+       }
+      ],
+      "extra": {
+       "mean": -0.14,
+       "within_3": 0.863,
+       "n": 575
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 11.39,
+       "end": 5.29,
+       "pts": 0.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 0,
+       "distance": 4.24,
+       "quality": 40.204
+      },
+      "price": {
+       "value": -0.2,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114169-2-86",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:31",
+       "story": "Ball screen · over → 1 pass → Kraag, two, 46 %"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

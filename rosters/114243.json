@@ -1,0 +1,3488 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 114243,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "BAXI Manresa",
+  "away": "Coviran Granada",
+  "score": [
+   83,
+   68
+  ],
+  "date": "2025-10-11",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "BAXI Manresa",
+   "side": "home",
+   "players": [
+    {
+     "id": 59183,
+     "name": "Hugo Benitez",
+     "surname": "Benitez",
+     "jersey": "2",
+     "season": {
+      "games": 13,
+      "fg": [
+       60,
+       136
+      ],
+      "three": [
+       11,
+       29
+      ],
+      "cns_three": [
+       3,
+       10
+      ],
+      "contested": [
+       35,
+       84
+      ],
+      "points": 147,
+      "picks": {
+       "n": 168,
+       "points": 145,
+       "turnovers": 16
+      },
+      "drives": {
+       "n": 146,
+       "blowby": 25,
+       "points": 83,
+       "assists": 13
+      }
+     },
+     "game": {
+      "seconds": 1233.0,
+      "distance_ft": 8558.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 2,
+       "three_made": 1,
+       "quality": 41.444,
+       "points": 5
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 43,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 19,
+      "screens": 0,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Rousselle",
+        "seconds": 230.0
+       },
+       {
+        "who": "Speight",
+        "seconds": 95.0
+       },
+       {
+        "who": "Kljajic",
+        "seconds": 62.0
+       }
+      ],
+      "extra": {
+       "mean": -0.25,
+       "within_3": 0.86,
+       "n": 2620
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 16.71,
+       "end": 4.11,
+       "pts": 0.5,
+       "actions": {
+        "shot": 2,
+        "other": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 3.9,
+       "quality": 32.656
+      },
+      "price": {
+       "value": 0.17,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59181,
+     "name": "Marcis Steinbergs",
+     "surname": "Steinbergs",
+     "jersey": "12",
+     "season": {
+      "games": 33,
+      "fg": [
+       71,
+       187
+      ],
+      "three": [
+       49,
+       141
+      ],
+      "cns_three": [
+       42,
+       120
+      ],
+      "contested": [
+       40,
+       125
+      ],
+      "points": 212,
+      "picks": {
+       "n": 6,
+       "points": 8,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 17,
+       "blowby": 2,
+       "points": 2,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1226.8,
+      "distance_ft": 7703.0,
+      "top_speed": 17.5,
+      "shots": {
+       "n": 6,
+       "made": 3,
+       "three": 4,
+       "three_made": 2,
+       "quality": 48.667,
+       "points": 8
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 13,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 16,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Bozic",
+        "seconds": 312.0
+       },
+       {
+        "who": "Burjanadze",
+        "seconds": 95.0
+       },
+       {
+        "who": "Valtonen",
+        "seconds": 26.0
+       }
+      ],
+      "extra": {
+       "mean": 0.35,
+       "within_3": 0.868,
+       "n": 2372
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 14.54,
+       "end": 5.89,
+       "pts": 0.75,
+       "actions": {
+        "other": 1,
+        "shot": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 1,
+       "distance": 4.41,
+       "quality": 38.477
+      },
+      "price": {
+       "value": -0.0,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 18503,
+     "name": "Grant Golden",
+     "surname": "Golden",
+     "jersey": "33",
+     "season": {
+      "games": 15,
+      "fg": [
+       47,
+       103
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       29,
+       76
+      ],
+      "points": 107,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 12,
+       "blowby": 3,
+       "points": 11,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1163.8,
+      "distance_ft": 7614.0,
+      "top_speed": 18.1,
+      "shots": {
+       "n": 12,
+       "made": 6,
+       "three": 0,
+       "three_made": 0,
+       "quality": 48.257,
+       "points": 12
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 19,
+      "drives": 1,
+      "blowby": 1,
+      "picks_handler": 1,
+      "screens": 34,
+      "rebounds": [
+       4,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hankins",
+        "seconds": 266.0
+       },
+       {
+        "who": "Aurrecoechea",
+        "seconds": 39.0
+       },
+       {
+        "who": "Olumuyiwa",
+        "seconds": 25.0
+       }
+      ],
+      "extra": {
+       "mean": 1.34,
+       "within_3": 0.747,
+       "n": 2041
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 9.87,
+       "end": 7.89,
+       "pts": 3.0,
+       "actions": {
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 7,
+       "distance": 2.43,
+       "quality": 44.041
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59180,
+     "name": "Alex Reyes",
+     "surname": "Reyes",
+     "jersey": "8",
+     "season": {
+      "games": 32,
+      "fg": [
+       128,
+       304
+      ],
+      "three": [
+       83,
+       212
+      ],
+      "cns_three": [
+       64,
+       151
+      ],
+      "contested": [
+       77,
+       200
+      ],
+      "points": 421,
+      "picks": {
+       "n": 20,
+       "points": 11,
+       "turnovers": 4
+      },
+      "drives": {
+       "n": 49,
+       "blowby": 18,
+       "points": 31,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1154.2,
+      "distance_ft": 7506.0,
+      "top_speed": 17.6,
+      "shots": {
+       "n": 11,
+       "made": 2,
+       "three": 7,
+       "three_made": 0,
+       "quality": 35.748,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 20,
+      "drives": 5,
+      "blowby": 2,
+      "picks_handler": 2,
+      "screens": 3,
+      "rebounds": [
+       1,
+       7
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Valtonen",
+        "seconds": 114.0
+       },
+       {
+        "who": "Munnings",
+        "seconds": 90.0
+       },
+       {
+        "who": "Thomas",
+        "seconds": 87.0
+       }
+      ],
+      "extra": {
+       "mean": 0.8,
+       "within_3": 0.796,
+       "n": 1997
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 14.13,
+       "end": 4.82,
+       "pts": 0.667,
+       "actions": {
+        "drive": 1,
+        "other": 1,
+        "pass": 1
+       }
+      },
+      "conceded": null,
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 35806,
+     "name": "Retin Obasohan",
+     "surname": "Obasohan",
+     "jersey": "32",
+     "season": {
+      "games": 29,
+      "fg": [
+       108,
+       241
+      ],
+      "three": [
+       16,
+       62
+      ],
+      "cns_three": [
+       10,
+       43
+      ],
+      "contested": [
+       71,
+       155
+      ],
+      "points": 339,
+      "picks": {
+       "n": 192,
+       "points": 113,
+       "turnovers": 18
+      },
+      "drives": {
+       "n": 242,
+       "blowby": 29,
+       "points": 134,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 1079.0,
+      "distance_ft": 6965.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 38.239,
+       "points": 4
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 22,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 11,
+      "screens": 4,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Thomas",
+        "seconds": 200.0
+       },
+       {
+        "who": "Munnings",
+        "seconds": 91.0
+       },
+       {
+        "who": "Kljajic",
+        "seconds": 50.0
+       }
+      ],
+      "extra": {
+       "mean": 0.56,
+       "within_3": 0.811,
+       "n": 2045
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 20.02,
+       "end": 9.01,
+       "pts": 1.0,
+       "actions": {
+        "shot": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 0,
+       "distance": 3.47,
+       "quality": 38.32
+      },
+      "price": {
+       "value": 0.22,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59184,
+     "name": "Agustin Ubal",
+     "surname": "Ubal",
+     "jersey": "11",
+     "season": {
+      "games": 30,
+      "fg": [
+       86,
+       204
+      ],
+      "three": [
+       22,
+       74
+      ],
+      "cns_three": [
+       20,
+       63
+      ],
+      "contested": [
+       68,
+       151
+      ],
+      "points": 284,
+      "picks": {
+       "n": 92,
+       "points": 41,
+       "turnovers": 13
+      },
+      "drives": {
+       "n": 141,
+       "blowby": 34,
+       "points": 70,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 1042.6,
+      "distance_ft": 7351.0,
+      "top_speed": 18.3,
+      "shots": {
+       "n": 6,
+       "made": 4,
+       "three": 0,
+       "three_made": 0,
+       "quality": 60.456,
+       "points": 8
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 0,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Valtonen",
+        "seconds": 102.0
+       },
+       {
+        "who": "Kljajic",
+        "seconds": 96.0
+       },
+       {
+        "who": "Thomas",
+        "seconds": 82.0
+       }
+      ],
+      "extra": {
+       "mean": -0.02,
+       "within_3": 0.843,
+       "n": 2198
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 12.57,
+       "end": 5.03,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 6.56,
+       "quality": 49.257
+      },
+      "price": {
+       "value": 0.06,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 15630,
+     "name": "Kaodirichi Akobundu-Ehiogu",
+     "surname": "Akobundu-Ehiogu",
+     "jersey": "0",
+     "season": {
+      "games": 33,
+      "fg": [
+       62,
+       75
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       24,
+       29
+      ],
+      "points": 163,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 0,
+       "points": 3,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 973.0,
+      "distance_ft": 6440.0,
+      "top_speed": 18.4,
+      "shots": {
+       "n": 1,
+       "made": 1,
+       "three": 0,
+       "three_made": 0,
+       "quality": 35.837,
+       "points": 2
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 26,
+      "rebounds": [
+       2,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Olumuyiwa",
+        "seconds": 147.0
+       },
+       {
+        "who": "Aurrecoechea",
+        "seconds": 93.0
+       },
+       {
+        "who": "Hankins",
+        "seconds": 87.0
+       }
+      ],
+      "extra": {
+       "mean": 1.94,
+       "within_3": 0.721,
+       "n": 1971
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 9.84,
+       "end": 8.7,
+       "pts": 0.0,
+       "actions": {
+        "shot": 3
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 3,
+       "distance": 3.04,
+       "quality": 44.316
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59179,
+     "name": "Louis Olinde",
+     "surname": "Olinde",
+     "jersey": "19",
+     "season": {
+      "games": 22,
+      "fg": [
+       61,
+       127
+      ],
+      "three": [
+       26,
+       62
+      ],
+      "cns_three": [
+       22,
+       53
+      ],
+      "contested": [
+       30,
+       82
+      ],
+      "points": 175,
+      "picks": {
+       "n": 8,
+       "points": 3,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 44,
+       "blowby": 12,
+       "points": 19,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 932.4,
+      "distance_ft": 6277.0,
+      "top_speed": 19.3,
+      "shots": {
+       "n": 7,
+       "made": 2,
+       "three": 3,
+       "three_made": 1,
+       "quality": 47.141,
+       "points": 5
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 13,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 5,
+      "rebounds": [
+       2,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Bozic",
+        "seconds": 222.0
+       },
+       {
+        "who": "Burjanadze",
+        "seconds": 89.0
+       },
+       {
+        "who": "Olumuyiwa",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": 1.13,
+       "within_3": 0.793,
+       "n": 1769
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 12.24,
+       "end": 4.66,
+       "pts": 0.667,
+       "actions": {
+        "shot": 1,
+        "pass": 2
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 2,
+       "distance": 2.35,
+       "quality": 43.135
+      },
+      "price": {
+       "value": 0.22,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59214,
+     "name": "Daniel Perez",
+     "surname": "Perez",
+     "jersey": "55",
+     "season": {
+      "games": 18,
+      "fg": [
+       24,
+       85
+      ],
+      "three": [
+       9,
+       38
+      ],
+      "cns_three": [
+       6,
+       22
+      ],
+      "contested": [
+       15,
+       51
+      ],
+      "points": 62,
+      "picks": {
+       "n": 118,
+       "points": 75,
+       "turnovers": 7
+      },
+      "drives": {
+       "n": 82,
+       "blowby": 20,
+       "points": 36,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 886.6,
+      "distance_ft": 5866.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 39.08,
+       "points": 0
+      },
+      "assists": 4,
+      "turnovers": 2,
+      "passes": 43,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 16,
+      "screens": 1,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Speight",
+        "seconds": 117.0
+       },
+       {
+        "who": "Rousselle",
+        "seconds": 102.0
+       },
+       {
+        "who": "Munnings",
+        "seconds": 25.0
+       }
+      ],
+      "extra": {
+       "mean": 0.82,
+       "within_3": 0.773,
+       "n": 1417
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 24.84,
+       "end": 9.62,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 2.49,
+       "quality": 47.439
+      },
+      "price": {
+       "value": 0.03,
+       "n": 2,
+       "kinds": {
+        "nobody on him": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 18534,
+     "name": "Alfonso Plummer",
+     "surname": "Plummer",
+     "jersey": "99",
+     "season": {
+      "games": 6,
+      "fg": [
+       16,
+       44
+      ],
+      "three": [
+       13,
+       32
+      ],
+      "cns_three": [
+       8,
+       22
+      ],
+      "contested": [
+       11,
+       36
+      ],
+      "points": 54,
+      "picks": {
+       "n": 8,
+       "points": 3,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 13,
+       "blowby": 1,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 773.4,
+      "distance_ft": 5234.0,
+      "top_speed": 17.9,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 5,
+       "three_made": 3,
+       "quality": 31.977,
+       "points": 9
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 10,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 2,
+      "screens": 2,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Speight",
+        "seconds": 107.0
+       },
+       {
+        "who": "Thomas",
+        "seconds": 61.0
+       },
+       {
+        "who": "Rousselle",
+        "seconds": 56.0
+       }
+      ],
+      "extra": {
+       "mean": 0.28,
+       "within_3": 0.808,
+       "n": 1433
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 14.47,
+       "end": 2.89,
+       "pts": 1.333,
+       "actions": {
+        "pass": 1,
+        "other": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 0,
+       "distance": 6.12,
+       "quality": 28.548
+      },
+      "price": {
+       "value": 0.03,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 59186,
+     "name": "Max Gaspa",
+     "surname": "Gaspa",
+     "jersey": "4",
+     "season": {
+      "games": 11,
+      "fg": [
+       12,
+       21
+      ],
+      "three": [
+       2,
+       7
+      ],
+      "cns_three": [
+       2,
+       7
+      ],
+      "contested": [
+       8,
+       12
+      ],
+      "points": 32,
+      "picks": {
+       "n": 23,
+       "points": 19,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 20,
+       "blowby": 5,
+       "points": 12,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 403.6,
+      "distance_ft": 2642.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 87.398,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 3,
+      "screens": 4,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kljajic",
+        "seconds": 65.0
+       },
+       {
+        "who": "Duran",
+        "seconds": 44.0
+       },
+       {
+        "who": "Thomas",
+        "seconds": 35.0
+       }
+      ],
+      "extra": {
+       "mean": -0.03,
+       "within_3": 0.829,
+       "n": 836
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 9.2,
+       "end": 3.82,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 0,
+       "distance": 3.82,
+       "quality": 37.364
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59227,
+     "name": "Archange Izaw Bolavie",
+     "surname": "Bolavie",
+     "jersey": "47",
+     "season": {
+      "games": 4,
+      "fg": [
+       1,
+       3
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       0,
+       2
+      ],
+      "points": 2,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 127.6,
+      "distance_ft": 831.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 2,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Olumuyiwa",
+        "seconds": 58.0
+       },
+       {
+        "who": "Hankins",
+        "seconds": 12.0
+       },
+       {
+        "who": "Burjanadze",
+        "seconds": 5.0
+       }
+      ],
+      "extra": {
+       "mean": 1.54,
+       "within_3": 0.735,
+       "n": 396
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 4.26,
+       "quality": 26.83
+      },
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  },
+  {
+   "team": "Coviran Granada",
+   "side": "away",
+   "players": [
+    {
+     "id": 59217,
+     "name": "Luka Bozic",
+     "surname": "Bozic",
+     "jersey": "29",
+     "season": {
+      "games": 34,
+      "fg": [
+       147,
+       284
+      ],
+      "three": [
+       19,
+       56
+      ],
+      "cns_three": [
+       18,
+       50
+      ],
+      "contested": [
+       103,
+       219
+      ],
+      "points": 550,
+      "picks": {
+       "n": 23,
+       "points": 23,
+       "turnovers": 4
+      },
+      "drives": {
+       "n": 148,
+       "blowby": 25,
+       "points": 93,
+       "assists": 18
+      }
+     },
+     "game": {
+      "seconds": 1551.4,
+      "distance_ft": 9673.0,
+      "top_speed": 17.8,
+      "shots": {
+       "n": 9,
+       "made": 4,
+       "three": 1,
+       "three_made": 0,
+       "quality": 37.465,
+       "points": 8
+      },
+      "assists": 3,
+      "turnovers": 0,
+      "passes": 14,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 33,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Steinbergs",
+        "seconds": 266.0
+       },
+       {
+        "who": "Olinde",
+        "seconds": 142.0
+       },
+       {
+        "who": "Ubal",
+        "seconds": 23.0
+       }
+      ],
+      "extra": {
+       "mean": 1.22,
+       "within_3": 0.734,
+       "n": 2530
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 13.7,
+       "end": 4.9,
+       "pts": 1.5,
+       "actions": {
+        "drive": 2,
+        "shot": 3,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 5.18,
+       "quality": 45.42
+      },
+      "price": {
+       "value": 0.12,
+       "n": 5,
+       "kinds": {
+        "late close-out": 4,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 35028,
+     "name": "Matt Thomas",
+     "surname": "Thomas",
+     "jersey": "13",
+     "season": {
+      "games": 14,
+      "fg": [
+       66,
+       144
+      ],
+      "three": [
+       42,
+       91
+      ],
+      "cns_three": [
+       32,
+       64
+      ],
+      "contested": [
+       41,
+       105
+      ],
+      "points": 205,
+      "picks": {
+       "n": 37,
+       "points": 10,
+       "turnovers": 6
+      },
+      "drives": {
+       "n": 31,
+       "blowby": 6,
+       "points": 8,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1544.6,
+      "distance_ft": 10415.0,
+      "top_speed": 17.7,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 4,
+       "three_made": 2,
+       "quality": 45.427,
+       "points": 8
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 17,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 10,
+      "screens": 7,
+      "rebounds": [
+       2,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Reyes",
+        "seconds": 217.0
+       },
+       {
+        "who": "Ubal",
+        "seconds": 82.0
+       },
+       {
+        "who": "Obasohan",
+        "seconds": 65.0
+       }
+      ],
+      "extra": {
+       "mean": 0.55,
+       "within_3": 0.827,
+       "n": 2715
+      },
+      "closeouts": {
+       "n": 8,
+       "start": 13.5,
+       "end": 5.5,
+       "pts": 0.625,
+       "actions": {
+        "shot": 4,
+        "pass": 1,
+        "drive": 2,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 4,
+       "distance": 3.89,
+       "quality": 47.393
+      },
+      "price": {
+       "value": 0.52,
+       "n": 7,
+       "kinds": {
+        "late close-out": 7
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59220,
+     "name": "Jonathan Rousselle",
+     "surname": "Rousselle",
+     "jersey": "2",
+     "season": {
+      "games": 34,
+      "fg": [
+       79,
+       187
+      ],
+      "three": [
+       36,
+       93
+      ],
+      "cns_three": [
+       12,
+       25
+      ],
+      "contested": [
+       55,
+       146
+      ],
+      "points": 237,
+      "picks": {
+       "n": 370,
+       "points": 253,
+       "turnovers": 31
+      },
+      "drives": {
+       "n": 166,
+       "blowby": 44,
+       "points": 82,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1228.6,
+      "distance_ft": 7894.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 8,
+       "made": 2,
+       "three": 4,
+       "three_made": 1,
+       "quality": 37.273,
+       "points": 5
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 37,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 30,
+      "screens": 9,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Perez",
+        "seconds": 113.0
+       },
+       {
+        "who": "Benitez",
+        "seconds": 96.0
+       },
+       {
+        "who": "Obasohan",
+        "seconds": 39.0
+       }
+      ],
+      "extra": {
+       "mean": 0.14,
+       "within_3": 0.81,
+       "n": 1982
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 10.97,
+       "end": 8.7,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 4.65,
+       "quality": 50.9
+      },
+      "price": {
+       "value": 0.24,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 28247,
+     "name": "Zach Hankins",
+     "surname": "Hankins",
+     "jersey": "35",
+     "season": {
+      "games": 9,
+      "fg": [
+       30,
+       48
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       19,
+       34
+      ],
+      "points": 68,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 7,
+       "blowby": 1,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1180.8,
+      "distance_ft": 7398.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 7,
+       "made": 4,
+       "three": 0,
+       "three_made": 0,
+       "quality": 45.59,
+       "points": 8
+      },
+      "assists": 0,
+      "turnovers": 3,
+      "passes": 19,
+      "drives": 4,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 32,
+      "rebounds": [
+       3,
+       10
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Golden",
+        "seconds": 230.0
+       },
+       {
+        "who": "Akobundu-Ehiogu",
+        "seconds": 81.0
+       },
+       {
+        "who": "Olinde",
+        "seconds": 19.0
+       }
+      ],
+      "extra": {
+       "mean": 1.12,
+       "within_3": 0.767,
+       "n": 1890
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 8.51,
+       "end": 7.09,
+       "pts": 0.0,
+       "actions": {
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 3,
+       "distance": 3.8,
+       "quality": 52.604
+      },
+      "price": {
+       "value": 0.04,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59233,
+     "name": "Micah Speight",
+     "surname": "Speight",
+     "jersey": "3",
+     "season": {
+      "games": 3,
+      "fg": [
+       4,
+       17
+      ],
+      "three": [
+       0,
+       5
+      ],
+      "cns_three": [
+       0,
+       2
+      ],
+      "contested": [
+       2,
+       10
+      ],
+      "points": 10,
+      "picks": {
+       "n": 20,
+       "points": 16,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 12,
+       "blowby": 5,
+       "points": 8,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1014.4,
+      "distance_ft": 6519.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 7,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 36.131,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 29,
+      "drives": 5,
+      "blowby": 3,
+      "picks_handler": 11,
+      "screens": 3,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Benitez",
+        "seconds": 124.0
+       },
+       {
+        "who": "Perez",
+        "seconds": 116.0
+       },
+       {
+        "who": "Plummer",
+        "seconds": 43.0
+       }
+      ],
+      "extra": {
+       "mean": -0.69,
+       "within_3": 0.854,
+       "n": 1685
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 0,
+       "distance": 2.76,
+       "quality": 38.965
+      },
+      "price": {
+       "value": 0.04,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 59221,
+     "name": "Jovan Kljajic",
+     "surname": "Kljajic",
+     "jersey": "23",
+     "season": {
+      "games": 13,
+      "fg": [
+       34,
+       94
+      ],
+      "three": [
+       15,
+       49
+      ],
+      "cns_three": [
+       8,
+       32
+      ],
+      "contested": [
+       24,
+       72
+      ],
+      "points": 108,
+      "picks": {
+       "n": 67,
+       "points": 34,
+       "turnovers": 10
+      },
+      "drives": {
+       "n": 56,
+       "blowby": 10,
+       "points": 32,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 977.0,
+      "distance_ft": 6048.0,
+      "top_speed": 17.7,
+      "shots": {
+       "n": 11,
+       "made": 1,
+       "three": 4,
+       "three_made": 0,
+       "quality": 37.679,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 16,
+      "drives": 6,
+      "blowby": 2,
+      "picks_handler": 13,
+      "screens": 3,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Obasohan",
+        "seconds": 68.0
+       },
+       {
+        "who": "Gaspa",
+        "seconds": 63.0
+       },
+       {
+        "who": "Ubal",
+        "seconds": 62.0
+       }
+      ],
+      "extra": {
+       "mean": 0.06,
+       "within_3": 0.854,
+       "n": 1697
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 19.32,
+       "end": 7.97,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 3,
+       "distance": 3.22,
+       "quality": 58.024
+      },
+      "price": {
+       "value": 0.11,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 25271,
+     "name": "Elias Valtonen",
+     "surname": "Valtonen",
+     "jersey": "11",
+     "season": {
+      "games": 17,
+      "fg": [
+       55,
+       133
+      ],
+      "three": [
+       23,
+       62
+      ],
+      "cns_three": [
+       19,
+       49
+      ],
+      "contested": [
+       37,
+       94
+      ],
+      "points": 167,
+      "picks": {
+       "n": 37,
+       "points": 32,
+       "turnovers": 5
+      },
+      "drives": {
+       "n": 75,
+       "blowby": 14,
+       "points": 40,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 937.8,
+      "distance_ft": 6249.0,
+      "top_speed": 17.5,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 5,
+       "three_made": 1,
+       "quality": 35.887,
+       "points": 7
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 19,
+      "drives": 6,
+      "blowby": 1,
+      "picks_handler": 7,
+      "screens": 3,
+      "rebounds": [
+       2,
+       3
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Obasohan",
+        "seconds": 64.0
+       },
+       {
+        "who": "Reyes",
+        "seconds": 59.0
+       },
+       {
+        "who": "Plummer",
+        "seconds": 47.0
+       }
+      ],
+      "extra": {
+       "mean": 1.15,
+       "within_3": 0.759,
+       "n": 1377
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 10.09,
+       "end": 4.76,
+       "pts": 2.0,
+       "actions": {
+        "shot": 1,
+        "other": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 4,
+       "distance": 3.22,
+       "quality": 39.309
+      },
+      "price": {
+       "value": 0.51,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:25",
+       "story": "Hand-off → 1 pass → Golden, two, 41 %"
+      },
+      {
+       "chance": "chance-114243-3-118",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:34",
+       "story": "Ball screen · over → 1 pass → Thomas, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-4-168",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:15",
+       "story": "Drive → 1 pass → Steinbergs, three, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 28648,
+     "name": "Travis Munnings",
+     "surname": "Munnings",
+     "jersey": "22",
+     "season": {
+      "games": 11,
+      "fg": [
+       10,
+       29
+      ],
+      "three": [
+       6,
+       20
+      ],
+      "cns_three": [
+       5,
+       19
+      ],
+      "contested": [
+       8,
+       24
+      ],
+      "points": 29,
+      "picks": {
+       "n": 3,
+       "points": 0,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 8,
+       "blowby": 2,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 787.0,
+      "distance_ft": 4985.0,
+      "top_speed": 18.3,
+      "shots": {
+       "n": 3,
+       "made": 0,
+       "three": 2,
+       "three_made": 0,
+       "quality": 49.793,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 19,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 1,
+      "rebounds": [
+       2,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Obasohan",
+        "seconds": 51.0
+       },
+       {
+        "who": "Reyes",
+        "seconds": 40.0
+       },
+       {
+        "who": "Benitez",
+        "seconds": 34.0
+       }
+      ],
+      "extra": {
+       "mean": -0.26,
+       "within_3": 0.853,
+       "n": 1039
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 14.77,
+       "end": 6.91,
+       "pts": 1.0,
+       "actions": {
+        "drive": 1,
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 2,
+       "distance": 2.39,
+       "quality": 39.331
+      },
+      "price": {
+       "value": 0.19,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59301,
+     "name": "Babatunde Olumuyiwa",
+     "surname": "Olumuyiwa",
+     "jersey": "7",
+     "season": {
+      "games": 33,
+      "fg": [
+       80,
+       118
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       50,
+       83
+      ],
+      "points": 199,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 9,
+       "blowby": 4,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 660.6,
+      "distance_ft": 3953.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 45.963,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 6,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 26,
+      "rebounds": [
+       2,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Akobundu-Ehiogu",
+        "seconds": 115.0
+       },
+       {
+        "who": "Golden",
+        "seconds": 64.0
+       },
+       {
+        "who": "Bolavie",
+        "seconds": 15.0
+       }
+      ],
+      "extra": {
+       "mean": 0.75,
+       "within_3": 0.819,
+       "n": 1139
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 3.59,
+       "quality": 38.646
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-95",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:21",
+       "story": "Isolation → 1 pass → Munnings, three, 42 %"
+      },
+      {
+       "chance": "chance-114243-2-98",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:23",
+       "story": "Ball screen · over → 1 pass → Speight, two, 23 %"
+      },
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 59219,
+     "name": "Beka Burjanadze",
+     "surname": "Burjanadze",
+     "jersey": "77",
+     "season": {
+      "games": 20,
+      "fg": [
+       28,
+       67
+      ],
+      "three": [
+       8,
+       29
+      ],
+      "cns_three": [
+       6,
+       23
+      ],
+      "contested": [
+       20,
+       51
+      ],
+      "points": 88,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 14,
+       "blowby": 0,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 651.4,
+      "distance_ft": 4361.0,
+      "top_speed": 18.7,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 1,
+       "three_made": 0,
+       "quality": 42.642,
+       "points": 4
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 9,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 16,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Olinde",
+        "seconds": 75.0
+       },
+       {
+        "who": "Steinbergs",
+        "seconds": 68.0
+       },
+       {
+        "who": "Ubal",
+        "seconds": 32.0
+       }
+      ],
+      "extra": {
+       "mean": 2.19,
+       "within_3": 0.68,
+       "n": 1042
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.08,
+       "end": 6.09,
+       "pts": 0.0,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 4.42,
+       "quality": 37.579
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:15",
+       "story": "Drive → 1 pass → Plummer, three, 29 %"
+      },
+      {
+       "chance": "chance-114243-3-142",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:58",
+       "story": "Post-up → no pass → Olumuyiwa, two, 52 %"
+      },
+      {
+       "chance": "chance-114243-3-147",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · switch → 1 pass → Golden, two, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 25326,
+     "name": "Ivan Aurrecoechea",
+     "surname": "Aurrecoechea",
+     "jersey": "15",
+     "season": {
+      "games": 4,
+      "fg": [
+       0,
+       1
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       0,
+       1
+      ],
+      "points": 1,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 354.2,
+      "distance_ft": 2268.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 65.891,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 4,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 16,
+      "rebounds": [
+       3,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Akobundu-Ehiogu",
+        "seconds": 57.0
+       },
+       {
+        "who": "Golden",
+        "seconds": 22.0
+       },
+       {
+        "who": "Olinde",
+        "seconds": 9.0
+       }
+      ],
+      "extra": {
+       "mean": 0.06,
+       "within_3": 0.793,
+       "n": 518
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 2.98,
+       "quality": 35.179
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114243-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:42",
+       "story": "Ball screen · over → 1 pass → Olinde, three, 40 %"
+      },
+      {
+       "chance": "chance-114243-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "3:35",
+       "story": "Ball screen · over → 1 pass → Speight, two, 38 %"
+      },
+      {
+       "chance": "chance-114243-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:33",
+       "story": "Ball screen · over → 3 passes → Kljajic, three, 46 %"
+      },
+      {
+       "chance": "chance-114243-4-196",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:14",
+       "story": "Drive → 1 pass → Benitez, three, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59232,
+     "name": "Eduardo Duran",
+     "surname": "Duran",
+     "jersey": "16",
+     "season": {
+      "games": 15,
+      "fg": [
+       2,
+       11
+      ],
+      "three": [
+       1,
+       9
+      ],
+      "cns_three": [
+       1,
+       9
+      ],
+      "contested": [
+       2,
+       8
+      ],
+      "points": 7,
+      "picks": {
+       "n": 2,
+       "points": 2,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 4,
+       "blowby": 0,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 108.2,
+      "distance_ft": 669.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 1,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Gaspa",
+        "seconds": 22.0
+       },
+       {
+        "who": "Benitez",
+        "seconds": 7.0
+       },
+       {
+        "who": "Akobundu-Ehiogu",
+        "seconds": 2.0
+       }
+      ],
+      "extra": {
+       "mean": 1.32,
+       "within_3": 0.788,
+       "n": 156
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  }
+ ]
+}

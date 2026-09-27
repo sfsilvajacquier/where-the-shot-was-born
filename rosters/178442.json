@@ -1,0 +1,3497 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 178442,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "BC MoraBanc Andorra",
+  "away": "Bilbao Basket",
+  "score": [
+   98,
+   102
+  ],
+  "date": "2026-03-21",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "BC MoraBanc Andorra",
+   "side": "home",
+   "players": [
+    {
+     "id": 15369,
+     "name": "Sir'Jabari Rice",
+     "surname": "Rice",
+     "jersey": "10",
+     "season": {
+      "games": 11,
+      "fg": [
+       54,
+       109
+      ],
+      "three": [
+       17,
+       41
+      ],
+      "cns_three": [
+       8,
+       21
+      ],
+      "contested": [
+       30,
+       79
+      ],
+      "points": 151,
+      "picks": {
+       "n": 136,
+       "points": 103,
+       "turnovers": 21
+      },
+      "drives": {
+       "n": 87,
+       "blowby": 34,
+       "points": 57,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1826.4,
+      "distance_ft": 11606.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 12,
+       "made": 6,
+       "three": 5,
+       "three_made": 3,
+       "quality": 43.353,
+       "points": 15
+      },
+      "assists": 6,
+      "turnovers": 5,
+      "passes": 49,
+      "drives": 18,
+      "blowby": 8,
+      "picks_handler": 45,
+      "screens": 0,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Jaworski",
+        "seconds": 235.0
+       },
+       {
+        "who": "Pantzar",
+        "seconds": 211.0
+       },
+       {
+        "who": "Normantas",
+        "seconds": 98.0
+       }
+      ],
+      "extra": {
+       "mean": -0.94,
+       "within_3": 0.85,
+       "n": 2868
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 19.12,
+       "end": 5.06,
+       "pts": 2.667,
+       "actions": {
+        "shot": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 11,
+       "made": 7,
+       "distance": 3.18,
+       "quality": 46.877
+      },
+      "price": {
+       "value": -0.03,
+       "n": 4,
+       "kinds": {
+        "help not recovered": 2,
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 11845,
+     "name": "Justin McKoy",
+     "surname": "McKoy",
+     "jersey": "22",
+     "season": {
+      "games": 29,
+      "fg": [
+       58,
+       177
+      ],
+      "three": [
+       29,
+       105
+      ],
+      "cns_three": [
+       28,
+       90
+      ],
+      "contested": [
+       35,
+       121
+      ],
+      "points": 185,
+      "picks": {
+       "n": 3,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 40,
+       "blowby": 1,
+       "points": 12,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1763.2,
+      "distance_ft": 10791.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 6,
+       "made": 4,
+       "three": 2,
+       "three_made": 0,
+       "quality": 33.279,
+       "points": 8
+      },
+      "assists": 4,
+      "turnovers": 0,
+      "passes": 28,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 14,
+      "rebounds": [
+       1,
+       6
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Petrasek",
+        "seconds": 291.0
+       },
+       {
+        "who": "Krampelj",
+        "seconds": 156.0
+       },
+       {
+        "who": "Hilliard",
+        "seconds": 53.0
+       }
+      ],
+      "extra": {
+       "mean": 1.58,
+       "within_3": 0.692,
+       "n": 3012
+      },
+      "closeouts": {
+       "n": 9,
+       "start": 13.29,
+       "end": 2.94,
+       "pts": 0.0,
+       "actions": {
+        "shot": 3,
+        "drive": 2,
+        "pass": 3,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 1,
+       "distance": 4.39,
+       "quality": 40.063
+      },
+      "price": {
+       "value": 0.16,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 22847,
+     "name": "Yves Pons",
+     "surname": "Pons",
+     "jersey": "35",
+     "season": {
+      "games": 27,
+      "fg": [
+       77,
+       161
+      ],
+      "three": [
+       49,
+       118
+      ],
+      "cns_three": [
+       46,
+       111
+      ],
+      "contested": [
+       49,
+       113
+      ],
+      "points": 214,
+      "picks": {
+       "n": 4,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 19,
+       "blowby": 2,
+       "points": 10,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1707.2,
+      "distance_ft": 10242.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 4,
+       "three_made": 1,
+       "quality": 32.67,
+       "points": 7
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 14,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 15,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Krampelj",
+        "seconds": 154.0
+       },
+       {
+        "who": "Hilliard",
+        "seconds": 124.0
+       },
+       {
+        "who": "Petrasek",
+        "seconds": 95.0
+       }
+      ],
+      "extra": {
+       "mean": 0.4,
+       "within_3": 0.813,
+       "n": 2813
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 12.22,
+       "end": 3.34,
+       "pts": 0.75,
+       "actions": {
+        "drive": 2,
+        "other": 2
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 5,
+       "distance": 2.76,
+       "quality": 52.624
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      }
+     ]
+    },
+    {
+     "id": 35581,
+     "name": "Aaron Best",
+     "surname": "Best",
+     "jersey": "3",
+     "season": {
+      "games": 30,
+      "fg": [
+       82,
+       211
+      ],
+      "three": [
+       45,
+       119
+      ],
+      "cns_three": [
+       34,
+       88
+      ],
+      "contested": [
+       45,
+       135
+      ],
+      "points": 270,
+      "picks": {
+       "n": 132,
+       "points": 78,
+       "turnovers": 13
+      },
+      "drives": {
+       "n": 116,
+       "blowby": 26,
+       "points": 57,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 1625.4,
+      "distance_ft": 10505.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 13,
+       "made": 8,
+       "three": 6,
+       "three_made": 4,
+       "quality": 39.173,
+       "points": 20
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 15,
+      "drives": 8,
+      "blowby": 3,
+      "picks_handler": 9,
+      "screens": 8,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pantzar",
+        "seconds": 217.0
+       },
+       {
+        "who": "Jaworski",
+        "seconds": 208.0
+       },
+       {
+        "who": "Normantas",
+        "seconds": 56.0
+       }
+      ],
+      "extra": {
+       "mean": -0.7,
+       "within_3": 0.854,
+       "n": 2733
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 14.4,
+       "end": 4.29,
+       "pts": 0.5,
+       "actions": {
+        "drive": 3,
+        "other": 1,
+        "shot": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 6,
+       "distance": 3.21,
+       "quality": 52.031
+      },
+      "price": {
+       "value": 0.03,
+       "n": 4,
+       "kinds": {
+        "late close-out": 3,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59170,
+     "name": "Artem Pustovyi",
+     "surname": "Pustovyi",
+     "jersey": "99",
+     "season": {
+      "games": 31,
+      "fg": [
+       130,
+       196
+      ],
+      "three": [
+       1,
+       4
+      ],
+      "cns_three": [
+       1,
+       4
+      ],
+      "contested": [
+       83,
+       132
+      ],
+      "points": 363,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 7,
+       "blowby": 2,
+       "points": 5,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1620.6,
+      "distance_ft": 9331.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 9,
+       "made": 6,
+       "three": 0,
+       "three_made": 0,
+       "quality": 54.511,
+       "points": 12
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 11,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 52,
+      "rebounds": [
+       4,
+       4
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hlinason",
+        "seconds": 333.0
+       },
+       {
+        "who": "Bagayoko",
+        "seconds": 137.0
+       },
+       {
+        "who": "Hilliard",
+        "seconds": 21.0
+       }
+      ],
+      "extra": {
+       "mean": 0.37,
+       "within_3": 0.83,
+       "n": 2560
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 4.39,
+       "quality": 38.069
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59167,
+     "name": "Jose Francisco Ortega Soriano",
+     "surname": "Soriano",
+     "jersey": "13",
+     "season": {
+      "games": 29,
+      "fg": [
+       16,
+       61
+      ],
+      "three": [
+       8,
+       33
+      ],
+      "cns_three": [
+       7,
+       30
+      ],
+      "contested": [
+       11,
+       43
+      ],
+      "points": 58,
+      "picks": {
+       "n": 8,
+       "points": 4,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 29,
+       "blowby": 7,
+       "points": 11,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1383.8,
+      "distance_ft": 8547.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 2,
+       "three_made": 0,
+       "quality": 50.955,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 8,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 3,
+      "screens": 1,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hilliard",
+        "seconds": 185.0
+       },
+       {
+        "who": "Normantas",
+        "seconds": 69.0
+       },
+       {
+        "who": "Pantzar",
+        "seconds": 53.0
+       }
+      ],
+      "extra": {
+       "mean": -0.02,
+       "within_3": 0.779,
+       "n": 2180
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 11.54,
+       "end": 4.38,
+       "pts": 0.0,
+       "actions": {
+        "pass": 2,
+        "drive": 1,
+        "other": 2,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 1,
+       "distance": 3.46,
+       "quality": 31.593
+      },
+      "price": {
+       "value": -0.04,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      }
+     ]
+    },
+    {
+     "id": 31457,
+     "name": "Shannon Evans",
+     "surname": "Evans",
+     "jersey": "0",
+     "season": {
+      "games": 30,
+      "fg": [
+       118,
+       319
+      ],
+      "three": [
+       52,
+       167
+      ],
+      "cns_three": [
+       17,
+       40
+      ],
+      "contested": [
+       74,
+       215
+      ],
+      "points": 396,
+      "picks": {
+       "n": 572,
+       "points": 409,
+       "turnovers": 64
+      },
+      "drives": {
+       "n": 262,
+       "blowby": 76,
+       "points": 149,
+       "assists": 27
+      }
+     },
+     "game": {
+      "seconds": 875.0,
+      "distance_ft": 5301.0,
+      "top_speed": 15.4,
+      "shots": {
+       "n": 5,
+       "made": 1,
+       "three": 3,
+       "three_made": 1,
+       "quality": 37.995,
+       "points": 3
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 20,
+      "drives": 4,
+      "blowby": 3,
+      "picks_handler": 17,
+      "screens": 0,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Jaworski",
+        "seconds": 139.0
+       },
+       {
+        "who": "Normantas",
+        "seconds": 123.0
+       },
+       {
+        "who": "Hilliard",
+        "seconds": 15.0
+       }
+      ],
+      "extra": {
+       "mean": 0.98,
+       "within_3": 0.789,
+       "n": 1556
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 13.57,
+       "end": 3.7,
+       "pts": 1.0,
+       "actions": {
+        "drive": 3,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 10,
+       "made": 7,
+       "distance": 3.45,
+       "quality": 45.606
+      },
+      "price": {
+       "value": 0.28,
+       "n": 5,
+       "kinds": {
+        "late close-out": 3,
+        "help not recovered": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59374,
+     "name": "Kyle Kuric",
+     "surname": "Kuric",
+     "jersey": "24",
+     "season": {
+      "games": 29,
+      "fg": [
+       104,
+       240
+      ],
+      "three": [
+       55,
+       121
+      ],
+      "cns_three": [
+       34,
+       77
+      ],
+      "contested": [
+       75,
+       179
+      ],
+      "points": 318,
+      "picks": {
+       "n": 78,
+       "points": 51,
+       "turnovers": 11
+      },
+      "drives": {
+       "n": 84,
+       "blowby": 23,
+       "points": 51,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 779.0,
+      "distance_ft": 4700.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 5,
+       "made": 0,
+       "three": 3,
+       "three_made": 0,
+       "quality": 32.918,
+       "points": 0
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 10,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 2,
+      "screens": 1,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Lazarevic",
+        "seconds": 94.0
+       },
+       {
+        "who": "Font",
+        "seconds": 50.0
+       },
+       {
+        "who": "Hilliard",
+        "seconds": 25.0
+       }
+      ],
+      "extra": {
+       "mean": 0.67,
+       "within_3": 0.814,
+       "n": 1283
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 9.92,
+       "end": 4.15,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 3.44,
+       "quality": 42.491
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      }
+     ]
+    },
+    {
+     "id": 59211,
+     "name": "Konstantin Iroslavov Kostadinov",
+     "surname": "Kostadinov",
+     "jersey": "15",
+     "season": {
+      "games": 24,
+      "fg": [
+       40,
+       74
+      ],
+      "three": [
+       3,
+       10
+      ],
+      "cns_three": [
+       3,
+       10
+      ],
+      "contested": [
+       26,
+       52
+      ],
+      "points": 92,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 8,
+       "blowby": 2,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 666.8,
+      "distance_ft": 4198.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 1,
+       "made": 1,
+       "three": 1,
+       "three_made": 1,
+       "quality": 31.518,
+       "points": 3
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 20,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Bagayoko",
+        "seconds": 152.0
+       },
+       {
+        "who": "Hlinason",
+        "seconds": 67.0
+       },
+       {
+        "who": "Jaworski",
+        "seconds": 8.0
+       }
+      ],
+      "extra": {
+       "mean": 0.18,
+       "within_3": 0.844,
+       "n": 1240
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 20.91,
+       "end": 4.44,
+       "pts": 3.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 3.28,
+       "quality": 47.133
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      }
+     ]
+    },
+    {
+     "id": 59475,
+     "name": "Stan Okoye",
+     "surname": "Okoye",
+     "jersey": "11",
+     "season": {
+      "games": 25,
+      "fg": [
+       75,
+       174
+      ],
+      "three": [
+       33,
+       108
+      ],
+      "cns_three": [
+       28,
+       84
+      ],
+      "contested": [
+       43,
+       119
+      ],
+      "points": 219,
+      "picks": {
+       "n": 12,
+       "points": 14,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 39,
+       "blowby": 11,
+       "points": 24,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 346.0,
+      "distance_ft": 2109.0,
+      "top_speed": 15.0,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 39.579,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 2,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 2,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hilliard",
+        "seconds": 51.0
+       },
+       {
+        "who": "Font",
+        "seconds": 19.0
+       },
+       {
+        "who": "Lazarevic",
+        "seconds": 13.0
+       }
+      ],
+      "extra": {
+       "mean": 0.66,
+       "within_3": 0.721,
+       "n": 569
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 13.98,
+       "end": 4.31,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 0,
+       "distance": 6.33,
+       "quality": 39.68
+      },
+      "price": {
+       "value": 0.03,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 28591,
+     "name": "Ruben Guerrero",
+     "surname": "Guerrero",
+     "jersey": "32",
+     "season": {
+      "games": 30,
+      "fg": [
+       22,
+       34
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       13,
+       23
+      ],
+      "points": 59,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 1,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 294.4,
+      "distance_ft": 1870.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 2,
+       "made": 1,
+       "three": 0,
+       "three_made": 0,
+       "quality": 49.551,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 7,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hlinason",
+        "seconds": 53.0
+       },
+       {
+        "who": "Sylla",
+        "seconds": 35.0
+       },
+       {
+        "who": "Lazarevic",
+        "seconds": 4.0
+       }
+      ],
+      "extra": {
+       "mean": 0.22,
+       "within_3": 0.883,
+       "n": 471
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 5.15,
+       "quality": 64.119
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      }
+     ]
+    },
+    {
+     "id": 59234,
+     "name": "Aaron Ganal",
+     "surname": "Ganal",
+     "jersey": "8",
+     "season": {
+      "games": 6,
+      "fg": [
+       0,
+       4
+      ],
+      "three": [
+       0,
+       3
+      ],
+      "cns_three": [
+       0,
+       2
+      ],
+      "contested": [
+       0,
+       2
+      ],
+      "points": 0,
+      "picks": {
+       "n": 3,
+       "points": 3,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 1,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 21.2,
+      "distance_ft": 130.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 51.864,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       1,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pantzar",
+        "seconds": 8.0
+       },
+       {
+        "who": "Hilliard",
+        "seconds": 4.0
+       }
+      ],
+      "extra": {
+       "mean": -2.79,
+       "within_3": 1.0,
+       "n": 64
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  },
+  {
+   "team": "Bilbao Basket",
+   "side": "away",
+   "players": [
+    {
+     "id": 23056,
+     "name": "Justin Jaworski",
+     "surname": "Jaworski",
+     "jersey": "7",
+     "season": {
+      "games": 33,
+      "fg": [
+       134,
+       345
+      ],
+      "three": [
+       76,
+       202
+      ],
+      "cns_three": [
+       53,
+       135
+      ],
+      "contested": [
+       90,
+       250
+      ],
+      "points": 425,
+      "picks": {
+       "n": 159,
+       "points": 123,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 131,
+       "blowby": 34,
+       "points": 79,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 2002.8,
+      "distance_ft": 12039.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 19,
+       "made": 11,
+       "three": 11,
+       "three_made": 6,
+       "quality": 46.035,
+       "points": 28
+      },
+      "assists": 1,
+      "turnovers": 3,
+      "passes": 19,
+      "drives": 7,
+      "blowby": 2,
+      "picks_handler": 13,
+      "screens": 9,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Best",
+        "seconds": 294.0
+       },
+       {
+        "who": "Soriano",
+        "seconds": 138.0
+       },
+       {
+        "who": "Rice",
+        "seconds": 72.0
+       }
+      ],
+      "extra": {
+       "mean": 0.05,
+       "within_3": 0.814,
+       "n": 2936
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 14.28,
+       "end": 4.06,
+       "pts": 1.0,
+       "actions": {
+        "shot": 5,
+        "pass": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 5,
+       "distance": 5.03,
+       "quality": 41.448
+      },
+      "price": {
+       "value": 0.4,
+       "n": 7,
+       "kinds": {
+        "late close-out": 6,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59151,
+     "name": "Melwin Jan Pantzar",
+     "surname": "Pantzar",
+     "jersey": "19",
+     "season": {
+      "games": 32,
+      "fg": [
+       99,
+       222
+      ],
+      "three": [
+       31,
+       67
+      ],
+      "cns_three": [
+       9,
+       24
+      ],
+      "contested": [
+       58,
+       158
+      ],
+      "points": 365,
+      "picks": {
+       "n": 531,
+       "points": 317,
+       "turnovers": 36
+      },
+      "drives": {
+       "n": 371,
+       "blowby": 78,
+       "points": 174,
+       "assists": 29
+      }
+     },
+     "game": {
+      "seconds": 1882.8,
+      "distance_ft": 10464.0,
+      "top_speed": 14.7,
+      "shots": {
+       "n": 9,
+       "made": 5,
+       "three": 1,
+       "three_made": 1,
+       "quality": 43.48,
+       "points": 11
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 51,
+      "drives": 19,
+      "blowby": 4,
+      "picks_handler": 32,
+      "screens": 8,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Rice",
+        "seconds": 245.0
+       },
+       {
+        "who": "Best",
+        "seconds": 87.0
+       },
+       {
+        "who": "Evans",
+        "seconds": 61.0
+       }
+      ],
+      "extra": {
+       "mean": 0.54,
+       "within_3": 0.829,
+       "n": 2702
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 14.19,
+       "end": 3.62,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 2,
+       "distance": 3.76,
+       "quality": 41.075
+      },
+      "price": {
+       "value": 0.23,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 35376,
+     "name": "Darrun Hilliard",
+     "surname": "Hilliard",
+     "jersey": "11",
+     "season": {
+      "games": 31,
+      "fg": [
+       125,
+       318
+      ],
+      "three": [
+       55,
+       168
+      ],
+      "cns_three": [
+       31,
+       82
+      ],
+      "contested": [
+       84,
+       238
+      ],
+      "points": 389,
+      "picks": {
+       "n": 246,
+       "points": 187,
+       "turnovers": 39
+      },
+      "drives": {
+       "n": 170,
+       "blowby": 48,
+       "points": 76,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 1559.6,
+      "distance_ft": 9293.0,
+      "top_speed": 15.3,
+      "shots": {
+       "n": 16,
+       "made": 6,
+       "three": 6,
+       "three_made": 2,
+       "quality": 40.257,
+       "points": 14
+      },
+      "assists": 4,
+      "turnovers": 3,
+      "passes": 26,
+      "drives": 3,
+      "blowby": 2,
+      "picks_handler": 16,
+      "screens": 4,
+      "rebounds": [
+       3,
+       8
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Soriano",
+        "seconds": 146.0
+       },
+       {
+        "who": "McKoy",
+        "seconds": 121.0
+       },
+       {
+        "who": "Okoye",
+        "seconds": 79.0
+       }
+      ],
+      "extra": {
+       "mean": 0.75,
+       "within_3": 0.758,
+       "n": 2203
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 14.68,
+       "end": 4.9,
+       "pts": 1.0,
+       "actions": {
+        "shot": 2,
+        "other": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 4,
+       "distance": 4.1,
+       "quality": 45.282
+      },
+      "price": {
+       "value": 0.15,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      }
+     ]
+    },
+    {
+     "id": 59147,
+     "name": "Tryggvi Hlinason",
+     "surname": "Hlinason",
+     "jersey": "32",
+     "season": {
+      "games": 33,
+      "fg": [
+       120,
+       179
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       64,
+       116
+      ],
+      "points": 327,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 12,
+       "blowby": 5,
+       "points": 6,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1555.2,
+      "distance_ft": 8718.0,
+      "top_speed": 14.2,
+      "shots": {
+       "n": 3,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 76.499,
+       "points": 6
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 19,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 52,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pustovyi",
+        "seconds": 335.0
+       },
+       {
+        "who": "Guerrero",
+        "seconds": 50.0
+       },
+       {
+        "who": "Kostadinov",
+        "seconds": 39.0
+       }
+      ],
+      "extra": {
+       "mean": 1.83,
+       "within_3": 0.725,
+       "n": 2363
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 12.01,
+       "end": 6.97,
+       "pts": 1.5,
+       "actions": {
+        "shot": 2,
+        "pass": 2
+       }
+      },
+      "conceded": {
+       "n": 13,
+       "made": 6,
+       "distance": 3.18,
+       "quality": 40.878
+      },
+      "price": {
+       "value": 0.32,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      }
+     ]
+    },
+    {
+     "id": 35821,
+     "name": "Luke Petrasek",
+     "surname": "Petrasek",
+     "jersey": "18",
+     "season": {
+      "games": 33,
+      "fg": [
+       85,
+       188
+      ],
+      "three": [
+       39,
+       107
+      ],
+      "cns_three": [
+       31,
+       90
+      ],
+      "contested": [
+       44,
+       110
+      ],
+      "points": 245,
+      "picks": {
+       "n": 4,
+       "points": 7,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 34,
+       "blowby": 6,
+       "points": 22,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1440.2,
+      "distance_ft": 8399.0,
+      "top_speed": 15.0,
+      "shots": {
+       "n": 7,
+       "made": 4,
+       "three": 4,
+       "three_made": 2,
+       "quality": 43.282,
+       "points": 10
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 18,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 3,
+      "screens": 18,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "McKoy",
+        "seconds": 185.0
+       },
+       {
+        "who": "Pons",
+        "seconds": 141.0
+       },
+       {
+        "who": "Evans",
+        "seconds": 21.0
+       }
+      ],
+      "extra": {
+       "mean": 0.06,
+       "within_3": 0.855,
+       "n": 2170
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 10.27,
+       "end": 4.92,
+       "pts": 1.0,
+       "actions": {
+        "other": 1,
+        "shot": 2,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 4.22,
+       "quality": 36.046
+      },
+      "price": {
+       "value": 0.17,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-20",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:08",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59146,
+     "name": "Margiris Normantas",
+     "surname": "Normantas",
+     "jersey": "2",
+     "season": {
+      "games": 33,
+      "fg": [
+       86,
+       225
+      ],
+      "three": [
+       34,
+       121
+      ],
+      "cns_three": [
+       17,
+       63
+      ],
+      "contested": [
+       64,
+       178
+      ],
+      "points": 256,
+      "picks": {
+       "n": 137,
+       "points": 90,
+       "turnovers": 15
+      },
+      "drives": {
+       "n": 112,
+       "blowby": 27,
+       "points": 61,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1390.4,
+      "distance_ft": 8649.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 5,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 38.541,
+       "points": 2
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 26,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 14,
+      "screens": 6,
+      "rebounds": [
+       1,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Evans",
+        "seconds": 154.0
+       },
+       {
+        "who": "Rice",
+        "seconds": 119.0
+       },
+       {
+        "who": "McKoy",
+        "seconds": 44.0
+       }
+      ],
+      "extra": {
+       "mean": 0.32,
+       "within_3": 0.808,
+       "n": 2090
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 16.06,
+       "end": 8.39,
+       "pts": 1.5,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 5.6,
+       "quality": 36.539
+      },
+      "price": {
+       "value": 0.4,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-2-93",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:33",
+       "story": "Hand-off → 1 pass → Kuric, three, 44 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 28155,
+     "name": "Martin Krampelj",
+     "surname": "Krampelj",
+     "jersey": "10",
+     "season": {
+      "games": 33,
+      "fg": [
+       93,
+       170
+      ],
+      "three": [
+       29,
+       66
+      ],
+      "cns_three": [
+       28,
+       58
+      ],
+      "contested": [
+       50,
+       111
+      ],
+      "points": 277,
+      "picks": {
+       "n": 4,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 38,
+       "blowby": 10,
+       "points": 28,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1153.8,
+      "distance_ft": 7112.0,
+      "top_speed": 16.5,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 32.953,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 10,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 16,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pons",
+        "seconds": 252.0
+       },
+       {
+        "who": "McKoy",
+        "seconds": 32.0
+       },
+       {
+        "who": "Rice",
+        "seconds": 23.0
+       }
+      ],
+      "extra": {
+       "mean": 0.9,
+       "within_3": 0.788,
+       "n": 1620
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 11.33,
+       "end": 4.82,
+       "pts": 1.0,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 4.82,
+       "quality": 33.561
+      },
+      "price": {
+       "value": 0.22,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:38",
+       "story": "Ball screen · over → 1 pass → Kostadinov, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:55",
+       "story": "Pass from Rice → Pons, three, 39 %"
+      },
+      {
+       "chance": "chance-178442-3-112",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:21",
+       "story": "Ball screen · over → no pass → Pantzar, two, 69 %"
+      },
+      {
+       "chance": "chance-178442-4-188",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "2:30",
+       "story": "Drive → 1 pass → Pustovyi, two, 42 %"
+      },
+      {
+       "chance": "chance-178442-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:38",
+       "story": "Hand-off → no pass → Pantzar, two, 26 %"
+      }
+     ]
+    },
+    {
+     "id": 59152,
+     "name": "Bassala Bagayoko",
+     "surname": "Bagayoko",
+     "jersey": "13",
+     "season": {
+      "games": 29,
+      "fg": [
+       39,
+       69
+      ],
+      "three": [
+       2,
+       8
+      ],
+      "cns_three": [
+       1,
+       6
+      ],
+      "contested": [
+       11,
+       33
+      ],
+      "points": 110,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 3,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 892.4,
+      "distance_ft": 5145.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 74.613,
+       "points": 4
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 12,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 30,
+      "rebounds": [
+       1,
+       6
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pustovyi",
+        "seconds": 116.0
+       },
+       {
+        "who": "Kostadinov",
+        "seconds": 90.0
+       },
+       {
+        "who": "Rice",
+        "seconds": 11.0
+       }
+      ],
+      "extra": {
+       "mean": 1.96,
+       "within_3": 0.739,
+       "n": 1213
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 19.89,
+       "end": 7.28,
+       "pts": 0.0,
+       "actions": {
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 6,
+       "distance": 3.4,
+       "quality": 55.398
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      },
+      {
+       "chance": "chance-178442-5-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 5,
+       "clock": "4:47",
+       "story": "Ball screen · over → 1 pass → Jaworski, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59148,
+     "name": "Stefan Lazarevic",
+     "surname": "Lazarevic",
+     "jersey": "73",
+     "season": {
+      "games": 24,
+      "fg": [
+       23,
+       66
+      ],
+      "three": [
+       6,
+       25
+      ],
+      "cns_three": [
+       6,
+       22
+      ],
+      "contested": [
+       15,
+       47
+      ],
+      "points": 61,
+      "picks": {
+       "n": 4,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 24,
+       "blowby": 3,
+       "points": 17,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 625.6,
+      "distance_ft": 4027.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 31.608,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 8,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 3,
+      "screens": 3,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kuric",
+        "seconds": 78.0
+       },
+       {
+        "who": "McKoy",
+        "seconds": 30.0
+       },
+       {
+        "who": "Best",
+        "seconds": 16.0
+       }
+      ],
+      "extra": {
+       "mean": -0.92,
+       "within_3": 0.87,
+       "n": 863
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 10.8,
+       "end": 3.87,
+       "pts": 1.5,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 2.93,
+       "quality": 37.355
+      },
+      "price": {
+       "value": 0.11,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      },
+      {
+       "chance": "chance-178442-3-136",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "2:29",
+       "story": "Drive → no pass → Soriano, two, 49 %"
+      },
+      {
+       "chance": "chance-178442-3-138",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:52",
+       "story": "Ball screen · over → 1 pass → Lazarevic, three, 32 %"
+      }
+     ]
+    },
+    {
+     "id": 59149,
+     "name": "Aleix Font",
+     "surname": "Font",
+     "jersey": "22",
+     "season": {
+      "games": 28,
+      "fg": [
+       39,
+       87
+      ],
+      "three": [
+       22,
+       59
+      ],
+      "cns_three": [
+       18,
+       47
+      ],
+      "contested": [
+       22,
+       63
+      ],
+      "points": 103,
+      "picks": {
+       "n": 10,
+       "points": 4,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 21,
+       "blowby": 4,
+       "points": 13,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 285.8,
+      "distance_ft": 1896.0,
+      "top_speed": 17.2,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 2,
+       "three_made": 0,
+       "quality": 34.08,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 2,
+      "drives": 1,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kuric",
+        "seconds": 58.0
+       },
+       {
+        "who": "Okoye",
+        "seconds": 17.0
+       },
+       {
+        "who": "Soriano",
+        "seconds": 11.0
+       }
+      ],
+      "extra": {
+       "mean": -0.18,
+       "within_3": 0.867,
+       "n": 503
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-22",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:38",
+       "story": "Drive → 1 pass → Font, three, 40 %"
+      },
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 59150,
+     "name": "Amar Sylla",
+     "surname": "Sylla",
+     "jersey": "20",
+     "season": {
+      "games": 14,
+      "fg": [
+       12,
+       22
+      ],
+      "three": [
+       0,
+       2
+      ],
+      "cns_three": [
+       0,
+       1
+      ],
+      "contested": [
+       3,
+       12
+      ],
+      "points": 29,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 120.4,
+      "distance_ft": 763.0,
+      "top_speed": 17.8,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 1,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 3,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Guerrero",
+        "seconds": 34.0
+       },
+       {
+        "who": "Rice",
+        "seconds": 0.0
+       }
+      ],
+      "extra": {
+       "mean": 0.25,
+       "within_3": 0.948,
+       "n": 173
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 0.88,
+       "quality": 35.215
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-178442-1-43",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:53",
+       "story": "Off-ball screen → 2 passes → Rice, three, 41 %"
+      },
+      {
+       "chance": "chance-178442-1-47",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:04",
+       "story": "Drive → 1 pass → Petrasek, three, 48 %"
+      }
+     ]
+    },
+    {
+     "id": 92799,
+     "name": "Aimar Mintegui",
+     "surname": "Mintegui",
+     "jersey": "6",
+     "season": null,
+     "game": {
+      "seconds": 0,
+      "distance_ft": 0,
+      "top_speed": null,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [],
+      "extra": null,
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3274 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 188630,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "BC Barcelona",
+  "away": "Dreamland Gran Canaria",
+  "score": [
+   91,
+   69
+  ],
+  "date": "2026-05-03",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "BC Barcelona",
+   "side": "home",
+   "players": [
+    {
+     "id": 59160,
+     "name": "Tornike Shengelia",
+     "surname": "Shengelia",
+     "jersey": "23",
+     "season": {
+      "games": 29,
+      "fg": [
+       108,
+       207
+      ],
+      "three": [
+       5,
+       45
+      ],
+      "cns_three": [
+       5,
+       43
+      ],
+      "contested": [
+       78,
+       147
+      ],
+      "points": 302,
+      "picks": {
+       "n": 5,
+       "points": 8,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 91,
+       "blowby": 10,
+       "points": 63,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1274.8,
+      "distance_ft": 6484.0,
+      "top_speed": 14.0,
+      "shots": {
+       "n": 9,
+       "made": 5,
+       "three": 1,
+       "three_made": 0,
+       "quality": 41.03,
+       "points": 10
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 16,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 19,
+      "rebounds": [
+       2,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Metu",
+        "seconds": 274.0
+       },
+       {
+        "who": "Brussino",
+        "seconds": 60.0
+       },
+       {
+        "who": "Pelos",
+        "seconds": 52.0
+       }
+      ],
+      "extra": {
+       "mean": 1.47,
+       "within_3": 0.726,
+       "n": 2182
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 11.78,
+       "end": 6.2,
+       "pts": 1.25,
+       "actions": {
+        "drive": 1,
+        "other": 1,
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 3.05,
+       "quality": 37.63
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      }
+     ]
+    },
+    {
+     "id": 59163,
+     "name": "Kevin Punter",
+     "surname": "Punter",
+     "jersey": "0",
+     "season": {
+      "games": 31,
+      "fg": [
+       148,
+       296
+      ],
+      "three": [
+       66,
+       146
+      ],
+      "cns_three": [
+       27,
+       60
+      ],
+      "contested": [
+       112,
+       226
+      ],
+      "points": 422,
+      "picks": {
+       "n": 255,
+       "points": 227,
+       "turnovers": 23
+      },
+      "drives": {
+       "n": 151,
+       "blowby": 31,
+       "points": 109,
+       "assists": 11
+      }
+     },
+     "game": {
+      "seconds": 1274.8,
+      "distance_ft": 7385.0,
+      "top_speed": 15.1,
+      "shots": {
+       "n": 12,
+       "made": 7,
+       "three": 5,
+       "three_made": 3,
+       "quality": 39.2,
+       "points": 17
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 19,
+      "drives": 5,
+      "blowby": 2,
+      "picks_handler": 18,
+      "screens": 4,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Robertson",
+        "seconds": 278.0
+       },
+       {
+        "who": "Wong",
+        "seconds": 93.0
+       },
+       {
+        "who": "Alocen",
+        "seconds": 16.0
+       }
+      ],
+      "extra": {
+       "mean": 1.51,
+       "within_3": 0.713,
+       "n": 2182
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 14.73,
+       "end": 2.65,
+       "pts": 0.0,
+       "actions": {
+        "other": 1,
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 3.06,
+       "quality": 29.278
+      },
+      "price": {
+       "value": -0.07,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      }
+     ]
+    },
+    {
+     "id": 15680,
+     "name": "Miles Norris",
+     "surname": "Norris",
+     "jersey": "5",
+     "season": {
+      "games": 19,
+      "fg": [
+       48,
+       97
+      ],
+      "three": [
+       23,
+       60
+      ],
+      "cns_three": [
+       18,
+       47
+      ],
+      "contested": [
+       31,
+       69
+      ],
+      "points": 132,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 19,
+       "blowby": 2,
+       "points": 9,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1247.2,
+      "distance_ft": 7597.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 47.756,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 11,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 12,
+      "rebounds": [
+       0,
+       6
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Metu",
+        "seconds": 180.0
+       },
+       {
+        "who": "Vila",
+        "seconds": 114.0
+       },
+       {
+        "who": "Pelos",
+        "seconds": 52.0
+       }
+      ],
+      "extra": {
+       "mean": 1.44,
+       "within_3": 0.769,
+       "n": 2173
+      },
+      "closeouts": {
+       "n": 8,
+       "start": 14.46,
+       "end": 4.35,
+       "pts": 0.625,
+       "actions": {
+        "drive": 2,
+        "shot": 2,
+        "pass": 2,
+        "other": 2
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 6.68,
+       "quality": 47.57
+      },
+      "price": {
+       "value": 0.12,
+       "n": 4,
+       "kinds": {
+        "late close-out": 3,
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59164,
+     "name": "Joel Parra Lopez",
+     "surname": "Lopez",
+     "jersey": "44",
+     "season": {
+      "games": 32,
+      "fg": [
+       96,
+       185
+      ],
+      "three": [
+       26,
+       76
+      ],
+      "cns_three": [
+       21,
+       65
+      ],
+      "contested": [
+       54,
+       114
+      ],
+      "points": 264,
+      "picks": {
+       "n": 11,
+       "points": 6,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 49,
+       "blowby": 12,
+       "points": 53,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 1180.4,
+      "distance_ft": 6559.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 1,
+       "three_made": 0,
+       "quality": 41.345,
+       "points": 6
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 10,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Brussino",
+        "seconds": 123.0
+       },
+       {
+        "who": "Samar",
+        "seconds": 92.0
+       },
+       {
+        "who": "Wong",
+        "seconds": 33.0
+       }
+      ],
+      "extra": {
+       "mean": 1.9,
+       "within_3": 0.686,
+       "n": 1723
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 13.47,
+       "end": 7.03,
+       "pts": 1.667,
+       "actions": {
+        "other": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 3.42,
+       "quality": 30.852
+      },
+      "price": {
+       "value": 0.37,
+       "n": 3,
+       "kinds": {
+        "late close-out": 2,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59161,
+     "name": "Juan Ignacio Marcos",
+     "surname": "Marcos",
+     "jersey": "2",
+     "season": {
+      "games": 31,
+      "fg": [
+       54,
+       116
+      ],
+      "three": [
+       30,
+       69
+      ],
+      "cns_three": [
+       19,
+       40
+      ],
+      "contested": [
+       29,
+       69
+      ],
+      "points": 150,
+      "picks": {
+       "n": 180,
+       "points": 113,
+       "turnovers": 17
+      },
+      "drives": {
+       "n": 96,
+       "blowby": 30,
+       "points": 48,
+       "assists": 11
+      }
+     },
+     "game": {
+      "seconds": 1159.4,
+      "distance_ft": 7051.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 34.624,
+       "points": 0
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 28,
+      "drives": 4,
+      "blowby": 1,
+      "picks_handler": 9,
+      "screens": 3,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Jefferson",
+        "seconds": 281.0
+       },
+       {
+        "who": "Alocen",
+        "seconds": 49.0
+       },
+       {
+        "who": "Tobey",
+        "seconds": 15.0
+       }
+      ],
+      "extra": {
+       "mean": -0.04,
+       "within_3": 0.839,
+       "n": 1928
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 13.59,
+       "end": 5.2,
+       "pts": 0.857,
+       "actions": {
+        "shot": 4,
+        "other": 1,
+        "pass": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 4.53,
+       "quality": 32.22
+      },
+      "price": {
+       "value": 0.05,
+       "n": 7,
+       "kinds": {
+        "nobody on him": 1,
+        "late close-out": 6
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      }
+     ]
+    },
+    {
+     "id": 59165,
+     "name": "Youssoupha Fall",
+     "surname": "Fall",
+     "jersey": "19",
+     "season": {
+      "games": 23,
+      "fg": [
+       72,
+       100
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       38,
+       56
+      ],
+      "points": 164,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 1124.6,
+      "distance_ft": 6222.0,
+      "top_speed": 15.0,
+      "shots": {
+       "n": 10,
+       "made": 7,
+       "three": 0,
+       "three_made": 0,
+       "quality": 58.285,
+       "points": 14
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 39,
+      "rebounds": [
+       3,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Tobey",
+        "seconds": 184.0
+       },
+       {
+        "who": "Pelos",
+        "seconds": 51.0
+       },
+       {
+        "who": "Miteo",
+        "seconds": 42.0
+       }
+      ],
+      "extra": {
+       "mean": 2.64,
+       "within_3": 0.603,
+       "n": 1702
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 11.08,
+       "end": 5.47,
+       "pts": 0.0,
+       "actions": {
+        "drive": 2,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 0,
+       "distance": 5.56,
+       "quality": 33.255
+      },
+      "price": {
+       "value": -0.07,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59290,
+     "name": "Juan Nunez Garcia",
+     "surname": "Garcia",
+     "jersey": "17",
+     "season": {
+      "games": 8,
+      "fg": [
+       14,
+       30
+      ],
+      "three": [
+       2,
+       10
+      ],
+      "cns_three": [
+       1,
+       3
+      ],
+      "contested": [
+       8,
+       16
+      ],
+      "points": 38,
+      "picks": {
+       "n": 59,
+       "points": 39,
+       "turnovers": 11
+      },
+      "drives": {
+       "n": 39,
+       "blowby": 9,
+       "points": 27,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 1091.2,
+      "distance_ft": 7219.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 58.306,
+       "points": 2
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 32,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 18,
+      "screens": 1,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Alocen",
+        "seconds": 210.0
+       },
+       {
+        "who": "Jefferson",
+        "seconds": 61.0
+       },
+       {
+        "who": "Brussino",
+        "seconds": 36.0
+       }
+      ],
+      "extra": {
+       "mean": 1.65,
+       "within_3": 0.681,
+       "n": 1992
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 14.93,
+       "end": 4.07,
+       "pts": 0.6,
+       "actions": {
+        "shot": 2,
+        "pass": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 6.37,
+       "quality": 38.709
+      },
+      "price": {
+       "value": 0.16,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 18522,
+     "name": "Myles Cale",
+     "surname": "Cale",
+     "jersey": "3",
+     "season": {
+      "games": 27,
+      "fg": [
+       70,
+       129
+      ],
+      "three": [
+       28,
+       71
+      ],
+      "cns_three": [
+       22,
+       50
+      ],
+      "contested": [
+       34,
+       69
+      ],
+      "points": 183,
+      "picks": {
+       "n": 37,
+       "points": 24,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 48,
+       "blowby": 8,
+       "points": 34,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 1064.8,
+      "distance_ft": 6492.0,
+      "top_speed": 15.0,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 9,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 7,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Brussino",
+        "seconds": 236.0
+       },
+       {
+        "who": "Wong",
+        "seconds": 98.0
+       },
+       {
+        "who": "Robertson",
+        "seconds": 23.0
+       }
+      ],
+      "extra": {
+       "mean": 0.23,
+       "within_3": 0.802,
+       "n": 2147
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.98,
+       "end": 4.01,
+       "pts": 0.0,
+       "actions": {
+        "drive": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 3.14,
+       "quality": 46.736
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      }
+     ]
+    },
+    {
+     "id": 59162,
+     "name": "Dario Brizuela",
+     "surname": "Brizuela",
+     "jersey": "8",
+     "season": {
+      "games": 31,
+      "fg": [
+       95,
+       213
+      ],
+      "three": [
+       49,
+       132
+      ],
+      "cns_three": [
+       18,
+       57
+      ],
+      "contested": [
+       60,
+       144
+      ],
+      "points": 268,
+      "picks": {
+       "n": 148,
+       "points": 151,
+       "turnovers": 12
+      },
+      "drives": {
+       "n": 98,
+       "blowby": 28,
+       "points": 76,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 938.2,
+      "distance_ft": 5832.0,
+      "top_speed": 15.5,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 2,
+       "three_made": 0,
+       "quality": 26.542,
+       "points": 4
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 12,
+      "drives": 9,
+      "blowby": 4,
+      "picks_handler": 11,
+      "screens": 2,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Wong",
+        "seconds": 129.0
+       },
+       {
+        "who": "Robertson",
+        "seconds": 122.0
+       },
+       {
+        "who": "Jefferson",
+        "seconds": 38.0
+       }
+      ],
+      "extra": {
+       "mean": 0.07,
+       "within_3": 0.823,
+       "n": 1599
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 15.31,
+       "end": 5.19,
+       "pts": 1.667,
+       "actions": {
+        "pass": 1,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 3.83,
+       "quality": 41.932
+      },
+      "price": {
+       "value": 0.0,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 34962,
+     "name": "Willy Hernangomez",
+     "surname": "Hernangomez",
+     "jersey": "14",
+     "season": {
+      "games": 33,
+      "fg": [
+       104,
+       158
+      ],
+      "three": [
+       0,
+       2
+      ],
+      "cns_three": [
+       0,
+       1
+      ],
+      "contested": [
+       71,
+       114
+      ],
+      "points": 288,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 7,
+       "blowby": 2,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 774.8,
+      "distance_ft": 4469.0,
+      "top_speed": 15.1,
+      "shots": {
+       "n": 5,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 46.071,
+       "points": 6
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 20,
+      "rebounds": [
+       0,
+       6
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pelos",
+        "seconds": 209.0
+       },
+       {
+        "who": "Tobey",
+        "seconds": 71.0
+       },
+       {
+        "who": "Alocen",
+        "seconds": 15.0
+       }
+      ],
+      "extra": {
+       "mean": 1.38,
+       "within_3": 0.719,
+       "n": 1598
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 14.69,
+       "end": 3.62,
+       "pts": 0.667,
+       "actions": {
+        "shot": 1,
+        "pass": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 4.48,
+       "quality": 42.292
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      }
+     ]
+    },
+    {
+     "id": 59246,
+     "name": "Daniel Gonzalez",
+     "surname": "Gonzalez",
+     "jersey": "47",
+     "season": {
+      "games": 6,
+      "fg": [
+       1,
+       4
+      ],
+      "three": [
+       1,
+       3
+      ],
+      "cns_three": [
+       1,
+       2
+      ],
+      "contested": [
+       0,
+       3
+      ],
+      "points": 5,
+      "picks": {
+       "n": 10,
+       "points": 0,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 296.0,
+      "distance_ft": 1962.0,
+      "top_speed": 16.0,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 25.112,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 5,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 8,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Alocen",
+        "seconds": 63.0
+       },
+       {
+        "who": "Jefferson",
+        "seconds": 32.0
+       },
+       {
+        "who": "Miteo",
+        "seconds": 3.0
+       }
+      ],
+      "extra": {
+       "mean": -0.22,
+       "within_3": 0.854,
+       "n": 513
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59229,
+     "name": "Sayon Keita",
+     "surname": "Keita",
+     "jersey": "41",
+     "season": {
+      "games": 9,
+      "fg": [
+       3,
+       10
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       2,
+       8
+      ],
+      "points": 8,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 217.8,
+      "distance_ft": 1442.0,
+      "top_speed": 17.8,
+      "shots": {
+       "n": 2,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 79.227,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 7,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Miteo",
+        "seconds": 48.0
+       },
+       {
+        "who": "Jefferson",
+        "seconds": 16.0
+       },
+       {
+        "who": "Samar",
+        "seconds": 7.0
+       }
+      ],
+      "extra": {
+       "mean": 1.41,
+       "within_3": 0.713,
+       "n": 401
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 15.62,
+       "end": 8.71,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 3.38,
+       "quality": 35.921
+      },
+      "price": {
+       "value": 0.11,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "team": "Dreamland Gran Canaria",
+   "side": "away",
+   "players": [
+    {
+     "id": 35402,
+     "name": "Nico Brussino",
+     "surname": "Brussino",
+     "jersey": "9",
+     "season": {
+      "games": 32,
+      "fg": [
+       107,
+       252
+      ],
+      "three": [
+       52,
+       155
+      ],
+      "cns_three": [
+       41,
+       103
+      ],
+      "contested": [
+       67,
+       178
+      ],
+      "points": 338,
+      "picks": {
+       "n": 158,
+       "points": 80,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 135,
+       "blowby": 39,
+       "points": 71,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1542.2,
+      "distance_ft": 8906.0,
+      "top_speed": 16.5,
+      "shots": {
+       "n": 4,
+       "made": 0,
+       "three": 4,
+       "three_made": 0,
+       "quality": 35.608,
+       "points": 0
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 22,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 4,
+      "screens": 9,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Lopez",
+        "seconds": 228.0
+       },
+       {
+        "who": "Cale",
+        "seconds": 162.0
+       },
+       {
+        "who": "Norris",
+        "seconds": 50.0
+       }
+      ],
+      "extra": {
+       "mean": 0.57,
+       "within_3": 0.832,
+       "n": 2522
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 36.97,
+       "end": 16.39,
+       "pts": 2.0,
+       "actions": {
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 1.85,
+       "quality": 41.262
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      }
+     ]
+    },
+    {
+     "id": 31539,
+     "name": "Chimezie Metu",
+     "surname": "Metu",
+     "jersey": "25",
+     "season": {
+      "games": 10,
+      "fg": [
+       46,
+       108
+      ],
+      "three": [
+       15,
+       44
+      ],
+      "cns_three": [
+       7,
+       27
+      ],
+      "contested": [
+       31,
+       78
+      ],
+      "points": 139,
+      "picks": {
+       "n": 11,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 44,
+       "blowby": 2,
+       "points": 26,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1495.6,
+      "distance_ft": 7105.0,
+      "top_speed": 14.2,
+      "shots": {
+       "n": 8,
+       "made": 3,
+       "three": 4,
+       "three_made": 2,
+       "quality": 36.309,
+       "points": 8
+      },
+      "assists": 0,
+      "turnovers": 3,
+      "passes": 18,
+      "drives": 4,
+      "blowby": 0,
+      "picks_handler": 5,
+      "screens": 18,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Shengelia",
+        "seconds": 268.0
+       },
+       {
+        "who": "Norris",
+        "seconds": 151.0
+       },
+       {
+        "who": "Punter",
+        "seconds": 16.0
+       }
+      ],
+      "extra": {
+       "mean": 0.61,
+       "within_3": 0.822,
+       "n": 2405
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 10.7,
+       "end": 7.59,
+       "pts": 2.0,
+       "actions": {
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 6,
+       "distance": 2.91,
+       "quality": 49.22
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      }
+     ]
+    },
+    {
+     "id": 61550,
+     "name": "Brandon Jefferson",
+     "surname": "Jefferson",
+     "jersey": "21",
+     "season": {
+      "games": 3,
+      "fg": [
+       4,
+       13
+      ],
+      "three": [
+       3,
+       11
+      ],
+      "cns_three": [
+       2,
+       7
+      ],
+      "contested": [
+       2,
+       10
+      ],
+      "points": 13,
+      "picks": {
+       "n": 8,
+       "points": 0,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 6,
+       "blowby": 0,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1458.6,
+      "distance_ft": 8674.0,
+      "top_speed": 16.0,
+      "shots": {
+       "n": 7,
+       "made": 2,
+       "three": 6,
+       "three_made": 2,
+       "quality": 35.615,
+       "points": 6
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 34,
+      "drives": 4,
+      "blowby": 0,
+      "picks_handler": 14,
+      "screens": 2,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Marcos",
+        "seconds": 277.0
+       },
+       {
+        "who": "Garcia",
+        "seconds": 79.0
+       },
+       {
+        "who": "Brizuela",
+        "seconds": 45.0
+       }
+      ],
+      "extra": {
+       "mean": 0.74,
+       "within_3": 0.801,
+       "n": 2292
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 6.87,
+       "quality": 66.831
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 32336,
+     "name": "Kassius Robertson",
+     "surname": "Robertson",
+     "jersey": "30",
+     "season": {
+      "games": 17,
+      "fg": [
+       49,
+       134
+      ],
+      "three": [
+       25,
+       69
+      ],
+      "cns_three": [
+       17,
+       39
+      ],
+      "contested": [
+       35,
+       96
+      ],
+      "points": 150,
+      "picks": {
+       "n": 124,
+       "points": 61,
+       "turnovers": 9
+      },
+      "drives": {
+       "n": 109,
+       "blowby": 26,
+       "points": 47,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 1395.0,
+      "distance_ft": 7844.0,
+      "top_speed": 14.8,
+      "shots": {
+       "n": 8,
+       "made": 4,
+       "three": 5,
+       "three_made": 4,
+       "quality": 31.298,
+       "points": 12
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 18,
+      "drives": 5,
+      "blowby": 0,
+      "picks_handler": 11,
+      "screens": 6,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Punter",
+        "seconds": 282.0
+       },
+       {
+        "who": "Brizuela",
+        "seconds": 110.0
+       },
+       {
+        "who": "Lopez",
+        "seconds": 32.0
+       }
+      ],
+      "extra": {
+       "mean": -0.84,
+       "within_3": 0.913,
+       "n": 2383
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 11,
+       "made": 4,
+       "distance": 2.77,
+       "quality": 40.476
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      }
+     ]
+    },
+    {
+     "id": 59156,
+     "name": "Pierre Pelos",
+     "surname": "Pelos",
+     "jersey": "13",
+     "season": {
+      "games": 32,
+      "fg": [
+       119,
+       218
+      ],
+      "three": [
+       38,
+       90
+      ],
+      "cns_three": [
+       37,
+       84
+      ],
+      "contested": [
+       73,
+       145
+      ],
+      "points": 302,
+      "picks": {
+       "n": 1,
+       "points": 3,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 33,
+       "blowby": 2,
+       "points": 30,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1145.0,
+      "distance_ft": 6686.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 7,
+       "made": 2,
+       "three": 3,
+       "three_made": 0,
+       "quality": 51.889,
+       "points": 4
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 25,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 28,
+      "rebounds": [
+       1,
+       5
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hernangomez",
+        "seconds": 134.0
+       },
+       {
+        "who": "Shengelia",
+        "seconds": 109.0
+       },
+       {
+        "who": "Fall",
+        "seconds": 47.0
+       }
+      ],
+      "extra": {
+       "mean": 0.88,
+       "within_3": 0.829,
+       "n": 1823
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 12.72,
+       "end": 5.63,
+       "pts": 0.667,
+       "actions": {
+        "drive": 1,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 4,
+       "distance": 1.97,
+       "quality": 45.755
+      },
+      "price": {
+       "value": 0.01,
+       "n": 3,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 15347,
+     "name": "Isaiah Wong",
+     "surname": "Wong",
+     "jersey": "2",
+     "season": {
+      "games": 32,
+      "fg": [
+       148,
+       319
+      ],
+      "three": [
+       34,
+       105
+      ],
+      "cns_three": [
+       10,
+       42
+      ],
+      "contested": [
+       106,
+       235
+      ],
+      "points": 453,
+      "picks": {
+       "n": 229,
+       "points": 172,
+       "turnovers": 13
+      },
+      "drives": {
+       "n": 255,
+       "blowby": 48,
+       "points": 176,
+       "assists": 16
+      }
+     },
+     "game": {
+      "seconds": 1143.4,
+      "distance_ft": 6561.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 21.368,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 16,
+      "drives": 4,
+      "blowby": 1,
+      "picks_handler": 9,
+      "screens": 1,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Cale",
+        "seconds": 99.0
+       },
+       {
+        "who": "Brizuela",
+        "seconds": 98.0
+       },
+       {
+        "who": "Punter",
+        "seconds": 91.0
+       }
+      ],
+      "extra": {
+       "mean": -0.72,
+       "within_3": 0.921,
+       "n": 1815
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 10.67,
+       "end": 5.19,
+       "pts": 1.5,
+       "actions": {
+        "pass": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 2.47,
+       "quality": 30.927
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-101",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:54",
+       "story": "Post-up → no pass → Shengelia, two, 56 %"
+      }
+     ]
+    },
+    {
+     "id": 59295,
+     "name": "Carlos Alocen",
+     "surname": "Alocen",
+     "jersey": "12",
+     "season": {
+      "games": 16,
+      "fg": [
+       18,
+       45
+      ],
+      "three": [
+       5,
+       18
+      ],
+      "cns_three": [
+       3,
+       11
+      ],
+      "contested": [
+       10,
+       31
+      ],
+      "points": 57,
+      "picks": {
+       "n": 90,
+       "points": 64,
+       "turnovers": 16
+      },
+      "drives": {
+       "n": 60,
+       "blowby": 12,
+       "points": 44,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 1132.2,
+      "distance_ft": 7001.0,
+      "top_speed": 15.0,
+      "shots": {
+       "n": 4,
+       "made": 3,
+       "three": 2,
+       "three_made": 2,
+       "quality": 31.657,
+       "points": 8
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 31,
+      "drives": 9,
+      "blowby": 1,
+      "picks_handler": 24,
+      "screens": 2,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Garcia",
+        "seconds": 195.0
+       },
+       {
+        "who": "Marcos",
+        "seconds": 73.0
+       },
+       {
+        "who": "Gonzalez",
+        "seconds": 55.0
+       }
+      ],
+      "extra": {
+       "mean": 0.83,
+       "within_3": 0.806,
+       "n": 1880
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 3,
+       "made": 2,
+       "distance": 4.79,
+       "quality": 72.208
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-42",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:24",
+       "story": "Post-up → no pass → Hernangomez, two, 88 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59157,
+     "name": "Mike Tobey",
+     "surname": "Tobey",
+     "jersey": "18",
+     "season": {
+      "games": 30,
+      "fg": [
+       103,
+       203
+      ],
+      "three": [
+       14,
+       59
+      ],
+      "cns_three": [
+       13,
+       55
+      ],
+      "contested": [
+       48,
+       123
+      ],
+      "points": 262,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 16,
+       "blowby": 2,
+       "points": 12,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1100.4,
+      "distance_ft": 5730.0,
+      "top_speed": 14.7,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 37.418,
+       "points": 2
+      },
+      "assists": 3,
+      "turnovers": 0,
+      "passes": 21,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 35,
+      "rebounds": [
+       2,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Fall",
+        "seconds": 296.0
+       },
+       {
+        "who": "Hernangomez",
+        "seconds": 48.0
+       },
+       {
+        "who": "Shengelia",
+        "seconds": 17.0
+       }
+      ],
+      "extra": {
+       "mean": 0.79,
+       "within_3": 0.825,
+       "n": 1939
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 11.18,
+       "end": 6.74,
+       "pts": 2.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 6,
+       "distance": 3.05,
+       "quality": 47.747
+      },
+      "price": {
+       "value": 0.22,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-1-25",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "4:18",
+       "story": "Hand-off → 3 passes → Jefferson, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:17",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-188630-4-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "8:53",
+       "story": "Hand-off → 1 pass → Brussino, three, 38 %"
+      },
+      {
+       "chance": "chance-188630-4-140",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "8:03",
+       "story": "Ball screen · over → 1 pass → Fall, two, 60 %"
+      }
+     ]
+    },
+    {
+     "id": 25182,
+     "name": "Eric Vila",
+     "surname": "Vila",
+     "jersey": "4",
+     "season": {
+      "games": 23,
+      "fg": [
+       23,
+       64
+      ],
+      "three": [
+       12,
+       39
+      ],
+      "cns_three": [
+       11,
+       35
+      ],
+      "contested": [
+       15,
+       40
+      ],
+      "points": 71,
+      "picks": {
+       "n": 2,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 18,
+       "blowby": 2,
+       "points": 4,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 416.6,
+      "distance_ft": 2135.0,
+      "top_speed": 15.0,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 1,
+       "three_made": 1,
+       "quality": 39.471,
+       "points": 3
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 6,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 6,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Norris",
+        "seconds": 95.0
+       },
+       {
+        "who": "Lopez",
+        "seconds": 19.0
+       },
+       {
+        "who": "Fall",
+        "seconds": 4.0
+       }
+      ],
+      "extra": {
+       "mean": -0.71,
+       "within_3": 0.96,
+       "n": 622
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 2.28,
+       "quality": 59.416
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      },
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59158,
+     "name": "Ziga Samar",
+     "surname": "Samar",
+     "jersey": "5",
+     "season": {
+      "games": 32,
+      "fg": [
+       55,
+       139
+      ],
+      "three": [
+       15,
+       50
+      ],
+      "cns_three": [
+       11,
+       36
+      ],
+      "contested": [
+       33,
+       95
+      ],
+      "points": 147,
+      "picks": {
+       "n": 136,
+       "points": 95,
+       "turnovers": 10
+      },
+      "drives": {
+       "n": 117,
+       "blowby": 23,
+       "points": 72,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 356.6,
+      "distance_ft": 2151.0,
+      "top_speed": 17.6,
+      "shots": {
+       "n": 1,
+       "made": 1,
+       "three": 1,
+       "three_made": 1,
+       "quality": 43.471,
+       "points": 3
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 8,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Lopez",
+        "seconds": 74.0
+       },
+       {
+        "who": "Garcia",
+        "seconds": 18.0
+       },
+       {
+        "who": "Keita",
+        "seconds": 8.0
+       }
+      ],
+      "extra": {
+       "mean": -0.33,
+       "within_3": 0.936,
+       "n": 532
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 2.26,
+       "quality": 29.298
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-4-154",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:19",
+       "story": "Drive → 1 pass → Samar, three, 44 %"
+      },
+      {
+       "chance": "chance-188630-4-159",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:07",
+       "story": "Ball screen · over → 1 pass → Vila, two, 46 %"
+      },
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 94471,
+     "name": "Mervedi Kasekelayi Miteo",
+     "surname": "Miteo",
+     "jersey": "27",
+     "season": {
+      "games": 2,
+      "fg": [
+       2,
+       3
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       1,
+       2
+      ],
+      "points": 8,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 345.4,
+      "distance_ft": 2154.0,
+      "top_speed": 18.9,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 46.458,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 7,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 13,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Keita",
+        "seconds": 45.0
+       },
+       {
+        "who": "Fall",
+        "seconds": 38.0
+       },
+       {
+        "who": "Garcia",
+        "seconds": 18.0
+       }
+      ],
+      "extra": {
+       "mean": 0.33,
+       "within_3": 0.877,
+       "n": 519
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 3,
+       "made": 0,
+       "distance": 2.7,
+       "quality": 35.587
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-4-164",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:01",
+       "story": "Drive → 2 passes → Jefferson, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59159,
+     "name": "Loucas Nzambi Maniema",
+     "surname": "Maniema",
+     "jersey": "1",
+     "season": {
+      "games": 19,
+      "fg": [
+       3,
+       8
+      ],
+      "three": [
+       0,
+       3
+      ],
+      "cns_three": [
+       0,
+       2
+      ],
+      "contested": [
+       1,
+       6
+      ],
+      "points": 13,
+      "picks": {
+       "n": 8,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 4,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 113.0,
+      "distance_ft": 595.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 2,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Lopez",
+        "seconds": 20.0
+       },
+       {
+        "who": "Norris",
+        "seconds": 5.0
+       }
+      ],
+      "extra": {
+       "mean": 1.66,
+       "within_3": 0.756,
+       "n": 131
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-188630-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:02",
+       "story": "Pass from Marcos → Punter, two, 73 %"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

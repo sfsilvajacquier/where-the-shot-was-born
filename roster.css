@@ -1,0 +1,40 @@
+/* The roster page: the players of one team on the left, the profile of the focused one on the right. Built on the match page's
+   pieces (report.css): the same header, the same top-right switch, the same rows. */
+
+.players-col { position: absolute; left: var(--margin); top: 136px; width: 600px; }
+.players-col .list { max-height: 780px; }
+.item.player { grid-template-columns: 56px 1fr auto; height: 60px; }
+.item.player .jersey { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; color: var(--ink-2); font-feature-settings: 'tnum'; }
+.item.player[aria-selected="true"] .jersey { color: var(--ink); }
+.item.player .mins { font-size: 15px; color: var(--ink-2); font-feature-settings: 'tnum'; }
+
+.profile { position: absolute; left: 700px; top: 136px; width: 1180px; padding: 24px 28px 22px; }
+.profile .head { display: flex; align-items: center; gap: 18px; }
+.profile .num { font-size: 48px; font-weight: 700; letter-spacing: -1.5px; line-height: 52px; color: var(--ink-3); font-variation-settings: 'opsz' 32; min-width: 72px; }
+.profile h1 { font-size: 40px; font-weight: 700; letter-spacing: -1px; line-height: 44px; font-variation-settings: 'opsz' 32; }
+.profile .head .sub { font-size: 16px; color: var(--ink-2); margin-top: 4px; }
+.profile .head .badge { width: 56px; height: 56px; margin-left: auto; flex: none; }
+/* one grid for all three columns: every row is placed at the same grid-row across This game / Defence / Season (roster.js), so a
+   taller cell (a name list running to two or three lines) only stretches its own row, never breaks the alignment below it — the way
+   a real table's dividers hold even when its columns hold different amounts. */
+.profile .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 28px; margin-top: 22px; }
+.profile .cols .section { font-size: 13px; margin-bottom: 8px; }
+/* height: auto overrides a global `.row { height: 40px }` from style.css that otherwise clamps a multi-line cell (a two- or three-name
+   list) to one line's height, letting its later lines visually bleed into the row below instead of growing the grid track. */
+.profile .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; height: auto; font-size: 15px; line-height: 21px; padding: 5px 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.08); }
+.profile .row.first { box-shadow: none; }  /* the top row of each column: no divider above it, whatever the DOM order (grid position, not adjacency, decides its column) */
+.profile .row .k { color: var(--ink-2); }
+.profile .row .v { color: var(--ink); text-align: right; font-feature-settings: 'tnum'; max-width: 210px; }
+.profile .row .v em { font-style: normal; color: var(--ink-2); }
+.profile .plays-head { margin-top: 20px; font-size: 13px; }
+.profile .chips.playlist { margin-top: 8px; }
+.profile .chips.playlist .chip { height: 30px; padding: 0 12px; align-items: center; cursor: pointer; border-color: rgba(255,255,255,0.18); color: var(--ink); transition: background 0.18s; }  /* centred, unlike the chapter chips, whose value and title share a baseline */
+.profile .chips.playlist .chip:hover, .profile .chips.playlist .chip[aria-selected="true"] { background: rgba(255,255,255,0.16); }
+.profile .chips.playlist .chip em { font-style: normal; color: var(--ink-3); }
+.profile .foot { font-size: 13px; line-height: 18px; color: var(--ink-3); margin-top: 18px; }
+
+#stage.roster .players-col > *, #stage.roster .profile { animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both; animation-delay: calc(var(--i, 0) * 60ms); }
+#stage.nomotion .players-col > *, #stage.nomotion .profile { animation: none; }
+
+/* the `i` on a column heading: inline, after the title, since a heading here is short and the column is wide */
+.section .inf { position: static; }

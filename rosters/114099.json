@@ -1,0 +1,3477 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 114099,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "Basquet Girona",
+  "away": "San Pablo Burgos",
+  "score": [
+   77,
+   71
+  ],
+  "date": "2026-01-31",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "Basquet Girona",
+   "side": "home",
+   "players": [
+    {
+     "id": 59188,
+     "name": "Sergi Martinez Costa",
+     "surname": "Costa",
+     "jersey": "23",
+     "season": {
+      "games": 31,
+      "fg": [
+       76,
+       165
+      ],
+      "three": [
+       19,
+       64
+      ],
+      "cns_three": [
+       19,
+       60
+      ],
+      "contested": [
+       47,
+       107
+      ],
+      "points": 210,
+      "picks": {
+       "n": 6,
+       "points": 7,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 68,
+       "blowby": 14,
+       "points": 57,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1563.8,
+      "distance_ft": 9636.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 5,
+       "made": 4,
+       "three": 1,
+       "three_made": 1,
+       "quality": 40.401,
+       "points": 9
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 15,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 1,
+      "screens": 9,
+      "rebounds": [
+       0,
+       5
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Samuels",
+        "seconds": 193.0
+       },
+       {
+        "who": "Sierra",
+        "seconds": 116.0
+       },
+       {
+        "who": "Meindl",
+        "seconds": 57.0
+       }
+      ],
+      "extra": {
+       "mean": 1.83,
+       "within_3": 0.681,
+       "n": 2598
+      },
+      "closeouts": {
+       "n": 8,
+       "start": 13.87,
+       "end": 5.69,
+       "pts": 0.375,
+       "actions": {
+        "shot": 3,
+        "pass": 3,
+        "drive": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 1,
+       "distance": 4.29,
+       "quality": 42.894
+      },
+      "price": {
+       "value": 0.37,
+       "n": 5,
+       "kinds": {
+        "late close-out": 5
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 28336,
+     "name": "Otis Livingston II",
+     "surname": "Livingston II",
+     "jersey": "11",
+     "season": {
+      "games": 34,
+      "fg": [
+       149,
+       376
+      ],
+      "three": [
+       74,
+       202
+      ],
+      "cns_three": [
+       28,
+       64
+      ],
+      "contested": [
+       106,
+       285
+      ],
+      "points": 443,
+      "picks": {
+       "n": 567,
+       "points": 450,
+       "turnovers": 42
+      },
+      "drives": {
+       "n": 301,
+       "blowby": 59,
+       "points": 148,
+       "assists": 33
+      }
+     },
+     "game": {
+      "seconds": 1381.4,
+      "distance_ft": 9086.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 14,
+       "made": 7,
+       "three": 7,
+       "three_made": 3,
+       "quality": 46.78,
+       "points": 17
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 43,
+      "drives": 8,
+      "blowby": 0,
+      "picks_handler": 37,
+      "screens": 0,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Neto",
+        "seconds": 209.0
+       },
+       {
+        "who": "Gudmundsson",
+        "seconds": 123.0
+       },
+       {
+        "who": "Samuels",
+        "seconds": 22.0
+       }
+      ],
+      "extra": {
+       "mean": 0.49,
+       "within_3": 0.798,
+       "n": 2111
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 12.85,
+       "end": 3.61,
+       "pts": 0.0,
+       "actions": {
+        "other": 1,
+        "shot": 3,
+        "pass": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 1,
+       "distance": 4.62,
+       "quality": 38.799
+      },
+      "price": {
+       "value": 0.11,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 31700,
+     "name": "Martinas Geben",
+     "surname": "Geben",
+     "jersey": "12",
+     "season": {
+      "games": 34,
+      "fg": [
+       136,
+       228
+      ],
+      "three": [
+       23,
+       59
+      ],
+      "cns_three": [
+       21,
+       53
+      ],
+      "contested": [
+       82,
+       154
+      ],
+      "points": 375,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 14,
+       "blowby": 6,
+       "points": 9,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1243.4,
+      "distance_ft": 7338.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 0,
+       "three_made": 0,
+       "quality": 45.963,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 17,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 55,
+      "rebounds": [
+       1,
+       9
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Happ",
+        "seconds": 179.0
+       },
+       {
+        "who": "Fischer",
+        "seconds": 172.0
+       },
+       {
+        "who": "Lima",
+        "seconds": 17.0
+       }
+      ],
+      "extra": {
+       "mean": 1.09,
+       "within_3": 0.739,
+       "n": 1957
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 14.13,
+       "end": 9.18,
+       "pts": 3.0,
+       "actions": {
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 1,
+       "distance": 1.95,
+       "quality": 40.798
+      },
+      "price": {
+       "value": 0.17,
+       "n": 2,
+       "kinds": {
+        "nobody on him": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 59190,
+     "name": "Mindaugas Susinskas",
+     "surname": "Susinskas",
+     "jersey": "29",
+     "season": {
+      "games": 33,
+      "fg": [
+       66,
+       161
+      ],
+      "three": [
+       34,
+       102
+      ],
+      "cns_three": [
+       28,
+       85
+      ],
+      "contested": [
+       45,
+       118
+      ],
+      "points": 183,
+      "picks": {
+       "n": 5,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 53,
+       "blowby": 6,
+       "points": 28,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 1227.8,
+      "distance_ft": 7378.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 6,
+       "made": 3,
+       "three": 4,
+       "three_made": 1,
+       "quality": 45.883,
+       "points": 7
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 10,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 12,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Sierra",
+        "seconds": 126.0
+       },
+       {
+        "who": "Samuels",
+        "seconds": 91.0
+       },
+       {
+        "who": "Meindl",
+        "seconds": 47.0
+       }
+      ],
+      "extra": {
+       "mean": 2.26,
+       "within_3": 0.648,
+       "n": 1871
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 16.1,
+       "end": 4.35,
+       "pts": 0.5,
+       "actions": {
+        "shot": 2,
+        "pass": 2,
+        "drive": 2
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 3.97,
+       "quality": 37.987
+      },
+      "price": {
+       "value": 0.41,
+       "n": 5,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 58436,
+     "name": "Derek Ryan Needham",
+     "surname": "Needham",
+     "jersey": "5",
+     "season": {
+      "games": 34,
+      "fg": [
+       117,
+       275
+      ],
+      "three": [
+       75,
+       170
+      ],
+      "cns_three": [
+       51,
+       115
+      ],
+      "contested": [
+       78,
+       202
+      ],
+      "points": 342,
+      "picks": {
+       "n": 244,
+       "points": 178,
+       "turnovers": 32
+      },
+      "drives": {
+       "n": 121,
+       "blowby": 30,
+       "points": 61,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 1178.8,
+      "distance_ft": 7672.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 10,
+       "made": 4,
+       "three": 6,
+       "three_made": 2,
+       "quality": 45.085,
+       "points": 10
+      },
+      "assists": 4,
+      "turnovers": 2,
+      "passes": 26,
+      "drives": 4,
+      "blowby": 2,
+      "picks_handler": 14,
+      "screens": 0,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Melendez",
+        "seconds": 148.0
+       },
+       {
+        "who": "Corbalan",
+        "seconds": 98.0
+       },
+       {
+        "who": "Neto",
+        "seconds": 40.0
+       }
+      ],
+      "extra": {
+       "mean": 1.29,
+       "within_3": 0.729,
+       "n": 1824
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 12.15,
+       "end": 4.36,
+       "pts": 1.143,
+       "actions": {
+        "other": 1,
+        "shot": 3,
+        "pass": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 3,
+       "distance": 2.82,
+       "quality": 39.151
+      },
+      "price": {
+       "value": 0.16,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 59189,
+     "name": "Josep Busquets",
+     "surname": "Busquets",
+     "jersey": "4",
+     "season": {
+      "games": 34,
+      "fg": [
+       116,
+       267
+      ],
+      "three": [
+       43,
+       134
+      ],
+      "cns_three": [
+       39,
+       100
+      ],
+      "contested": [
+       72,
+       191
+      ],
+      "points": 321,
+      "picks": {
+       "n": 73,
+       "points": 51,
+       "turnovers": 12
+      },
+      "drives": {
+       "n": 100,
+       "blowby": 30,
+       "points": 44,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1108.8,
+      "distance_ft": 6990.0,
+      "top_speed": 17.8,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 52.305,
+       "points": 4
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 15,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 3,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Melendez",
+        "seconds": 101.0
+       },
+       {
+        "who": "Meindl",
+        "seconds": 87.0
+       },
+       {
+        "who": "Samuels",
+        "seconds": 76.0
+       }
+      ],
+      "extra": {
+       "mean": 1.86,
+       "within_3": 0.661,
+       "n": 2073
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 22.21,
+       "end": 6.3,
+       "pts": 0.0,
+       "actions": {
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 0,
+       "distance": 2.76,
+       "quality": 37.047
+      },
+      "price": {
+       "value": -0.15,
+       "n": 3,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 28390,
+     "name": "Mark Hughes",
+     "surname": "Hughes",
+     "jersey": "8",
+     "season": {
+      "games": 34,
+      "fg": [
+       93,
+       221
+      ],
+      "three": [
+       56,
+       142
+      ],
+      "cns_three": [
+       44,
+       106
+      ],
+      "contested": [
+       61,
+       159
+      ],
+      "points": 299,
+      "picks": {
+       "n": 105,
+       "points": 72,
+       "turnovers": 11
+      },
+      "drives": {
+       "n": 96,
+       "blowby": 22,
+       "points": 56,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1099.4,
+      "distance_ft": 6694.0,
+      "top_speed": 17.6,
+      "shots": {
+       "n": 2,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 94.617,
+       "points": 4
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 19,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 3,
+      "screens": 1,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Corbalan",
+        "seconds": 103.0
+       },
+       {
+        "who": "Neto",
+        "seconds": 99.0
+       },
+       {
+        "who": "Melendez",
+        "seconds": 77.0
+       }
+      ],
+      "extra": {
+       "mean": 1.06,
+       "within_3": 0.738,
+       "n": 2087
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 13.85,
+       "end": 5.32,
+       "pts": 0.6,
+       "actions": {
+        "other": 1,
+        "shot": 2,
+        "drive": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 5,
+       "distance": 4.5,
+       "quality": 55.418
+      },
+      "price": {
+       "value": 0.14,
+       "n": 3,
+       "kinds": {
+        "late close-out": 2,
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 19069,
+     "name": "Nikola Maric",
+     "surname": "Maric",
+     "jersey": "25",
+     "season": {
+      "games": 30,
+      "fg": [
+       81,
+       133
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       53,
+       95
+      ],
+      "points": 208,
+      "picks": {
+       "n": 2,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 9,
+       "blowby": 2,
+       "points": 8,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 859.4,
+      "distance_ft": 5170.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 5,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 64.724,
+       "points": 6
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 39,
+      "rebounds": [
+       0,
+       5
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Happ",
+        "seconds": 175.0
+       },
+       {
+        "who": "Fischer",
+        "seconds": 128.0
+       },
+       {
+        "who": "Corbalan",
+        "seconds": 7.0
+       }
+      ],
+      "extra": {
+       "mean": 0.11,
+       "within_3": 0.81,
+       "n": 1594
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 2.04,
+       "quality": 63.564
+      },
+      "price": {
+       "value": 0.11,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      }
+     ]
+    },
+    {
+     "id": 59192,
+     "name": "Juan Fernandez",
+     "surname": "Fernandez",
+     "jersey": "21",
+     "season": {
+      "games": 20,
+      "fg": [
+       54,
+       112
+      ],
+      "three": [
+       4,
+       33
+      ],
+      "cns_three": [
+       4,
+       31
+      ],
+      "contested": [
+       27,
+       65
+      ],
+      "points": 153,
+      "picks": {
+       "n": 3,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 23,
+       "blowby": 6,
+       "points": 11,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 831.4,
+      "distance_ft": 4618.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 5,
+       "made": 1,
+       "three": 3,
+       "three_made": 0,
+       "quality": 39.348,
+       "points": 2
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 12,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Samuels",
+        "seconds": 102.0
+       },
+       {
+        "who": "Happ",
+        "seconds": 92.0
+       },
+       {
+        "who": "Lima",
+        "seconds": 48.0
+       }
+      ],
+      "extra": {
+       "mean": 2.36,
+       "within_3": 0.625,
+       "n": 1651
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 15.5,
+       "end": 4.43,
+       "pts": 0.714,
+       "actions": {
+        "drive": 3,
+        "shot": 3,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 2,
+       "distance": 2.72,
+       "quality": 50.886
+      },
+      "price": {
+       "value": 0.46,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      }
+     ]
+    },
+    {
+     "id": 59187,
+     "name": "Jose Ignacio Vildoza",
+     "surname": "Vildoza",
+     "jersey": "10",
+     "season": {
+      "games": 32,
+      "fg": [
+       56,
+       184
+      ],
+      "three": [
+       34,
+       127
+      ],
+      "cns_three": [
+       9,
+       41
+      ],
+      "contested": [
+       34,
+       128
+      ],
+      "points": 179,
+      "picks": {
+       "n": 280,
+       "points": 200,
+       "turnovers": 17
+      },
+      "drives": {
+       "n": 109,
+       "blowby": 24,
+       "points": 51,
+       "assists": 11
+      }
+     },
+     "game": {
+      "seconds": 699.2,
+      "distance_ft": 4394.0,
+      "top_speed": 15.2,
+      "shots": {
+       "n": 7,
+       "made": 1,
+       "three": 5,
+       "three_made": 0,
+       "quality": 34.576,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 15,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 18,
+      "screens": 2,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Gudmundsson",
+        "seconds": 123.0
+       },
+       {
+        "who": "Corbalan",
+        "seconds": 55.0
+       },
+       {
+        "who": "Melendez",
+        "seconds": 55.0
+       }
+      ],
+      "extra": {
+       "mean": 2.37,
+       "within_3": 0.65,
+       "n": 1431
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 15.58,
+       "end": 4.04,
+       "pts": 0.833,
+       "actions": {
+        "shot": 4,
+        "pass": 2
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 5.95,
+       "quality": 45.469
+      },
+      "price": {
+       "value": 0.19,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      }
+     ]
+    },
+    {
+     "id": 59191,
+     "name": "Guillem Ferrando Porro",
+     "surname": "Porro",
+     "jersey": "9",
+     "season": {
+      "games": 24,
+      "fg": [
+       12,
+       44
+      ],
+      "three": [
+       8,
+       35
+      ],
+      "cns_three": [
+       6,
+       27
+      ],
+      "contested": [
+       11,
+       33
+      ],
+      "points": 43,
+      "picks": {
+       "n": 90,
+       "points": 50,
+       "turnovers": 15
+      },
+      "drives": {
+       "n": 41,
+       "blowby": 14,
+       "points": 20,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 197.6,
+      "distance_ft": 1378.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 39.894,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 4,
+      "screens": 0,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Corbalan",
+        "seconds": 38.0
+       },
+       {
+        "who": "Neto",
+        "seconds": 35.0
+       },
+       {
+        "who": "Happ",
+        "seconds": 0.0
+       }
+      ],
+      "extra": {
+       "mean": 0.07,
+       "within_3": 0.795,
+       "n": 370
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 2,
+       "distance": 4.41,
+       "quality": 48.745
+      },
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  },
+  {
+   "team": "San Pablo Burgos",
+   "side": "away",
+   "players": [
+    {
+     "id": 18363,
+     "name": "Jermaine Samuels",
+     "surname": "Samuels",
+     "jersey": "00",
+     "season": {
+      "games": 33,
+      "fg": [
+       127,
+       228
+      ],
+      "three": [
+       19,
+       60
+      ],
+      "cns_three": [
+       15,
+       51
+      ],
+      "contested": [
+       87,
+       166
+      ],
+      "points": 330,
+      "picks": {
+       "n": 5,
+       "points": 0,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 128,
+       "blowby": 10,
+       "points": 102,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 1609.8,
+      "distance_ft": 9113.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 7,
+       "made": 2,
+       "three": 4,
+       "three_made": 2,
+       "quality": 45.831,
+       "points": 6
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 19,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 15,
+      "rebounds": [
+       5,
+       5
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Costa",
+        "seconds": 208.0
+       },
+       {
+        "who": "Fernandez",
+        "seconds": 100.0
+       },
+       {
+        "who": "Busquets",
+        "seconds": 87.0
+       }
+      ],
+      "extra": {
+       "mean": 2.87,
+       "within_3": 0.624,
+       "n": 2732
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 12.52,
+       "end": 3.74,
+       "pts": 0.0,
+       "actions": {
+        "other": 1,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 6.35,
+       "quality": 40.185
+      },
+      "price": {
+       "value": 0.13,
+       "n": 3,
+       "kinds": {
+        "nobody on him": 1,
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 28032,
+     "name": "Ethan Happ",
+     "surname": "Happ",
+     "jersey": "27",
+     "season": {
+      "games": 24,
+      "fg": [
+       127,
+       226
+      ],
+      "three": [
+       1,
+       3
+      ],
+      "cns_three": [
+       0,
+       1
+      ],
+      "contested": [
+       76,
+       161
+      ],
+      "points": 314,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 40,
+       "blowby": 3,
+       "points": 18,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1391.0,
+      "distance_ft": 8333.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 10,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 47.465,
+       "points": 4
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 14,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 27,
+      "rebounds": [
+       4,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Geben",
+        "seconds": 201.0
+       },
+       {
+        "who": "Maric",
+        "seconds": 130.0
+       },
+       {
+        "who": "Fernandez",
+        "seconds": 67.0
+       }
+      ],
+      "extra": {
+       "mean": 1.95,
+       "within_3": 0.664,
+       "n": 2359
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 13.12,
+       "end": 8.12,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 1,
+       "distance": 5.58,
+       "quality": 36.104
+      },
+      "price": {
+       "value": 0.3,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 24684,
+     "name": "Jon Axel Gudmundsson",
+     "surname": "Gudmundsson",
+     "jersey": "6",
+     "season": {
+      "games": 29,
+      "fg": [
+       41,
+       128
+      ],
+      "three": [
+       18,
+       68
+      ],
+      "cns_three": [
+       15,
+       54
+      ],
+      "contested": [
+       29,
+       94
+      ],
+      "points": 136,
+      "picks": {
+       "n": 179,
+       "points": 97,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 118,
+       "blowby": 20,
+       "points": 54,
+       "assists": 13
+      }
+     },
+     "game": {
+      "seconds": 1376.8,
+      "distance_ft": 8127.0,
+      "top_speed": 15.8,
+      "shots": {
+       "n": 3,
+       "made": 0,
+       "three": 2,
+       "three_made": 0,
+       "quality": 38.504,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 2,
+      "passes": 34,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 8,
+      "screens": 2,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Livingston II",
+        "seconds": 128.0
+       },
+       {
+        "who": "Hughes",
+        "seconds": 97.0
+       },
+       {
+        "who": "Costa",
+        "seconds": 60.0
+       }
+      ],
+      "extra": {
+       "mean": 0.53,
+       "within_3": 0.791,
+       "n": 2296
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 22.98,
+       "end": 4.64,
+       "pts": 2.0,
+       "actions": {
+        "drive": 2
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 4.34,
+       "quality": 63.293
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      }
+     ]
+    },
+    {
+     "id": 22895,
+     "name": "Jhivvan Jameel Jackson Melendez",
+     "surname": "Melendez",
+     "jersey": "56",
+     "season": {
+      "games": 20,
+      "fg": [
+       92,
+       221
+      ],
+      "three": [
+       44,
+       119
+      ],
+      "cns_three": [
+       26,
+       66
+      ],
+      "contested": [
+       58,
+       150
+      ],
+      "points": 292,
+      "picks": {
+       "n": 200,
+       "points": 131,
+       "turnovers": 12
+      },
+      "drives": {
+       "n": 90,
+       "blowby": 22,
+       "points": 60,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1360.6,
+      "distance_ft": 7733.0,
+      "top_speed": 15.3,
+      "shots": {
+       "n": 12,
+       "made": 2,
+       "three": 5,
+       "three_made": 1,
+       "quality": 45.089,
+       "points": 5
+      },
+      "assists": 2,
+      "turnovers": 3,
+      "passes": 26,
+      "drives": 2,
+      "blowby": 2,
+      "picks_handler": 14,
+      "screens": 2,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Needham",
+        "seconds": 160.0
+       },
+       {
+        "who": "Vildoza",
+        "seconds": 115.0
+       },
+       {
+        "who": "Hughes",
+        "seconds": 78.0
+       }
+      ],
+      "extra": {
+       "mean": 0.13,
+       "within_3": 0.85,
+       "n": 2407
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 9.68,
+       "end": 2.96,
+       "pts": 1.0,
+       "actions": {
+        "drive": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 5,
+       "distance": 3.69,
+       "quality": 51.957
+      },
+      "price": {
+       "value": 0.22,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 34945,
+     "name": "Raul Neto",
+     "surname": "Neto",
+     "jersey": "19",
+     "season": {
+      "games": 30,
+      "fg": [
+       105,
+       234
+      ],
+      "three": [
+       30,
+       77
+      ],
+      "cns_three": [
+       18,
+       44
+      ],
+      "contested": [
+       61,
+       159
+      ],
+      "points": 307,
+      "picks": {
+       "n": 287,
+       "points": 217,
+       "turnovers": 23
+      },
+      "drives": {
+       "n": 220,
+       "blowby": 60,
+       "points": 118,
+       "assists": 13
+      }
+     },
+     "game": {
+      "seconds": 1329.4,
+      "distance_ft": 7648.0,
+      "top_speed": 14.7,
+      "shots": {
+       "n": 10,
+       "made": 6,
+       "three": 5,
+       "three_made": 3,
+       "quality": 40.601,
+       "points": 15
+      },
+      "assists": 4,
+      "turnovers": 2,
+      "passes": 37,
+      "drives": 7,
+      "blowby": 0,
+      "picks_handler": 14,
+      "screens": 3,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Livingston II",
+        "seconds": 223.0
+       },
+       {
+        "who": "Hughes",
+        "seconds": 65.0
+       },
+       {
+        "who": "Needham",
+        "seconds": 50.0
+       }
+      ],
+      "extra": {
+       "mean": 0.21,
+       "within_3": 0.808,
+       "n": 2160
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 15.82,
+       "end": 4.78,
+       "pts": 1.0,
+       "actions": {
+        "shot": 3,
+        "drive": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 11,
+       "made": 5,
+       "distance": 4.34,
+       "quality": 46.152
+      },
+      "price": {
+       "value": 0.23,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      },
+      {
+       "chance": "chance-114099-4-189",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Off-ball screen → 1 pass → Melendez, three, 35 %"
+      },
+      {
+       "chance": "chance-114099-4-190",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:40",
+       "story": "Pass from Melendez → Neto, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 59134,
+     "name": "Gonzalo Corbalan",
+     "surname": "Corbalan",
+     "jersey": "10",
+     "season": {
+      "games": 32,
+      "fg": [
+       168,
+       355
+      ],
+      "three": [
+       49,
+       152
+      ],
+      "cns_three": [
+       31,
+       84
+      ],
+      "contested": [
+       109,
+       238
+      ],
+      "points": 493,
+      "picks": {
+       "n": 244,
+       "points": 145,
+       "turnovers": 25
+      },
+      "drives": {
+       "n": 196,
+       "blowby": 38,
+       "points": 125,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 1037.6,
+      "distance_ft": 6310.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 8,
+       "made": 2,
+       "three": 4,
+       "three_made": 1,
+       "quality": 31.466,
+       "points": 5
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 22,
+      "drives": 6,
+      "blowby": 1,
+      "picks_handler": 14,
+      "screens": 2,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Hughes",
+        "seconds": 72.0
+       },
+       {
+        "who": "Costa",
+        "seconds": 64.0
+       },
+       {
+        "who": "Busquets",
+        "seconds": 56.0
+       }
+      ],
+      "extra": {
+       "mean": 0.07,
+       "within_3": 0.863,
+       "n": 1676
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 13.97,
+       "end": 7.45,
+       "pts": 1.25,
+       "actions": {
+        "other": 3,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 4,
+       "distance": 4.52,
+       "quality": 44.032
+      },
+      "price": {
+       "value": 0.09,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:16",
+       "story": "Drive → 1 pass → Livingston II, three, 34 %"
+      }
+     ]
+    },
+    {
+     "id": 59133,
+     "name": "Leonardo Simoes Meindl",
+     "surname": "Meindl",
+     "jersey": "23",
+     "season": {
+      "games": 32,
+      "fg": [
+       116,
+       313
+      ],
+      "three": [
+       28,
+       120
+      ],
+      "cns_three": [
+       22,
+       95
+      ],
+      "contested": [
+       83,
+       238
+      ],
+      "points": 333,
+      "picks": {
+       "n": 117,
+       "points": 86,
+       "turnovers": 9
+      },
+      "drives": {
+       "n": 147,
+       "blowby": 26,
+       "points": 75,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 934.4,
+      "distance_ft": 5937.0,
+      "top_speed": 17.3,
+      "shots": {
+       "n": 8,
+       "made": 2,
+       "three": 3,
+       "three_made": 0,
+       "quality": 49.997,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 7,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 5,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Susinskas",
+        "seconds": 158.0
+       },
+       {
+        "who": "Busquets",
+        "seconds": 77.0
+       },
+       {
+        "who": "Costa",
+        "seconds": 37.0
+       }
+      ],
+      "extra": {
+       "mean": 1.43,
+       "within_3": 0.775,
+       "n": 1693
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 12.62,
+       "end": 4.67,
+       "pts": 0.0,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 2.71,
+       "quality": 34.1
+      },
+      "price": {
+       "value": 0.29,
+       "n": 3,
+       "kinds": {
+        "late close-out": 2,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-102",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "0:30",
+       "story": "Post-up → 1 pass → Neto, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-106",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:46",
+       "story": "Ball screen · over → 1 pass → Susinskas, three, 37 %"
+      },
+      {
+       "chance": "chance-114099-3-108",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:12",
+       "story": "Ball screen · under → 2 passes → Susinskas, three, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59132,
+     "name": "Luke Fischer",
+     "surname": "Fischer",
+     "jersey": "40",
+     "season": {
+      "games": 29,
+      "fg": [
+       86,
+       155
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       53,
+       111
+      ],
+      "points": 218,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 6,
+       "blowby": 0,
+       "points": 3,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 928.4,
+      "distance_ft": 5331.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 5,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 55.969,
+       "points": 6
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 30,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Geben",
+        "seconds": 139.0
+       },
+       {
+        "who": "Maric",
+        "seconds": 109.0
+       },
+       {
+        "who": "Costa",
+        "seconds": 16.0
+       }
+      ],
+      "extra": {
+       "mean": 1.23,
+       "within_3": 0.747,
+       "n": 1477
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 5.84,
+       "quality": 48.974
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 59131,
+     "name": "Pablo Almazan Sierra",
+     "surname": "Sierra",
+     "jersey": "8",
+     "season": {
+      "games": 27,
+      "fg": [
+       16,
+       43
+      ],
+      "three": [
+       7,
+       27
+      ],
+      "cns_three": [
+       7,
+       26
+      ],
+      "contested": [
+       10,
+       28
+      ],
+      "points": 41,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 10,
+       "blowby": 1,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 850.6,
+      "distance_ft": 5211.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 5,
+       "made": 1,
+       "three": 4,
+       "three_made": 1,
+       "quality": 37.123,
+       "points": 3
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 2,
+      "rebounds": [
+       2,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Susinskas",
+        "seconds": 130.0
+       },
+       {
+        "who": "Costa",
+        "seconds": 107.0
+       },
+       {
+        "who": "Busquets",
+        "seconds": 8.0
+       }
+      ],
+      "extra": {
+       "mean": 1.36,
+       "within_3": 0.71,
+       "n": 1322
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 12.38,
+       "end": 5.08,
+       "pts": 1.0,
+       "actions": {
+        "pass": 2,
+        "drive": 1,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 2,
+       "distance": 4.19,
+       "quality": 44.129
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-2-78",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Susinskas, two, 97 %"
+      },
+      {
+       "chance": "chance-114099-2-81",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:35",
+       "story": "Ball screen · over → 1 pass → Samuels, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-4-177",
+       "role": "play",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:32",
+       "story": "Ball screen · over → 2 passes → Sierra, three, 45 %"
+      },
+      {
+       "chance": "chance-114099-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "5:45",
+       "story": "Drive → 1 pass → Maric, two, 92 %"
+      },
+      {
+       "chance": "chance-114099-4-184",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:53",
+       "story": "Off-ball screen → 2 passes → Needham, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 59201,
+     "name": "Juan Rubio",
+     "surname": "Rubio",
+     "jersey": "7",
+     "season": {
+      "games": 26,
+      "fg": [
+       24,
+       51
+      ],
+      "three": [
+       14,
+       36
+      ],
+      "cns_three": [
+       12,
+       31
+      ],
+      "contested": [
+       12,
+       31
+      ],
+      "points": 64,
+      "picks": {
+       "n": 3,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 16,
+       "blowby": 4,
+       "points": 9,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 345.6,
+      "distance_ft": 2009.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 3,
+       "three_made": 1,
+       "quality": 44.182,
+       "points": 5
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 4,
+      "drives": 3,
+      "blowby": 2,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Needham",
+        "seconds": 52.0
+       },
+       {
+        "who": "Busquets",
+        "seconds": 33.0
+       },
+       {
+        "who": "Geben",
+        "seconds": 21.0
+       }
+      ],
+      "extra": {
+       "mean": 1.05,
+       "within_3": 0.713,
+       "n": 588
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 3.44,
+       "quality": 73.908
+      },
+      "price": {
+       "value": -0.04,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114099-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:05",
+       "story": "Isolation → 1 pass → Rubio, three, 40 %"
+      },
+      {
+       "chance": "chance-114099-3-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:59",
+       "story": "Ball screen · under → 2 passes → Samuels, three, 44 %"
+      }
+     ]
+    },
+    {
+     "id": 59075,
+     "name": "Augusto Lima",
+     "surname": "Lima",
+     "jersey": "32",
+     "season": {
+      "games": 5,
+      "fg": [
+       1,
+       2
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       1,
+       2
+      ],
+      "points": 3,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 222.4,
+      "distance_ft": 1321.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 2,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 8,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Fernandez",
+        "seconds": 43.0
+       },
+       {
+        "who": "Hughes",
+        "seconds": 8.0
+       },
+       {
+        "who": "Susinskas",
+        "seconds": 5.0
+       }
+      ],
+      "extra": {
+       "mean": 1.53,
+       "within_3": 0.787,
+       "n": 301
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 8.8,
+       "end": 6.86,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 3.37,
+       "quality": 52.774
+      },
+      "price": null
+     },
+     "plays": []
+    },
+    {
+     "id": 59202,
+     "name": "Yannick Nzosa",
+     "surname": "Nzosa",
+     "jersey": "3",
+     "season": {
+      "games": 27,
+      "fg": [
+       31,
+       53
+      ],
+      "three": [
+       0,
+       1
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       15,
+       34
+      ],
+      "points": 74,
+      "picks": {
+       "n": 2,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 4,
+       "blowby": 1,
+       "points": 6,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 4.4,
+      "distance_ft": 21.0,
+      "top_speed": null,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 0,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [],
+      "extra": null,
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": []
+    }
+   ]
+  }
+ ]
+}

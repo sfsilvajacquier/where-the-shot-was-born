@@ -1,0 +1,3398 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 114234,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "Casademont Zaragoza",
+  "away": "Leche Rio Breogan",
+  "score": [
+   84,
+   88
+  ],
+  "date": "2025-10-18",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "Casademont Zaragoza",
+   "side": "home",
+   "players": [
+    {
+     "id": 35222,
+     "name": "Devin Robinson",
+     "surname": "Robinson",
+     "jersey": "00",
+     "season": {
+      "games": 31,
+      "fg": [
+       180,
+       310
+      ],
+      "three": [
+       10,
+       31
+      ],
+      "cns_three": [
+       10,
+       29
+      ],
+      "contested": [
+       101,
+       207
+      ],
+      "points": 444,
+      "picks": {
+       "n": 14,
+       "points": 8,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 113,
+       "blowby": 12,
+       "points": 93,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1426.2,
+      "distance_ft": 8885.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 36.454,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 3,
+      "passes": 17,
+      "drives": 8,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 14,
+      "rebounds": [
+       1,
+       6
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Andric",
+        "seconds": 267.0
+       },
+       {
+        "who": "Dibba",
+        "seconds": 149.0
+       },
+       {
+        "who": "Russell",
+        "seconds": 17.0
+       }
+      ],
+      "extra": {
+       "mean": 0.83,
+       "within_3": 0.792,
+       "n": 2367
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 16.31,
+       "end": 4.87,
+       "pts": 0.0,
+       "actions": {
+        "shot": 3,
+        "drive": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 11,
+       "made": 6,
+       "distance": 4.46,
+       "quality": 54.655
+      },
+      "price": {
+       "value": 0.69,
+       "n": 4,
+       "kinds": {
+        "late close-out": 3,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 31739,
+     "name": "Trae Bell-Haynes",
+     "surname": "Bell-Haynes",
+     "jersey": "2",
+     "season": {
+      "games": 21,
+      "fg": [
+       96,
+       208
+      ],
+      "three": [
+       27,
+       76
+      ],
+      "cns_three": [
+       11,
+       26
+      ],
+      "contested": [
+       72,
+       159
+      ],
+      "points": 288,
+      "picks": {
+       "n": 322,
+       "points": 175,
+       "turnovers": 42
+      },
+      "drives": {
+       "n": 205,
+       "blowby": 59,
+       "points": 131,
+       "assists": 18
+      }
+     },
+     "game": {
+      "seconds": 1413.0,
+      "distance_ft": 8942.0,
+      "top_speed": 15.8,
+      "shots": {
+       "n": 9,
+       "made": 3,
+       "three": 4,
+       "three_made": 1,
+       "quality": 50.782,
+       "points": 7
+      },
+      "assists": 4,
+      "turnovers": 3,
+      "passes": 39,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 25,
+      "screens": 0,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Russell",
+        "seconds": 286.0
+       },
+       {
+        "who": "Mavra",
+        "seconds": 77.0
+       },
+       {
+        "who": "Kurucs",
+        "seconds": 55.0
+       }
+      ],
+      "extra": {
+       "mean": -0.1,
+       "within_3": 0.864,
+       "n": 2403
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 7,
+       "made": 3,
+       "distance": 3.4,
+       "quality": 37.902
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59205,
+     "name": "Santiago Yusta",
+     "surname": "Yusta",
+     "jersey": "4",
+     "season": {
+      "games": 31,
+      "fg": [
+       152,
+       325
+      ],
+      "three": [
+       45,
+       143
+      ],
+      "cns_three": [
+       31,
+       95
+      ],
+      "contested": [
+       103,
+       242
+      ],
+      "points": 488,
+      "picks": {
+       "n": 126,
+       "points": 93,
+       "turnovers": 16
+      },
+      "drives": {
+       "n": 189,
+       "blowby": 39,
+       "points": 108,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1382.2,
+      "distance_ft": 9044.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 12,
+       "made": 8,
+       "three": 5,
+       "three_made": 2,
+       "quality": 41.761,
+       "points": 18
+      },
+      "assists": 3,
+      "turnovers": 3,
+      "passes": 17,
+      "drives": 8,
+      "blowby": 1,
+      "picks_handler": 4,
+      "screens": 2,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kurucs",
+        "seconds": 228.0
+       },
+       {
+        "who": "Aranitovic",
+        "seconds": 140.0
+       },
+       {
+        "who": "Cook",
+        "seconds": 45.0
+       }
+      ],
+      "extra": {
+       "mean": 1.33,
+       "within_3": 0.713,
+       "n": 2270
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 9.2,
+       "end": 2.23,
+       "pts": 0.667,
+       "actions": {
+        "drive": 1,
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 5.44,
+       "quality": 64.032
+      },
+      "price": {
+       "value": 0.45,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 23482,
+     "name": "Joel Soriano",
+     "surname": "Soriano",
+     "jersey": "12",
+     "season": {
+      "games": 16,
+      "fg": [
+       44,
+       80
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       20,
+       53
+      ],
+      "points": 121,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1117.6,
+      "distance_ft": 6503.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 10,
+       "made": 5,
+       "three": 0,
+       "three_made": 0,
+       "quality": 52.326,
+       "points": 10
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 16,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 40,
+      "rebounds": [
+       3,
+       4
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Apic",
+        "seconds": 132.0
+       },
+       {
+        "who": "Sakho",
+        "seconds": 94.0
+       },
+       {
+        "who": "Brankovic",
+        "seconds": 92.0
+       }
+      ],
+      "extra": {
+       "mean": 0.42,
+       "within_3": 0.789,
+       "n": 1780
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 11.69,
+       "end": 4.53,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 4.16,
+       "quality": 41.712
+      },
+      "price": {
+       "value": 0.05,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59206,
+     "name": "Miguel Gonzalez",
+     "surname": "Gonzalez",
+     "jersey": "7",
+     "season": {
+      "games": 31,
+      "fg": [
+       45,
+       113
+      ],
+      "three": [
+       23,
+       67
+      ],
+      "cns_three": [
+       23,
+       61
+      ],
+      "contested": [
+       29,
+       72
+      ],
+      "points": 128,
+      "picks": {
+       "n": 6,
+       "points": 2,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 17,
+       "blowby": 1,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1042.0,
+      "distance_ft": 7276.0,
+      "top_speed": 18.7,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 3,
+       "three_made": 1,
+       "quality": 51.517,
+       "points": 5
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 17,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Aranitovic",
+        "seconds": 127.0
+       },
+       {
+        "who": "Alonso",
+        "seconds": 106.0
+       },
+       {
+        "who": "Cook",
+        "seconds": 36.0
+       }
+      ],
+      "extra": {
+       "mean": 0.31,
+       "within_3": 0.816,
+       "n": 1606
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 19.31,
+       "end": 12.29,
+       "pts": 1.667,
+       "actions": {
+        "shot": 2,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 2,
+       "distance": 6.97,
+       "quality": 39.524
+      },
+      "price": {
+       "value": 0.18,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59204,
+     "name": "Bojan Dubljevic",
+     "surname": "Dubljevic",
+     "jersey": "14",
+     "season": {
+      "games": 26,
+      "fg": [
+       59,
+       149
+      ],
+      "three": [
+       11,
+       57
+      ],
+      "cns_three": [
+       10,
+       51
+      ],
+      "contested": [
+       28,
+       93
+      ],
+      "points": 182,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 9,
+       "blowby": 1,
+       "points": 3,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1022.0,
+      "distance_ft": 5978.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 45.954,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 17,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 37,
+      "rebounds": [
+       2,
+       4
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Sakho",
+        "seconds": 169.0
+       },
+       {
+        "who": "Brankovic",
+        "seconds": 77.0
+       },
+       {
+        "who": "Apic",
+        "seconds": 33.0
+       }
+      ],
+      "extra": {
+       "mean": 1.02,
+       "within_3": 0.809,
+       "n": 1543
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 4.19,
+       "quality": 45.024
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      }
+     ]
+    },
+    {
+     "id": 35852,
+     "name": "DJ Stephens",
+     "surname": "Stephens",
+     "jersey": "20",
+     "season": {
+      "games": 19,
+      "fg": [
+       37,
+       68
+      ],
+      "three": [
+       15,
+       39
+      ],
+      "cns_three": [
+       15,
+       35
+      ],
+      "contested": [
+       20,
+       42
+      ],
+      "points": 96,
+      "picks": {
+       "n": 2,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 7,
+       "blowby": 0,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 930.6,
+      "distance_ft": 6476.0,
+      "top_speed": 17.9,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 2,
+       "three_made": 0,
+       "quality": 33.161,
+       "points": 4
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 17,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 2,
+      "rebounds": [
+       2,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Cook",
+        "seconds": 153.0
+       },
+       {
+        "who": "Kurucs",
+        "seconds": 40.0
+       },
+       {
+        "who": "Dibba",
+        "seconds": 32.0
+       }
+      ],
+      "extra": {
+       "mean": -0.87,
+       "within_3": 0.862,
+       "n": 1401
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.59,
+       "end": 7.43,
+       "pts": 0.0,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 0,
+       "distance": 6.97,
+       "quality": 49.76
+      },
+      "price": {
+       "value": 0.18,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 15780,
+     "name": "Erik Stevenson",
+     "surname": "Stevenson",
+     "jersey": "3",
+     "season": {
+      "games": 8,
+      "fg": [
+       16,
+       42
+      ],
+      "three": [
+       7,
+       23
+      ],
+      "cns_three": [
+       6,
+       17
+      ],
+      "contested": [
+       8,
+       27
+      ],
+      "points": 42,
+      "picks": {
+       "n": 6,
+       "points": 3,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 17,
+       "blowby": 5,
+       "points": 9,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 904.8,
+      "distance_ft": 6119.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 6,
+       "made": 3,
+       "three": 4,
+       "three_made": 1,
+       "quality": 30.125,
+       "points": 7
+      },
+      "assists": 1,
+      "turnovers": 4,
+      "passes": 14,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 6,
+      "screens": 4,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Alonso",
+        "seconds": 154.0
+       },
+       {
+        "who": "Mavra",
+        "seconds": 22.0
+       },
+       {
+        "who": "Apic",
+        "seconds": 19.0
+       }
+      ],
+      "extra": {
+       "mean": 0.95,
+       "within_3": 0.772,
+       "n": 1192
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 9.81,
+       "end": 4.4,
+       "pts": 1.25,
+       "actions": {
+        "drive": 2,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 4.57,
+       "quality": 43.619
+      },
+      "price": {
+       "value": 0.16,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59207,
+     "name": "Marco Spissu",
+     "surname": "Spissu",
+     "jersey": "0",
+     "season": {
+      "games": 31,
+      "fg": [
+       59,
+       165
+      ],
+      "three": [
+       32,
+       95
+      ],
+      "cns_three": [
+       18,
+       42
+      ],
+      "contested": [
+       27,
+       95
+      ],
+      "points": 207,
+      "picks": {
+       "n": 305,
+       "points": 168,
+       "turnovers": 34
+      },
+      "drives": {
+       "n": 117,
+       "blowby": 34,
+       "points": 74,
+       "assists": 16
+      }
+     },
+     "game": {
+      "seconds": 726.0,
+      "distance_ft": 4650.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 2,
+       "three_made": 0,
+       "quality": 38.728,
+       "points": 0
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 35,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 20,
+      "screens": 2,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Mavra",
+        "seconds": 116.0
+       },
+       {
+        "who": "Alonso",
+        "seconds": 15.0
+       },
+       {
+        "who": "Apic",
+        "seconds": 14.0
+       }
+      ],
+      "extra": {
+       "mean": -0.07,
+       "within_3": 0.848,
+       "n": 905
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 3.5,
+       "quality": 68.491
+      },
+      "price": {
+       "value": 0.11,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59527,
+     "name": "Jaime Fernandez Manzanares",
+     "surname": "Manzanares",
+     "jersey": "10",
+     "season": {
+      "games": 25,
+      "fg": [
+       30,
+       50
+      ],
+      "three": [
+       5,
+       20
+      ],
+      "cns_three": [
+       5,
+       19
+      ],
+      "contested": [
+       19,
+       34
+      ],
+      "points": 77,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 4,
+       "blowby": 3,
+       "points": 8,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 398.8,
+      "distance_ft": 2685.0,
+      "top_speed": 17.3,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 33.863,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 6,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 3,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Dibba",
+        "seconds": 60.0
+       },
+       {
+        "who": "Andric",
+        "seconds": 38.0
+       },
+       {
+        "who": "Alonso",
+        "seconds": 8.0
+       }
+      ],
+      "extra": {
+       "mean": 1.58,
+       "within_3": 0.717,
+       "n": 576
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 16.27,
+       "end": 4.96,
+       "pts": 3.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 3.78,
+       "quality": 62.104
+      },
+      "price": {
+       "value": 0.1,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      }
+     ]
+    },
+    {
+     "id": 59208,
+     "name": "Joaquin Nazar Rodriguez Olivera",
+     "surname": "Olivera",
+     "jersey": "15",
+     "season": {
+      "games": 31,
+      "fg": [
+       89,
+       218
+      ],
+      "three": [
+       29,
+       95
+      ],
+      "cns_three": [
+       22,
+       55
+      ],
+      "contested": [
+       55,
+       154
+      ],
+      "points": 252,
+      "picks": {
+       "n": 196,
+       "points": 138,
+       "turnovers": 27
+      },
+      "drives": {
+       "n": 157,
+       "blowby": 22,
+       "points": 88,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 334.8,
+      "distance_ft": 2297.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 22.156,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 5,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 3,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kurucs",
+        "seconds": 48.0
+       },
+       {
+        "who": "Mavra",
+        "seconds": 22.0
+       },
+       {
+        "who": "Russell",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": -0.39,
+       "within_3": 0.875,
+       "n": 535
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 10.85,
+       "end": 6.6,
+       "pts": 1.5,
+       "actions": {
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 3,
+       "distance": 4.79,
+       "quality": 61.545
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "team": "Leche Rio Breogan",
+   "side": "away",
+   "players": [
+    {
+     "id": 58771,
+     "name": "Mihajlo Andric",
+     "surname": "Andric",
+     "jersey": "37",
+     "season": {
+      "games": 30,
+      "fg": [
+       90,
+       182
+      ],
+      "three": [
+       60,
+       123
+      ],
+      "cns_three": [
+       53,
+       110
+      ],
+      "contested": [
+       47,
+       108
+      ],
+      "points": 272,
+      "picks": {
+       "n": 3,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 72,
+       "blowby": 15,
+       "points": 56,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1243.8,
+      "distance_ft": 7600.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 7,
+       "made": 4,
+       "three": 7,
+       "three_made": 4,
+       "quality": 43.619,
+       "points": 12
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 13,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 13,
+      "rebounds": [
+       2,
+       3
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Robinson",
+        "seconds": 249.0
+       },
+       {
+        "who": "Yusta",
+        "seconds": 36.0
+       },
+       {
+        "who": "Stephens",
+        "seconds": 33.0
+       }
+      ],
+      "extra": {
+       "mean": 1.36,
+       "within_3": 0.763,
+       "n": 2031
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 13.29,
+       "end": 6.4,
+       "pts": 2.333,
+       "actions": {
+        "drive": 2,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 3,
+       "distance": 1.39,
+       "quality": 48.121
+      },
+      "price": {
+       "value": -0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 58474,
+     "name": "DeWayne Russell",
+     "surname": "Russell",
+     "jersey": "4",
+     "season": {
+      "games": 31,
+      "fg": [
+       117,
+       278
+      ],
+      "three": [
+       27,
+       80
+      ],
+      "cns_three": [
+       6,
+       20
+      ],
+      "contested": [
+       74,
+       199
+      ],
+      "points": 297,
+      "picks": {
+       "n": 573,
+       "points": 455,
+       "turnovers": 67
+      },
+      "drives": {
+       "n": 291,
+       "blowby": 62,
+       "points": 182,
+       "assists": 20
+      }
+     },
+     "game": {
+      "seconds": 1224.8,
+      "distance_ft": 8142.0,
+      "top_speed": 16.5,
+      "shots": {
+       "n": 13,
+       "made": 5,
+       "three": 2,
+       "three_made": 0,
+       "quality": 41.169,
+       "points": 10
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 30,
+      "drives": 14,
+      "blowby": 0,
+      "picks_handler": 36,
+      "screens": 1,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Bell-Haynes",
+        "seconds": 300.0
+       },
+       {
+        "who": "Spissu",
+        "seconds": 67.0
+       },
+       {
+        "who": "Yusta",
+        "seconds": 17.0
+       }
+      ],
+      "extra": {
+       "mean": 0.33,
+       "within_3": 0.839,
+       "n": 2085
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 17.93,
+       "end": 6.26,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 0,
+       "distance": 5.94,
+       "quality": 34.876
+      },
+      "price": {
+       "value": 0.26,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59105,
+     "name": "Arturs Kurucs",
+     "surname": "Kurucs",
+     "jersey": "47",
+     "season": {
+      "games": 34,
+      "fg": [
+       72,
+       200
+      ],
+      "three": [
+       44,
+       140
+      ],
+      "cns_three": [
+       33,
+       103
+      ],
+      "contested": [
+       45,
+       132
+      ],
+      "points": 200,
+      "picks": {
+       "n": 74,
+       "points": 52,
+       "turnovers": 14
+      },
+      "drives": {
+       "n": 77,
+       "blowby": 15,
+       "points": 47,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 1215.0,
+      "distance_ft": 8302.0,
+      "top_speed": 17.5,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 58.692,
+       "points": 2
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 21,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 7,
+      "screens": 6,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Yusta",
+        "seconds": 191.0
+       },
+       {
+        "who": "Olivera",
+        "seconds": 86.0
+       },
+       {
+        "who": "Robinson",
+        "seconds": 38.0
+       }
+      ],
+      "extra": {
+       "mean": 0.25,
+       "within_3": 0.823,
+       "n": 1965
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 14.02,
+       "end": 6.31,
+       "pts": 1.167,
+       "actions": {
+        "shot": 2,
+        "other": 1,
+        "drive": 2,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 4.14,
+       "quality": 42.809
+      },
+      "price": {
+       "value": 0.24,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59107,
+     "name": "Aleksandar Aranitovic",
+     "surname": "Aranitovic",
+     "jersey": "17",
+     "season": {
+      "games": 34,
+      "fg": [
+       83,
+       197
+      ],
+      "three": [
+       40,
+       109
+      ],
+      "cns_three": [
+       37,
+       87
+      ],
+      "contested": [
+       50,
+       132
+      ],
+      "points": 242,
+      "picks": {
+       "n": 17,
+       "points": 12,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 38,
+       "blowby": 2,
+       "points": 30,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 1164.8,
+      "distance_ft": 7836.0,
+      "top_speed": 18.2,
+      "shots": {
+       "n": 5,
+       "made": 4,
+       "three": 2,
+       "three_made": 1,
+       "quality": 58.432,
+       "points": 9
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 8,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 1,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Gonzalez",
+        "seconds": 225.0
+       },
+       {
+        "who": "Yusta",
+        "seconds": 141.0
+       },
+       {
+        "who": "Bell-Haynes",
+        "seconds": 21.0
+       }
+      ],
+      "extra": {
+       "mean": 1.08,
+       "within_3": 0.757,
+       "n": 2163
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 18.9,
+       "end": 4.24,
+       "pts": 1.0,
+       "actions": {
+        "shot": 4,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 2,
+       "distance": 3.6,
+       "quality": 35.579
+      },
+      "price": {
+       "value": 0.03,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 28410,
+     "name": "Francisco Alonso",
+     "surname": "Alonso",
+     "jersey": "10",
+     "season": {
+      "games": 34,
+      "fg": [
+       142,
+       314
+      ],
+      "three": [
+       76,
+       177
+      ],
+      "cns_three": [
+       48,
+       111
+      ],
+      "contested": [
+       86,
+       214
+      ],
+      "points": 498,
+      "picks": {
+       "n": 152,
+       "points": 103,
+       "turnovers": 17
+      },
+      "drives": {
+       "n": 193,
+       "blowby": 34,
+       "points": 112,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1052.8,
+      "distance_ft": 6890.0,
+      "top_speed": 16.5,
+      "shots": {
+       "n": 7,
+       "made": 4,
+       "three": 5,
+       "three_made": 2,
+       "quality": 43.809,
+       "points": 10
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 19,
+      "drives": 7,
+      "blowby": 0,
+      "picks_handler": 6,
+      "screens": 6,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Stevenson",
+        "seconds": 233.0
+       },
+       {
+        "who": "Spissu",
+        "seconds": 55.0
+       },
+       {
+        "who": "Gonzalez",
+        "seconds": 41.0
+       }
+      ],
+      "extra": {
+       "mean": 0.31,
+       "within_3": 0.808,
+       "n": 1838
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 13.19,
+       "end": 1.49,
+       "pts": 2.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 2.4,
+       "quality": 47.474
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59106,
+     "name": "Jordan Sakho",
+     "surname": "Sakho",
+     "jersey": "18",
+     "season": {
+      "games": 29,
+      "fg": [
+       62,
+       92
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       36,
+       63
+      ],
+      "points": 155,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 1,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1005.2,
+      "distance_ft": 5903.0,
+      "top_speed": 18.3,
+      "shots": {
+       "n": 4,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 60.296,
+       "points": 6
+      },
+      "assists": 0,
+      "turnovers": 2,
+      "passes": 7,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 40,
+      "rebounds": [
+       2,
+       5
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Dubljevic",
+        "seconds": 218.0
+       },
+       {
+        "who": "Soriano",
+        "seconds": 115.0
+       },
+       {
+        "who": "Bell-Haynes",
+        "seconds": 7.0
+       }
+      ],
+      "extra": {
+       "mean": 1.08,
+       "within_3": 0.765,
+       "n": 1769
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 13.92,
+       "end": 3.82,
+       "pts": 0.0,
+       "actions": {
+        "shot": 2,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 2,
+       "distance": 2.89,
+       "quality": 42.578
+      },
+      "price": {
+       "value": 0.02,
+       "n": 3,
+       "kinds": {
+        "late close-out": 2,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-2-76",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "5:24",
+       "story": "Ball screen · over → 2 passes → Bell-Haynes, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-4-197",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:36",
+       "story": "Hand-off → 1 pass → Andric, three, 42 %"
+      },
+      {
+       "chance": "chance-114234-4-203",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → 1 pass → Andric, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59104,
+     "name": "Dominik Mavra",
+     "surname": "Mavra",
+     "jersey": "19",
+     "season": {
+      "games": 34,
+      "fg": [
+       108,
+       240
+      ],
+      "three": [
+       30,
+       93
+      ],
+      "cns_three": [
+       10,
+       21
+      ],
+      "contested": [
+       66,
+       161
+      ],
+      "points": 299,
+      "picks": {
+       "n": 602,
+       "points": 456,
+       "turnovers": 62
+      },
+      "drives": {
+       "n": 285,
+       "blowby": 61,
+       "points": 161,
+       "assists": 26
+      }
+     },
+     "game": {
+      "seconds": 914.8,
+      "distance_ft": 6062.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 2,
+       "three_made": 1,
+       "quality": 45.857,
+       "points": 5
+      },
+      "assists": 4,
+      "turnovers": 2,
+      "passes": 26,
+      "drives": 7,
+      "blowby": 2,
+      "picks_handler": 21,
+      "screens": 3,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Spissu",
+        "seconds": 107.0
+       },
+       {
+        "who": "Stevenson",
+        "seconds": 70.0
+       },
+       {
+        "who": "Bell-Haynes",
+        "seconds": 49.0
+       }
+      ],
+      "extra": {
+       "mean": 0.31,
+       "within_3": 0.825,
+       "n": 1558
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 18.28,
+       "end": 9.54,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 5.96,
+       "quality": 43.779
+      },
+      "price": {
+       "value": 0.27,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59108,
+     "name": "Bakary Dibba",
+     "surname": "Dibba",
+     "jersey": "0",
+     "season": {
+      "games": 31,
+      "fg": [
+       74,
+       164
+      ],
+      "three": [
+       19,
+       67
+      ],
+      "cns_three": [
+       19,
+       64
+      ],
+      "contested": [
+       26,
+       98
+      ],
+      "points": 211,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 49,
+       "blowby": 9,
+       "points": 20,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 895.8,
+      "distance_ft": 5858.0,
+      "top_speed": 18.6,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 60.809,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 9,
+      "drives": 1,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 8,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Robinson",
+        "seconds": 100.0
+       },
+       {
+        "who": "Manzanares",
+        "seconds": 93.0
+       },
+       {
+        "who": "Stephens",
+        "seconds": 83.0
+       }
+      ],
+      "extra": {
+       "mean": 1.03,
+       "within_3": 0.783,
+       "n": 1600
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 11.32,
+       "end": 4.0,
+       "pts": 0.75,
+       "actions": {
+        "shot": 1,
+        "drive": 3
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 0,
+       "distance": 3.73,
+       "quality": 32.795
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 24280,
+     "name": "Keandre Cook",
+     "surname": "Cook",
+     "jersey": "1",
+     "season": {
+      "games": 31,
+      "fg": [
+       101,
+       219
+      ],
+      "three": [
+       46,
+       113
+      ],
+      "cns_three": [
+       28,
+       60
+      ],
+      "contested": [
+       59,
+       149
+      ],
+      "points": 336,
+      "picks": {
+       "n": 119,
+       "points": 91,
+       "turnovers": 20
+      },
+      "drives": {
+       "n": 134,
+       "blowby": 22,
+       "points": 67,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 822.4,
+      "distance_ft": 5523.0,
+      "top_speed": 17.5,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 36.637,
+       "points": 2
+      },
+      "assists": 1,
+      "turnovers": 3,
+      "passes": 7,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 3,
+      "screens": 0,
+      "rebounds": [
+       0,
+       5
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Stephens",
+        "seconds": 137.0
+       },
+       {
+        "who": "Spissu",
+        "seconds": 36.0
+       },
+       {
+        "who": "Gonzalez",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": 0.93,
+       "within_3": 0.76,
+       "n": 1313
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 22.53,
+       "end": 5.6,
+       "pts": 1.5,
+       "actions": {
+        "shot": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 5,
+       "distance": 3.92,
+       "quality": 49.803
+      },
+      "price": {
+       "value": 0.12,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:52",
+       "story": "Ball screen · over → no pass → Kurucs, two, 92 %"
+      },
+      {
+       "chance": "chance-114234-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → 2 passes → Dubljevic, three, 41 %"
+      },
+      {
+       "chance": "chance-114234-1-18",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "6:06",
+       "story": "Drive → no pass → Russell, two, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-104",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "9:22",
+       "story": "Ball screen · over → 2 passes → Robinson, three, 46 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      }
+     ]
+    },
+    {
+     "id": 59103,
+     "name": "Dragan Apic",
+     "surname": "Apic",
+     "jersey": "8",
+     "season": {
+      "games": 33,
+      "fg": [
+       58,
+       94
+      ],
+      "three": [
+       0,
+       1
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       37,
+       69
+      ],
+      "points": 146,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 15,
+       "blowby": 6,
+       "points": 6,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 632.6,
+      "distance_ft": 4080.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 52.895,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 4,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 23,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Soriano",
+        "seconds": 155.0
+       },
+       {
+        "who": "Dubljevic",
+        "seconds": 24.0
+       },
+       {
+        "who": "Gonzalez",
+        "seconds": 16.0
+       }
+      ],
+      "extra": {
+       "mean": 1.62,
+       "within_3": 0.772,
+       "n": 1150
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 10.35,
+       "end": 4.61,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 4,
+       "distance": 3.68,
+       "quality": 45.735
+      },
+      "price": {
+       "value": 0.2,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:43",
+       "story": "Ball screen · over → 1 pass → Gonzalez, three, 37 %"
+      },
+      {
+       "chance": "chance-114234-3-126",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "5:35",
+       "story": "Drive → 2 passes → Yusta, three, 48 %"
+      },
+      {
+       "chance": "chance-114234-3-137",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:13",
+       "story": "Ball screen · over → 2 passes → Aranitovic, two, 95 %"
+      },
+      {
+       "chance": "chance-114234-3-149",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "0:53",
+       "story": "Ball screen · over → 3 passes → Stephens, three, 40 %"
+      }
+     ]
+    },
+    {
+     "id": 59110,
+     "name": "Danko Brankovic",
+     "surname": "Brankovic",
+     "jersey": "22",
+     "season": {
+      "games": 34,
+      "fg": [
+       157,
+       247
+      ],
+      "three": [
+       16,
+       43
+      ],
+      "cns_three": [
+       15,
+       39
+      ],
+      "contested": [
+       82,
+       153
+      ],
+      "points": 382,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 1,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 526.0,
+      "distance_ft": 3425.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 6,
+       "made": 4,
+       "three": 1,
+       "three_made": 0,
+       "quality": 57.021,
+       "points": 8
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 6,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 28,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Soriano",
+        "seconds": 70.0
+       },
+       {
+        "who": "Dubljevic",
+        "seconds": 43.0
+       },
+       {
+        "who": "Bell-Haynes",
+        "seconds": 14.0
+       }
+      ],
+      "extra": {
+       "mean": 1.08,
+       "within_3": 0.756,
+       "n": 725
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 4,
+       "made": 2,
+       "distance": 1.96,
+       "quality": 44.611
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114234-2-90",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:35",
+       "story": "Ball screen · switch → 1 pass → Brankovic, two, 98 %"
+      },
+      {
+       "chance": "chance-114234-3-113",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:44",
+       "story": "Ball screen · over → 1 pass → Yusta, three, 37 %"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

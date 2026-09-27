@@ -1,0 +1,3516 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 184439,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "Real Madrid",
+  "away": "Lenovo Tenerife",
+  "score": [
+   90,
+   95
+  ],
+  "date": "2026-04-19",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "Real Madrid",
+   "side": "home",
+   "players": [
+    {
+     "id": 34982,
+     "name": "Facundo Campazzo",
+     "surname": "Campazzo",
+     "jersey": "7",
+     "season": {
+      "games": 28,
+      "fg": [
+       83,
+       197
+      ],
+      "three": [
+       38,
+       119
+      ],
+      "cns_three": [
+       14,
+       52
+      ],
+      "contested": [
+       41,
+       113
+      ],
+      "points": 265,
+      "picks": {
+       "n": 386,
+       "points": 333,
+       "turnovers": 40
+      },
+      "drives": {
+       "n": 213,
+       "blowby": 46,
+       "points": 147,
+       "assists": 31
+      }
+     },
+     "game": {
+      "seconds": 1569.8,
+      "distance_ft": 9879.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 12,
+       "made": 3,
+       "three": 5,
+       "three_made": 1,
+       "quality": 39.052,
+       "points": 7
+      },
+      "assists": 3,
+      "turnovers": 2,
+      "passes": 34,
+      "drives": 9,
+      "blowby": 2,
+      "picks_handler": 24,
+      "screens": 5,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Huertas",
+        "seconds": 230.0
+       },
+       {
+        "who": "Fitipaldo",
+        "seconds": 154.0
+       },
+       {
+        "who": "Mills",
+        "seconds": 106.0
+       }
+      ],
+      "extra": {
+       "mean": -0.88,
+       "within_3": 0.881,
+       "n": 3000
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 8.78,
+       "end": 1.35,
+       "pts": 1.0,
+       "actions": {
+        "other": 1,
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 3.24,
+       "quality": 35.13
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 36019,
+     "name": "Walter Tavares",
+     "surname": "Tavares",
+     "jersey": "22",
+     "season": {
+      "games": 21,
+      "fg": [
+       72,
+       95
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       40,
+       59
+      ],
+      "points": 196,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 1,
+       "blowby": 0,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1384.6,
+      "distance_ft": 7505.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 5,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 67.331,
+       "points": 6
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 15,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 51,
+      "rebounds": [
+       3,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Shermadini",
+        "seconds": 339.0
+       },
+       {
+        "who": "Guerra",
+        "seconds": 141.0
+       },
+       {
+        "who": "Huertas",
+        "seconds": 9.0
+       }
+      ],
+      "extra": {
+       "mean": 2.84,
+       "within_3": 0.602,
+       "n": 2552
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 20.09,
+       "end": 10.92,
+       "pts": 1.0,
+       "actions": {
+        "other": 1,
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 5,
+       "distance": 3.59,
+       "quality": 44.414
+      },
+      "price": {
+       "value": 0.23,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 25431,
+     "name": "Andres Feliz Sarita",
+     "surname": "Sarita",
+     "jersey": "24",
+     "season": {
+      "games": 28,
+      "fg": [
+       74,
+       150
+      ],
+      "three": [
+       17,
+       56
+      ],
+      "cns_three": [
+       13,
+       42
+      ],
+      "contested": [
+       54,
+       117
+      ],
+      "points": 203,
+      "picks": {
+       "n": 129,
+       "points": 99,
+       "turnovers": 11
+      },
+      "drives": {
+       "n": 114,
+       "blowby": 26,
+       "points": 73,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 1227.4,
+      "distance_ft": 7410.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 11,
+       "made": 6,
+       "three": 4,
+       "three_made": 1,
+       "quality": 39.403,
+       "points": 13
+      },
+      "assists": 0,
+      "turnovers": 3,
+      "passes": 12,
+      "drives": 7,
+      "blowby": 3,
+      "picks_handler": 7,
+      "screens": 6,
+      "rebounds": [
+       2,
+       4
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Huertas",
+        "seconds": 173.0
+       },
+       {
+        "who": "Bernabe",
+        "seconds": 83.0
+       },
+       {
+        "who": "Sastre",
+        "seconds": 38.0
+       }
+      ],
+      "extra": {
+       "mean": -0.35,
+       "within_3": 0.838,
+       "n": 2334
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 17.44,
+       "end": 6.75,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 3,
+       "distance": 5.2,
+       "quality": 43.584
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 34838,
+     "name": "Trey Lyles",
+     "surname": "Lyles",
+     "jersey": "0",
+     "season": {
+      "games": 25,
+      "fg": [
+       94,
+       197
+      ],
+      "three": [
+       32,
+       82
+      ],
+      "cns_three": [
+       29,
+       71
+      ],
+      "contested": [
+       62,
+       145
+      ],
+      "points": 292,
+      "picks": {
+       "n": 30,
+       "points": 12,
+       "turnovers": 6
+      },
+      "drives": {
+       "n": 86,
+       "blowby": 12,
+       "points": 53,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1170.6,
+      "distance_ft": 6881.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 3,
+       "three_made": 1,
+       "quality": 49.65,
+       "points": 7
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 16,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 4,
+      "screens": 13,
+      "rebounds": [
+       1,
+       4
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Doornekamp",
+        "seconds": 254.0
+       },
+       {
+        "who": "Diaz",
+        "seconds": 64.0
+       },
+       {
+        "who": "Abromaitis",
+        "seconds": 48.0
+       }
+      ],
+      "extra": {
+       "mean": 1.48,
+       "within_3": 0.792,
+       "n": 2299
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 13.09,
+       "end": 4.94,
+       "pts": 2.0,
+       "actions": {
+        "shot": 2,
+        "pass": 2
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 4.48,
+       "quality": 47.045
+      },
+      "price": {
+       "value": 0.32,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 34919,
+     "name": "Theo Maledon",
+     "surname": "Maledon",
+     "jersey": "12",
+     "season": {
+      "games": 28,
+      "fg": [
+       68,
+       149
+      ],
+      "three": [
+       15,
+       44
+      ],
+      "cns_three": [
+       9,
+       21
+      ],
+      "contested": [
+       47,
+       119
+      ],
+      "points": 256,
+      "picks": {
+       "n": 285,
+       "points": 175,
+       "turnovers": 31
+      },
+      "drives": {
+       "n": 233,
+       "blowby": 42,
+       "points": 135,
+       "assists": 22
+      }
+     },
+     "game": {
+      "seconds": 1165.4,
+      "distance_ft": 7263.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 7,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 29.466,
+       "points": 2
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 22,
+      "drives": 10,
+      "blowby": 1,
+      "picks_handler": 18,
+      "screens": 3,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Mills",
+        "seconds": 203.0
+       },
+       {
+        "who": "Huertas",
+        "seconds": 98.0
+       },
+       {
+        "who": "Fitipaldo",
+        "seconds": 62.0
+       }
+      ],
+      "extra": {
+       "mean": -1.17,
+       "within_3": 0.878,
+       "n": 2345
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 8.06,
+       "end": 4.26,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 3.77,
+       "quality": 39.328
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 28010,
+     "name": "Chuma Okeke",
+     "surname": "Okeke",
+     "jersey": "8",
+     "season": {
+      "games": 25,
+      "fg": [
+       61,
+       136
+      ],
+      "three": [
+       34,
+       89
+      ],
+      "cns_three": [
+       31,
+       77
+      ],
+      "contested": [
+       40,
+       89
+      ],
+      "points": 167,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 21,
+       "blowby": 4,
+       "points": 21,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1116.0,
+      "distance_ft": 6497.0,
+      "top_speed": 15.3,
+      "shots": {
+       "n": 6,
+       "made": 0,
+       "three": 4,
+       "three_made": 0,
+       "quality": 48.634,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 14,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 10,
+      "rebounds": [
+       3,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Abromaitis",
+        "seconds": 283.0
+       },
+       {
+        "who": "Doornekamp",
+        "seconds": 91.0
+       },
+       {
+        "who": "Mills",
+        "seconds": 15.0
+       }
+      ],
+      "extra": {
+       "mean": 0.62,
+       "within_3": 0.822,
+       "n": 2040
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 11.51,
+       "end": 2.75,
+       "pts": 0.5,
+       "actions": {
+        "shot": 1,
+        "other": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 6.23,
+       "quality": 40.511
+      },
+      "price": {
+       "value": 0.21,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 59174,
+     "name": "Sergio Llull",
+     "surname": "Llull",
+     "jersey": "23",
+     "season": {
+      "games": 33,
+      "fg": [
+       74,
+       224
+      ],
+      "three": [
+       40,
+       147
+      ],
+      "cns_three": [
+       23,
+       76
+      ],
+      "contested": [
+       49,
+       154
+      ],
+      "points": 237,
+      "picks": {
+       "n": 206,
+       "points": 140,
+       "turnovers": 8
+      },
+      "drives": {
+       "n": 106,
+       "blowby": 22,
+       "points": 66,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 984.8,
+      "distance_ft": 5988.0,
+      "top_speed": 16.6,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 3,
+       "three_made": 1,
+       "quality": 42.601,
+       "points": 5
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 25,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 11,
+      "screens": 2,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Giedraitis",
+        "seconds": 177.0
+       },
+       {
+        "who": "Scrubb",
+        "seconds": 63.0
+       },
+       {
+        "who": "Bernabe",
+        "seconds": 53.0
+       }
+      ],
+      "extra": {
+       "mean": 0.81,
+       "within_3": 0.813,
+       "n": 1671
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 9.87,
+       "end": 3.27,
+       "pts": 2.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 0,
+       "distance": 4.69,
+       "quality": 34.582
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      }
+     ]
+    },
+    {
+     "id": 59215,
+     "name": "Alberto Abalde",
+     "surname": "Abalde",
+     "jersey": "6",
+     "season": {
+      "games": 29,
+      "fg": [
+       55,
+       119
+      ],
+      "three": [
+       21,
+       64
+      ],
+      "cns_three": [
+       14,
+       43
+      ],
+      "contested": [
+       33,
+       77
+      ],
+      "points": 154,
+      "picks": {
+       "n": 52,
+       "points": 42,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 53,
+       "blowby": 11,
+       "points": 41,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 887.0,
+      "distance_ft": 5518.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 3,
+       "three_made": 1,
+       "quality": 33.557,
+       "points": 3
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 12,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 4,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Mills",
+        "seconds": 152.0
+       },
+       {
+        "who": "Scrubb",
+        "seconds": 54.0
+       },
+       {
+        "who": "Huertas",
+        "seconds": 49.0
+       }
+      ],
+      "extra": {
+       "mean": -1.0,
+       "within_3": 0.923,
+       "n": 1564
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 14.48,
+       "end": 3.58,
+       "pts": 1.0,
+       "actions": {
+        "shot": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 4.4,
+       "quality": 34.04
+      },
+      "price": {
+       "value": -0.02,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      }
+     ]
+    },
+    {
+     "id": 59175,
+     "name": "Gabriele Procida",
+     "surname": "Procida",
+     "jersey": "9",
+     "season": {
+      "games": 29,
+      "fg": [
+       65,
+       118
+      ],
+      "three": [
+       31,
+       74
+      ],
+      "cns_three": [
+       29,
+       68
+      ],
+      "contested": [
+       36,
+       71
+      ],
+      "points": 187,
+      "picks": {
+       "n": 4,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 23,
+       "blowby": 6,
+       "points": 20,
+       "assists": 3
+      }
+     },
+     "game": {
+      "seconds": 782.0,
+      "distance_ft": 4973.0,
+      "top_speed": 17.4,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 1,
+       "three_made": 1,
+       "quality": 44.807,
+       "points": 5
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 3,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Giedraitis",
+        "seconds": 178.0
+       },
+       {
+        "who": "Scrubb",
+        "seconds": 66.0
+       },
+       {
+        "who": "Sastre",
+        "seconds": 39.0
+       }
+      ],
+      "extra": {
+       "mean": 1.57,
+       "within_3": 0.708,
+       "n": 1531
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 14.18,
+       "end": 8.1,
+       "pts": 1.0,
+       "actions": {
+        "shot": 3
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 4.18,
+       "quality": 53.119
+      },
+      "price": {
+       "value": 0.16,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 34832,
+     "name": "Alex Len",
+     "surname": "Len",
+     "jersey": "25",
+     "season": {
+      "games": 21,
+      "fg": [
+       56,
+       85
+      ],
+      "three": [
+       0,
+       1
+      ],
+      "cns_three": [
+       0,
+       1
+      ],
+      "contested": [
+       29,
+       55
+      ],
+      "points": 150,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 3,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 496.8,
+      "distance_ft": 2922.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 2,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 96.601,
+       "points": 4
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 4,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 13,
+      "rebounds": [
+       1,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Shermadini",
+        "seconds": 88.0
+       },
+       {
+        "who": "Guerra",
+        "seconds": 69.0
+       },
+       {
+        "who": "Huertas",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": 1.42,
+       "within_3": 0.779,
+       "n": 959
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 10.04,
+       "end": 6.65,
+       "pts": 1.0,
+       "actions": {
+        "pass": 2
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 0,
+       "distance": 3.29,
+       "quality": 38.297
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      }
+     ]
+    },
+    {
+     "id": 34896,
+     "name": "Usman Garuba Alari",
+     "surname": "Alari",
+     "jersey": "16",
+     "season": {
+      "games": 26,
+      "fg": [
+       55,
+       87
+      ],
+      "three": [
+       1,
+       2
+      ],
+      "cns_three": [
+       1,
+       2
+      ],
+      "contested": [
+       32,
+       60
+      ],
+      "points": 140,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 16,
+       "blowby": 4,
+       "points": 15,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 414.8,
+      "distance_ft": 2480.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 2,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 69.313,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 3,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 7,
+      "rebounds": [
+       2,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Shermadini",
+        "seconds": 105.0
+       },
+       {
+        "who": "Huertas",
+        "seconds": 35.0
+       },
+       {
+        "who": "Fitipaldo",
+        "seconds": 7.0
+       }
+      ],
+      "extra": {
+       "mean": 0.44,
+       "within_3": 0.838,
+       "n": 828
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 13.32,
+       "end": 5.78,
+       "pts": 0.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 3,
+       "distance": 2.15,
+       "quality": 43.781
+      },
+      "price": {
+       "value": 0.13,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 35726,
+     "name": "David Kramer",
+     "surname": "Kramer",
+     "jersey": "1",
+     "season": {
+      "games": 27,
+      "fg": [
+       64,
+       129
+      ],
+      "three": [
+       30,
+       71
+      ],
+      "cns_three": [
+       26,
+       54
+      ],
+      "contested": [
+       35,
+       73
+      ],
+      "points": 181,
+      "picks": {
+       "n": 9,
+       "points": 9,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 27,
+       "blowby": 13,
+       "points": 20,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 371.8,
+      "distance_ft": 2287.0,
+      "top_speed": 18.0,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 3,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Sastre",
+        "seconds": 86.0
+       },
+       {
+        "who": "Giedraitis",
+        "seconds": 24.0
+       },
+       {
+        "who": "Fitipaldo",
+        "seconds": 19.0
+       }
+      ],
+      "extra": {
+       "mean": 0.26,
+       "within_3": 0.795,
+       "n": 658
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 22.96,
+       "end": 5.24,
+       "pts": 3.0,
+       "actions": {
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 3.33,
+       "quality": 27.429
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "team": "Lenovo Tenerife",
+   "side": "away",
+   "players": [
+    {
+     "id": 59118,
+     "name": "Giorgi Shermadini",
+     "surname": "Shermadini",
+     "jersey": "19",
+     "season": {
+      "games": 28,
+      "fg": [
+       131,
+       186
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       87,
+       130
+      ],
+      "points": 367,
+      "picks": {
+       "n": 5,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 11,
+       "blowby": 5,
+       "points": 4,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1590.8,
+      "distance_ft": 9109.0,
+      "top_speed": 14.5,
+      "shots": {
+       "n": 5,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 54.114,
+       "points": 6
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 32,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 1,
+      "screens": 87,
+      "rebounds": [
+       0,
+       6
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Tavares",
+        "seconds": 216.0
+       },
+       {
+        "who": "Len",
+        "seconds": 67.0
+       },
+       {
+        "who": "Alari",
+        "seconds": 44.0
+       }
+      ],
+      "extra": {
+       "mean": 1.8,
+       "within_3": 0.68,
+       "n": 1960
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 7,
+       "made": 5,
+       "distance": 2.83,
+       "quality": 52.278
+      },
+      "price": {
+       "value": 0.18,
+       "n": 2,
+       "kinds": {
+        "help not recovered": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 59122,
+     "name": "Marcelinho Huertas",
+     "surname": "Huertas",
+     "jersey": "9",
+     "season": {
+      "games": 27,
+      "fg": [
+       163,
+       325
+      ],
+      "three": [
+       27,
+       70
+      ],
+      "cns_three": [
+       11,
+       34
+      ],
+      "contested": [
+       79,
+       183
+      ],
+      "points": 429,
+      "picks": {
+       "n": 664,
+       "points": 607,
+       "turnovers": 67
+      },
+      "drives": {
+       "n": 238,
+       "blowby": 93,
+       "points": 207,
+       "assists": 20
+      }
+     },
+     "game": {
+      "seconds": 1578.2,
+      "distance_ft": 9749.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 17,
+       "made": 11,
+       "three": 2,
+       "three_made": 1,
+       "quality": 42.641,
+       "points": 23
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 47,
+      "drives": 12,
+      "blowby": 9,
+      "picks_handler": 58,
+      "screens": 6,
+      "rebounds": [
+       2,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Campazzo",
+        "seconds": 183.0
+       },
+       {
+        "who": "Sarita",
+        "seconds": 92.0
+       },
+       {
+        "who": "Maledon",
+        "seconds": 49.0
+       }
+      ],
+      "extra": {
+       "mean": 0.25,
+       "within_3": 0.809,
+       "n": 1913
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.69,
+       "end": 3.8,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 2,
+       "distance": 6.27,
+       "quality": 35.414
+      },
+      "price": {
+       "value": 0.13,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 34854,
+     "name": "Patty Mills",
+     "surname": "Mills",
+     "jersey": "88",
+     "season": {
+      "games": 9,
+      "fg": [
+       57,
+       117
+      ],
+      "three": [
+       31,
+       69
+      ],
+      "cns_three": [
+       22,
+       44
+      ],
+      "contested": [
+       39,
+       87
+      ],
+      "points": 174,
+      "picks": {
+       "n": 59,
+       "points": 40,
+       "turnovers": 6
+      },
+      "drives": {
+       "n": 37,
+       "blowby": 5,
+       "points": 29,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1330.0,
+      "distance_ft": 8306.0,
+      "top_speed": 16.0,
+      "shots": {
+       "n": 13,
+       "made": 5,
+       "three": 8,
+       "three_made": 3,
+       "quality": 31.478,
+       "points": 13
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 17,
+      "drives": 7,
+      "blowby": 1,
+      "picks_handler": 13,
+      "screens": 9,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Llull",
+        "seconds": 109.0
+       },
+       {
+        "who": "Sarita",
+        "seconds": 86.0
+       },
+       {
+        "who": "Maledon",
+        "seconds": 62.0
+       }
+      ],
+      "extra": {
+       "mean": -0.02,
+       "within_3": 0.88,
+       "n": 1602
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 2.94,
+       "quality": 39.505
+      },
+      "price": {
+       "value": -0.01,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 59113,
+     "name": "Aaron Doornekamp",
+     "surname": "Doornekamp",
+     "jersey": "42",
+     "season": {
+      "games": 29,
+      "fg": [
+       66,
+       145
+      ],
+      "three": [
+       55,
+       127
+      ],
+      "cns_three": [
+       49,
+       108
+      ],
+      "contested": [
+       47,
+       107
+      ],
+      "points": 208,
+      "picks": {
+       "n": 13,
+       "points": 8,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 18,
+       "blowby": 6,
+       "points": 6,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1196.8,
+      "distance_ft": 7285.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 3,
+       "three_made": 1,
+       "quality": 38.29,
+       "points": 3
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 8,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 14,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Lyles",
+        "seconds": 209.0
+       },
+       {
+        "who": "Okeke",
+        "seconds": 92.0
+       },
+       {
+        "who": "Campazzo",
+        "seconds": 6.0
+       }
+      ],
+      "extra": {
+       "mean": 1.61,
+       "within_3": 0.717,
+       "n": 1725
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 11.01,
+       "end": 6.6,
+       "pts": 0.6,
+       "actions": {
+        "shot": 3,
+        "pass": 2
+       }
+      },
+      "conceded": {
+       "n": 15,
+       "made": 3,
+       "distance": 3.56,
+       "quality": 43.978
+      },
+      "price": {
+       "value": 0.42,
+       "n": 4,
+       "kinds": {
+        "late close-out": 3,
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 59117,
+     "name": "Rokas Giedraitis",
+     "surname": "Giedraitis",
+     "jersey": "31",
+     "season": {
+      "games": 28,
+      "fg": [
+       61,
+       140
+      ],
+      "three": [
+       34,
+       87
+      ],
+      "cns_three": [
+       29,
+       72
+      ],
+      "contested": [
+       35,
+       96
+      ],
+      "points": 197,
+      "picks": {
+       "n": 8,
+       "points": 2,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 38,
+       "blowby": 9,
+       "points": 14,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1158.8,
+      "distance_ft": 7627.0,
+      "top_speed": 17.4,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 42.234,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 12,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 3,
+      "rebounds": [
+       2,
+       4
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Abalde",
+        "seconds": 113.0
+       },
+       {
+        "who": "Procida",
+        "seconds": 84.0
+       },
+       {
+        "who": "Kramer",
+        "seconds": 32.0
+       }
+      ],
+      "extra": {
+       "mean": 0.72,
+       "within_3": 0.805,
+       "n": 1347
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 15.77,
+       "end": 3.82,
+       "pts": 3.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 5.07,
+       "quality": 54.258
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      }
+     ]
+    },
+    {
+     "id": 59114,
+     "name": "Tim Abromaitis",
+     "surname": "Abromaitis",
+     "jersey": "21",
+     "season": {
+      "games": 32,
+      "fg": [
+       60,
+       127
+      ],
+      "three": [
+       33,
+       75
+      ],
+      "cns_three": [
+       30,
+       69
+      ],
+      "contested": [
+       34,
+       83
+      ],
+      "points": 198,
+      "picks": {
+       "n": 2,
+       "points": 0,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 27,
+       "blowby": 5,
+       "points": 12,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 992.0,
+      "distance_ft": 6166.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 2,
+       "three_made": 1,
+       "quality": 46.603,
+       "points": 5
+      },
+      "assists": 0,
+      "turnovers": 2,
+      "passes": 9,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 24,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Okeke",
+        "seconds": 149.0
+       },
+       {
+        "who": "Lyles",
+        "seconds": 35.0
+       },
+       {
+        "who": "Alari",
+        "seconds": 18.0
+       }
+      ],
+      "extra": {
+       "mean": 1.74,
+       "within_3": 0.725,
+       "n": 1173
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 14.81,
+       "end": 4.97,
+       "pts": 1.0,
+       "actions": {
+        "shot": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 3,
+       "distance": 3.09,
+       "quality": 45.941
+      },
+      "price": {
+       "value": 0.07,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-139",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:57",
+       "story": "Ball screen · over → 1 pass → Sarita, three, 36 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59120,
+     "name": "Bruno Fitipaldo",
+     "surname": "Fitipaldo",
+     "jersey": "6",
+     "season": {
+      "games": 31,
+      "fg": [
+       72,
+       183
+      ],
+      "three": [
+       50,
+       143
+      ],
+      "cns_three": [
+       23,
+       60
+      ],
+      "contested": [
+       42,
+       118
+      ],
+      "points": 244,
+      "picks": {
+       "n": 427,
+       "points": 294,
+       "turnovers": 39
+      },
+      "drives": {
+       "n": 85,
+       "blowby": 24,
+       "points": 45,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 876.2,
+      "distance_ft": 5883.0,
+      "top_speed": 16.2,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 25.064,
+       "points": 0
+      },
+      "assists": 2,
+      "turnovers": 3,
+      "passes": 24,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 18,
+      "screens": 2,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Campazzo",
+        "seconds": 132.0
+       },
+       {
+        "who": "Sarita",
+        "seconds": 38.0
+       },
+       {
+        "who": "Maledon",
+        "seconds": 25.0
+       }
+      ],
+      "extra": {
+       "mean": 0.19,
+       "within_3": 0.812,
+       "n": 1216
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 20.25,
+       "end": 5.48,
+       "pts": 0.6,
+       "actions": {
+        "shot": 3,
+        "other": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 5.37,
+       "quality": 32.191
+      },
+      "price": {
+       "value": 0.22,
+       "n": 3,
+       "kinds": {
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-2-89",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:07",
+       "story": "Ball screen · under → 1 pass → Tavares, two, 98 %"
+      },
+      {
+       "chance": "chance-184439-2-92",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:31",
+       "story": "Ball screen · over → 1 pass → Okeke, three, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      }
+     ]
+    },
+    {
+     "id": 59116,
+     "name": "Jaime Fernandez Bernabe",
+     "surname": "Bernabe",
+     "jersey": "3",
+     "season": {
+      "games": 31,
+      "fg": [
+       107,
+       241
+      ],
+      "three": [
+       40,
+       107
+      ],
+      "cns_three": [
+       14,
+       40
+      ],
+      "contested": [
+       69,
+       167
+      ],
+      "points": 321,
+      "picks": {
+       "n": 357,
+       "points": 287,
+       "turnovers": 34
+      },
+      "drives": {
+       "n": 215,
+       "blowby": 44,
+       "points": 160,
+       "assists": 23
+      }
+     },
+     "game": {
+      "seconds": 796.4,
+      "distance_ft": 5210.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 7,
+       "made": 3,
+       "three": 2,
+       "three_made": 0,
+       "quality": 51.868,
+       "points": 6
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 12,
+      "drives": 8,
+      "blowby": 2,
+      "picks_handler": 13,
+      "screens": 2,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Llull",
+        "seconds": 103.0
+       },
+       {
+        "who": "Maledon",
+        "seconds": 56.0
+       },
+       {
+        "who": "Sarita",
+        "seconds": 47.0
+       }
+      ],
+      "extra": {
+       "mean": 0.22,
+       "within_3": 0.81,
+       "n": 1191
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 8.59,
+       "end": 9.2,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 0,
+       "distance": 8.47,
+       "quality": 23.949
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      }
+     ]
+    },
+    {
+     "id": 59115,
+     "name": "Thomas Scrubb",
+     "surname": "Scrubb",
+     "jersey": "11",
+     "season": {
+      "games": 32,
+      "fg": [
+       74,
+       148
+      ],
+      "three": [
+       18,
+       63
+      ],
+      "cns_three": [
+       18,
+       58
+      ],
+      "contested": [
+       38,
+       81
+      ],
+      "points": 208,
+      "picks": {
+       "n": 10,
+       "points": 6,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 54,
+       "blowby": 9,
+       "points": 46,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 730.2,
+      "distance_ft": 4682.0,
+      "top_speed": 17.8,
+      "shots": {
+       "n": 2,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 38.516,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 5,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 3,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Abalde",
+        "seconds": 91.0
+       },
+       {
+        "who": "Procida",
+        "seconds": 73.0
+       },
+       {
+        "who": "Maledon",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": -0.13,
+       "within_3": 0.831,
+       "n": 1028
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 18.29,
+       "end": 8.98,
+       "pts": 1.0,
+       "actions": {
+        "pass": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 5.95,
+       "quality": 67.488
+      },
+      "price": {
+       "value": 0.17,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-31",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "3:23",
+       "story": "Drive → 1 pass → Doornekamp, three, 45 %"
+      },
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-3-105",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:20",
+       "story": "Ball screen · over → no pass → Huertas, two, 44 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-4-191",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:13",
+       "story": "Ball screen · over → 1 pass → Doornekamp, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 59119,
+     "name": "Francisco Guerra",
+     "surname": "Guerra",
+     "jersey": "35",
+     "season": {
+      "games": 32,
+      "fg": [
+       75,
+       129
+      ],
+      "three": [
+       1,
+       7
+      ],
+      "cns_three": [
+       1,
+       6
+      ],
+      "contested": [
+       44,
+       91
+      ],
+      "points": 203,
+      "picks": {
+       "n": 3,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 18,
+       "blowby": 6,
+       "points": 9,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 661.2,
+      "distance_ft": 3761.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 29.763,
+       "points": 0
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 12,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 29,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Tavares",
+        "seconds": 106.0
+       },
+       {
+        "who": "Len",
+        "seconds": 54.0
+       },
+       {
+        "who": "Lyles",
+        "seconds": 7.0
+       }
+      ],
+      "extra": {
+       "mean": 3.75,
+       "within_3": 0.515,
+       "n": 918
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 2,
+       "distance": 7.24,
+       "quality": 73.961
+      },
+      "price": {
+       "value": 0.34,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-0",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:44",
+       "story": "Ball screen · over → 1 pass → Tavares, two, 64 %"
+      },
+      {
+       "chance": "chance-184439-1-1",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:26",
+       "story": "Ball screen · over → no pass → Huertas, two, 34 %"
+      },
+      {
+       "chance": "chance-184439-3-130",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:42",
+       "story": "Drive → 1 pass → Okeke, three, 43 %"
+      }
+     ]
+    },
+    {
+     "id": 59112,
+     "name": "Joan Sastre",
+     "surname": "Sastre",
+     "jersey": "15",
+     "season": {
+      "games": 22,
+      "fg": [
+       19,
+       50
+      ],
+      "three": [
+       12,
+       30
+      ],
+      "cns_three": [
+       10,
+       21
+      ],
+      "contested": [
+       9,
+       29
+      ],
+      "points": 56,
+      "picks": {
+       "n": 9,
+       "points": 2,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 23,
+       "blowby": 6,
+       "points": 10,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 492.6,
+      "distance_ft": 3051.0,
+      "top_speed": 19.2,
+      "shots": {
+       "n": 1,
+       "made": 1,
+       "three": 1,
+       "three_made": 1,
+       "quality": 27.429,
+       "points": 3
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kramer",
+        "seconds": 72.0
+       },
+       {
+        "who": "Maledon",
+        "seconds": 49.0
+       },
+       {
+        "who": "Sarita",
+        "seconds": 10.0
+       }
+      ],
+      "extra": {
+       "mean": 0.43,
+       "within_3": 0.828,
+       "n": 761
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 27.78,
+       "end": 7.53,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 4.86,
+       "quality": 49.914
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:23",
+       "story": "Post-up → 1 pass → Scrubb, three, 43 %"
+      },
+      {
+       "chance": "chance-184439-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "3:49",
+       "story": "Post-up → 1 pass → Huertas, three, 38 %"
+      }
+     ]
+    },
+    {
+     "id": 59121,
+     "name": "Hector Alderete Diaz",
+     "surname": "Diaz",
+     "jersey": "33",
+     "season": {
+      "games": 15,
+      "fg": [
+       8,
+       12
+      ],
+      "three": [
+       5,
+       9
+      ],
+      "cns_three": [
+       5,
+       9
+      ],
+      "contested": [
+       5,
+       9
+      ],
+      "points": 21,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 1,
+       "blowby": 0,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 167.8,
+      "distance_ft": 1035.0,
+      "top_speed": 17.8,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 2,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 3,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Lyles",
+        "seconds": 41.0
+       },
+       {
+        "who": "Sarita",
+        "seconds": 1.0
+       }
+      ],
+      "extra": {
+       "mean": 1.07,
+       "within_3": 0.732,
+       "n": 220
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 3.71,
+       "quality": 41.606
+      },
+      "price": {
+       "value": 0.13,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-184439-2-75",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "4:31",
+       "story": "Post-up → no pass → Lyles, two, 48 %"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

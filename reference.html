@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>courtlab · the references</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reference.css">
+</head>
+<body>
+  <div id="stage" class="reference">
+    <div class="dip" id="dip"></div>
+    <header class="title">
+      <div class="matchline"><button id="back" class="back" title="Home  (Esc)" aria-label="Back to the start screen">‹</button><span class="match">The references</span></div>
+      <p class="context">Every name these pages use, what it means, and whether the number came from SkillCorner or was computed here.</p>
+    </header>
+    <div class="topright"><div class="seg filters" id="filters" role="tablist" aria-label="Where a figure comes from"></div></div>
+    <section class="ref-col" id="ref"></section>
+    <p class="reffoot">Nothing here is read from video. The same definitions are in <code>docs/glossary.md</code> in the repository.</p>
+    <div class="keys"></div>
+    <p class="error" id="error" hidden></p>
+  </div>
+  <script type="module" src="reference.js"></script>
+</body>
+</html>

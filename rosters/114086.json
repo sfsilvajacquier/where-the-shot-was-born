@@ -1,0 +1,3515 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 114086,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "Dreamland Gran Canaria",
+  "away": "Bitci Baskonia",
+  "score": [
+   75,
+   97
+  ],
+  "date": "2026-02-08",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "Dreamland Gran Canaria",
+   "side": "home",
+   "players": [
+    {
+     "id": 19426,
+     "name": "Kur Kuath",
+     "surname": "Kuath",
+     "jersey": "23",
+     "season": {
+      "games": 29,
+      "fg": [
+       75,
+       120
+      ],
+      "three": [
+       0,
+       1
+      ],
+      "cns_three": [
+       0,
+       1
+      ],
+      "contested": [
+       36,
+       65
+      ],
+      "points": 173,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 1,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1674.4,
+      "distance_ft": 9808.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 11,
+       "made": 7,
+       "three": 0,
+       "three_made": 0,
+       "quality": 56.629,
+       "points": 14
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 21,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 63,
+      "rebounds": [
+       3,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Diakite",
+        "seconds": 192.0
+       },
+       {
+        "who": "Diop",
+        "seconds": 185.0
+       },
+       {
+        "who": "Omoruyi",
+        "seconds": 50.0
+       }
+      ],
+      "extra": {
+       "mean": 2.63,
+       "within_3": 0.597,
+       "n": 2620
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 16.63,
+       "end": 7.07,
+       "pts": 2.0,
+       "actions": {
+        "other": 1,
+        "shot": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 6,
+       "distance": 3.22,
+       "quality": 55.942
+      },
+      "price": {
+       "value": 0.39,
+       "n": 5,
+       "kinds": {
+        "help not recovered": 2,
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 15347,
+     "name": "Isaiah Wong",
+     "surname": "Wong",
+     "jersey": "2",
+     "season": {
+      "games": 32,
+      "fg": [
+       148,
+       319
+      ],
+      "three": [
+       34,
+       105
+      ],
+      "cns_three": [
+       10,
+       42
+      ],
+      "contested": [
+       106,
+       235
+      ],
+      "points": 453,
+      "picks": {
+       "n": 229,
+       "points": 172,
+       "turnovers": 13
+      },
+      "drives": {
+       "n": 255,
+       "blowby": 48,
+       "points": 176,
+       "assists": 16
+      }
+     },
+     "game": {
+      "seconds": 1523.6,
+      "distance_ft": 9216.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 10,
+       "made": 5,
+       "three": 1,
+       "three_made": 0,
+       "quality": 42.563,
+       "points": 10
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 17,
+      "drives": 13,
+      "blowby": 3,
+      "picks_handler": 11,
+      "screens": 1,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Forrest",
+        "seconds": 206.0
+       },
+       {
+        "who": "Luwawu-Cabarrot",
+        "seconds": 72.0
+       },
+       {
+        "who": "Cornago",
+        "seconds": 56.0
+       }
+      ],
+      "extra": {
+       "mean": -0.47,
+       "within_3": 0.866,
+       "n": 2400
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 11.22,
+       "end": 3.8,
+       "pts": 1.667,
+       "actions": {
+        "drive": 1,
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 5,
+       "distance": 3.67,
+       "quality": 49.867
+      },
+      "price": {
+       "value": 0.01,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 32336,
+     "name": "Kassius Robertson",
+     "surname": "Robertson",
+     "jersey": "30",
+     "season": {
+      "games": 17,
+      "fg": [
+       49,
+       134
+      ],
+      "three": [
+       25,
+       69
+      ],
+      "cns_three": [
+       17,
+       39
+      ],
+      "contested": [
+       35,
+       96
+      ],
+      "points": 150,
+      "picks": {
+       "n": 124,
+       "points": 61,
+       "turnovers": 9
+      },
+      "drives": {
+       "n": 109,
+       "blowby": 26,
+       "points": 47,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 1145.6,
+      "distance_ft": 7782.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 6,
+       "made": 4,
+       "three": 3,
+       "three_made": 3,
+       "quality": 37.14,
+       "points": 11
+      },
+      "assists": 0,
+      "turnovers": 5,
+      "passes": 15,
+      "drives": 10,
+      "blowby": 1,
+      "picks_handler": 16,
+      "screens": 4,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Spagnolo",
+        "seconds": 149.0
+       },
+       {
+        "who": "Luwawu-Cabarrot",
+        "seconds": 61.0
+       },
+       {
+        "who": "Cornago",
+        "seconds": 41.0
+       }
+      ],
+      "extra": {
+       "mean": 0.8,
+       "within_3": 0.8,
+       "n": 1711
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 14.11,
+       "end": 2.56,
+       "pts": 1.5,
+       "actions": {
+        "shot": 4
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 4.31,
+       "quality": 37.022
+      },
+      "price": {
+       "value": 0.45,
+       "n": 4,
+       "kinds": {
+        "late close-out": 3,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      }
+     ]
+    },
+    {
+     "id": 35402,
+     "name": "Nico Brussino",
+     "surname": "Brussino",
+     "jersey": "9",
+     "season": {
+      "games": 32,
+      "fg": [
+       107,
+       252
+      ],
+      "three": [
+       52,
+       155
+      ],
+      "cns_three": [
+       41,
+       103
+      ],
+      "contested": [
+       67,
+       178
+      ],
+      "points": 338,
+      "picks": {
+       "n": 158,
+       "points": 80,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 135,
+       "blowby": 39,
+       "points": 71,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1081.8,
+      "distance_ft": 6856.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 47.294,
+       "points": 2
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 22,
+      "drives": 8,
+      "blowby": 3,
+      "picks_handler": 9,
+      "screens": 4,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Radzevicius",
+        "seconds": 146.0
+       },
+       {
+        "who": "Luwawu-Cabarrot",
+        "seconds": 104.0
+       },
+       {
+        "who": "Frisch",
+        "seconds": 20.0
+       }
+      ],
+      "extra": {
+       "mean": 0.38,
+       "within_3": 0.781,
+       "n": 1627
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 7.2,
+       "end": 6.86,
+       "pts": 0.0,
+       "actions": {
+        "other": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 3.35,
+       "quality": 41.954
+      },
+      "price": {
+       "value": 0.04,
+       "n": 1,
+       "kinds": {
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 59156,
+     "name": "Pierre Pelos",
+     "surname": "Pelos",
+     "jersey": "13",
+     "season": {
+      "games": 32,
+      "fg": [
+       119,
+       218
+      ],
+      "three": [
+       38,
+       90
+      ],
+      "cns_three": [
+       37,
+       84
+      ],
+      "contested": [
+       73,
+       145
+      ],
+      "points": 302,
+      "picks": {
+       "n": 1,
+       "points": 3,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 33,
+       "blowby": 2,
+       "points": 30,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1071.6,
+      "distance_ft": 6386.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 8,
+       "made": 4,
+       "three": 3,
+       "three_made": 1,
+       "quality": 50.724,
+       "points": 9
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 12,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 24,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Omoruyi",
+        "seconds": 92.0
+       },
+       {
+        "who": "Kurucs",
+        "seconds": 85.0
+       },
+       {
+        "who": "Frisch",
+        "seconds": 75.0
+       }
+      ],
+      "extra": {
+       "mean": 1.09,
+       "within_3": 0.758,
+       "n": 1536
+      },
+      "closeouts": {
+       "n": 6,
+       "start": 14.52,
+       "end": 3.99,
+       "pts": 0.333,
+       "actions": {
+        "shot": 3,
+        "drive": 2,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 2,
+       "distance": 3.49,
+       "quality": 42.248
+      },
+      "price": {
+       "value": 0.28,
+       "n": 4,
+       "kinds": {
+        "help not recovered": 1,
+        "late close-out": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      }
+     ]
+    },
+    {
+     "id": 59154,
+     "name": "Andrew Albicy",
+     "surname": "Albicy",
+     "jersey": "6",
+     "season": {
+      "games": 30,
+      "fg": [
+       32,
+       123
+      ],
+      "three": [
+       26,
+       96
+      ],
+      "cns_three": [
+       20,
+       65
+      ],
+      "contested": [
+       17,
+       79
+      ],
+      "points": 119,
+      "picks": {
+       "n": 228,
+       "points": 113,
+       "turnovers": 22
+      },
+      "drives": {
+       "n": 104,
+       "blowby": 21,
+       "points": 31,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 1023.8,
+      "distance_ft": 5951.0,
+      "top_speed": 15.4,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": 30.413,
+       "points": 0
+      },
+      "assists": 3,
+      "turnovers": 3,
+      "passes": 36,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 16,
+      "screens": 3,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Spagnolo",
+        "seconds": 135.0
+       },
+       {
+        "who": "Howard",
+        "seconds": 79.0
+       },
+       {
+        "who": "Forrest",
+        "seconds": 39.0
+       }
+      ],
+      "extra": {
+       "mean": -0.13,
+       "within_3": 0.843,
+       "n": 1641
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 12.22,
+       "end": 4.54,
+       "pts": 1.667,
+       "actions": {
+        "shot": 2,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 5.62,
+       "quality": 38.315
+      },
+      "price": {
+       "value": 0.21,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 59158,
+     "name": "Ziga Samar",
+     "surname": "Samar",
+     "jersey": "5",
+     "season": {
+      "games": 32,
+      "fg": [
+       55,
+       139
+      ],
+      "three": [
+       15,
+       50
+      ],
+      "cns_three": [
+       11,
+       36
+      ],
+      "contested": [
+       33,
+       95
+      ],
+      "points": 147,
+      "picks": {
+       "n": 136,
+       "points": 95,
+       "turnovers": 10
+      },
+      "drives": {
+       "n": 117,
+       "blowby": 23,
+       "points": 72,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 927.6,
+      "distance_ft": 6242.0,
+      "top_speed": 17.0,
+      "shots": {
+       "n": 5,
+       "made": 2,
+       "three": 3,
+       "three_made": 2,
+       "quality": 36.848,
+       "points": 6
+      },
+      "assists": 3,
+      "turnovers": 0,
+      "passes": 30,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 14,
+      "screens": 4,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Howard",
+        "seconds": 176.0
+       },
+       {
+        "who": "Spagnolo",
+        "seconds": 39.0
+       },
+       {
+        "who": "Cornago",
+        "seconds": 27.0
+       }
+      ],
+      "extra": {
+       "mean": -0.5,
+       "within_3": 0.854,
+       "n": 1398
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 12.26,
+       "end": 4.4,
+       "pts": 2.0,
+       "actions": {
+        "drive": 1,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 2,
+       "distance": 3.57,
+       "quality": 36.451
+      },
+      "price": {
+       "value": -0.27,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      }
+     ]
+    },
+    {
+     "id": 59155,
+     "name": "Miquel Salvo",
+     "surname": "Salvo",
+     "jersey": "10",
+     "season": {
+      "games": 19,
+      "fg": [
+       36,
+       76
+      ],
+      "three": [
+       8,
+       21
+      ],
+      "cns_three": [
+       8,
+       17
+      ],
+      "contested": [
+       21,
+       54
+      ],
+      "points": 95,
+      "picks": {
+       "n": 3,
+       "points": 0,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 14,
+       "blowby": 2,
+       "points": 13,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 702.2,
+      "distance_ft": 3801.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 6,
+       "made": 4,
+       "three": 3,
+       "three_made": 3,
+       "quality": 36.255,
+       "points": 11
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 0,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Radzevicius",
+        "seconds": 39.0
+       },
+       {
+        "who": "Cornago",
+        "seconds": 38.0
+       },
+       {
+        "who": "Frisch",
+        "seconds": 36.0
+       }
+      ],
+      "extra": {
+       "mean": 0.36,
+       "within_3": 0.797,
+       "n": 949
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 20.95,
+       "end": 12.52,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 2,
+       "distance": 4.59,
+       "quality": 74.535
+      },
+      "price": {
+       "value": 0.19,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 25182,
+     "name": "Eric Vila",
+     "surname": "Vila",
+     "jersey": "4",
+     "season": {
+      "games": 23,
+      "fg": [
+       23,
+       64
+      ],
+      "three": [
+       12,
+       39
+      ],
+      "cns_three": [
+       11,
+       35
+      ],
+      "contested": [
+       15,
+       40
+      ],
+      "points": 71,
+      "picks": {
+       "n": 2,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 18,
+       "blowby": 2,
+       "points": 4,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 673.8,
+      "distance_ft": 3951.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 38.775,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 8,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 10,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kurucs",
+        "seconds": 117.0
+       },
+       {
+        "who": "Frisch",
+        "seconds": 39.0
+       },
+       {
+        "who": "Luwawu-Cabarrot",
+        "seconds": 27.0
+       }
+      ],
+      "extra": {
+       "mean": 0.93,
+       "within_3": 0.792,
+       "n": 1099
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 10.61,
+       "end": 2.48,
+       "pts": 1.5,
+       "actions": {
+        "drive": 2
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 2.34,
+       "quality": 56.438
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      }
+     ]
+    },
+    {
+     "id": 59153,
+     "name": "Louis Labeyrie",
+     "surname": "Labeyrie",
+     "jersey": "21",
+     "season": {
+      "games": 20,
+      "fg": [
+       38,
+       70
+      ],
+      "three": [
+       16,
+       35
+      ],
+      "cns_three": [
+       16,
+       34
+      ],
+      "contested": [
+       22,
+       47
+      ],
+      "points": 106,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 3,
+       "blowby": 1,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 607.8,
+      "distance_ft": 3632.0,
+      "top_speed": 17.2,
+      "shots": {
+       "n": 2,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 36.17,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 15,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Omoruyi",
+        "seconds": 66.0
+       },
+       {
+        "who": "Frisch",
+        "seconds": 57.0
+       },
+       {
+        "who": "Kurucs",
+        "seconds": 13.0
+       }
+      ],
+      "extra": {
+       "mean": 1.13,
+       "within_3": 0.728,
+       "n": 843
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 2,
+       "made": 1,
+       "distance": 3.81,
+       "quality": 42.411
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 59157,
+     "name": "Mike Tobey",
+     "surname": "Tobey",
+     "jersey": "18",
+     "season": {
+      "games": 30,
+      "fg": [
+       103,
+       203
+      ],
+      "three": [
+       14,
+       59
+      ],
+      "cns_three": [
+       13,
+       55
+      ],
+      "contested": [
+       48,
+       123
+      ],
+      "points": 262,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 16,
+       "blowby": 2,
+       "points": 12,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 411.6,
+      "distance_ft": 2578.0,
+      "top_speed": 15.4,
+      "shots": {
+       "n": 4,
+       "made": 1,
+       "three": 0,
+       "three_made": 0,
+       "quality": 39.412,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 5,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 18,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Diop",
+        "seconds": 46.0
+       },
+       {
+        "who": "Diakite",
+        "seconds": 23.0
+       },
+       {
+        "who": "Omoruyi",
+        "seconds": 14.0
+       }
+      ],
+      "extra": {
+       "mean": 2.29,
+       "within_3": 0.634,
+       "n": 585
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 4.17,
+       "quality": 44.028
+      },
+      "price": {
+       "value": -0.09,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      }
+     ]
+    },
+    {
+     "id": 59295,
+     "name": "Carlos Alocen",
+     "surname": "Alocen",
+     "jersey": "12",
+     "season": {
+      "games": 16,
+      "fg": [
+       18,
+       45
+      ],
+      "three": [
+       5,
+       18
+      ],
+      "cns_three": [
+       3,
+       11
+      ],
+      "contested": [
+       10,
+       31
+      ],
+      "points": 57,
+      "picks": {
+       "n": 90,
+       "points": 64,
+       "turnovers": 16
+      },
+      "drives": {
+       "n": 60,
+       "blowby": 12,
+       "points": 44,
+       "assists": 12
+      }
+     },
+     "game": {
+      "seconds": 254.2,
+      "distance_ft": 1754.0,
+      "top_speed": 16.4,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 34.446,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 4,
+      "blowby": 0,
+      "picks_handler": 7,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Howard",
+        "seconds": 21.0
+       },
+       {
+        "who": "Cornago",
+        "seconds": 15.0
+       },
+       {
+        "who": "Forrest",
+        "seconds": 10.0
+       }
+      ],
+      "extra": {
+       "mean": 0.72,
+       "within_3": 0.811,
+       "n": 302
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 13.54,
+       "end": 3.3,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 0,
+       "distance": 5.23,
+       "quality": 37.301
+      },
+      "price": {
+       "value": 0.12,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "attack",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "team": "Bitci Baskonia",
+   "side": "away",
+   "players": [
+    {
+     "id": 59135,
+     "name": "Matteo Spagnolo",
+     "surname": "Spagnolo",
+     "jersey": "10",
+     "season": {
+      "games": 31,
+      "fg": [
+       84,
+       176
+      ],
+      "three": [
+       13,
+       39
+      ],
+      "cns_three": [
+       5,
+       22
+      ],
+      "contested": [
+       51,
+       123
+      ],
+      "points": 233,
+      "picks": {
+       "n": 160,
+       "points": 109,
+       "turnovers": 9
+      },
+      "drives": {
+       "n": 165,
+       "blowby": 33,
+       "points": 84,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 1487.4,
+      "distance_ft": 8688.0,
+      "top_speed": 15.4,
+      "shots": {
+       "n": 6,
+       "made": 3,
+       "three": 1,
+       "three_made": 0,
+       "quality": 54.175,
+       "points": 6
+      },
+      "assists": 2,
+      "turnovers": 3,
+      "passes": 36,
+      "drives": 8,
+      "blowby": 0,
+      "picks_handler": 23,
+      "screens": 2,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Albicy",
+        "seconds": 186.0
+       },
+       {
+        "who": "Robertson",
+        "seconds": 142.0
+       },
+       {
+        "who": "Samar",
+        "seconds": 72.0
+       }
+      ],
+      "extra": {
+       "mean": -1.16,
+       "within_3": 0.935,
+       "n": 2779
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 13.85,
+       "end": 2.96,
+       "pts": 0.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 3.27,
+       "quality": 72.202
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 24268,
+     "name": "Trent Forrest",
+     "surname": "Forrest",
+     "jersey": "11",
+     "season": {
+      "games": 21,
+      "fg": [
+       82,
+       171
+      ],
+      "three": [
+       16,
+       61
+      ],
+      "cns_three": [
+       9,
+       30
+      ],
+      "contested": [
+       50,
+       125
+      ],
+      "points": 294,
+      "picks": {
+       "n": 294,
+       "points": 170,
+       "turnovers": 33
+      },
+      "drives": {
+       "n": 210,
+       "blowby": 38,
+       "points": 152,
+       "assists": 20
+      }
+     },
+     "game": {
+      "seconds": 1158.4,
+      "distance_ft": 6977.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 2,
+       "three_made": 1,
+       "quality": 46.513,
+       "points": 5
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 37,
+      "drives": 6,
+      "blowby": 1,
+      "picks_handler": 19,
+      "screens": 0,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Wong",
+        "seconds": 237.0
+       },
+       {
+        "who": "Robertson",
+        "seconds": 74.0
+       },
+       {
+        "who": "Albicy",
+        "seconds": 43.0
+       }
+      ],
+      "extra": {
+       "mean": 0.65,
+       "within_3": 0.789,
+       "n": 2306
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 13.67,
+       "end": 3.48,
+       "pts": 0.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 1.74,
+       "quality": 35.376
+      },
+      "price": {
+       "value": 0.07,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      }
+     ]
+    },
+    {
+     "id": 34992,
+     "name": "Timothe Luwawu-Cabarrot",
+     "surname": "Luwawu-Cabarrot",
+     "jersey": "9",
+     "season": {
+      "games": 30,
+      "fg": [
+       172,
+       373
+      ],
+      "three": [
+       81,
+       207
+      ],
+      "cns_three": [
+       68,
+       157
+      ],
+      "contested": [
+       138,
+       299
+      ],
+      "points": 558,
+      "picks": {
+       "n": 133,
+       "points": 93,
+       "turnovers": 17
+      },
+      "drives": {
+       "n": 188,
+       "blowby": 34,
+       "points": 129,
+       "assists": 10
+      }
+     },
+     "game": {
+      "seconds": 1116.4,
+      "distance_ft": 6471.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 8,
+       "made": 3,
+       "three": 2,
+       "three_made": 0,
+       "quality": 37.132,
+       "points": 6
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 13,
+      "drives": 8,
+      "blowby": 0,
+      "picks_handler": 4,
+      "screens": 4,
+      "rebounds": [
+       1,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Salvo",
+        "seconds": 132.0
+       },
+       {
+        "who": "Brussino",
+        "seconds": 123.0
+       },
+       {
+        "who": "Robertson",
+        "seconds": 61.0
+       }
+      ],
+      "extra": {
+       "mean": 0.96,
+       "within_3": 0.792,
+       "n": 2181
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 13.65,
+       "end": 4.19,
+       "pts": 0.75,
+       "actions": {
+        "other": 2,
+        "shot": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 3,
+       "distance": 4.64,
+       "quality": 38.408
+      },
+      "price": {
+       "value": 0.32,
+       "n": 2,
+       "kinds": {
+        "late close-out": 1,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      }
+     ]
+    },
+    {
+     "id": 24949,
+     "name": "Markus Howard",
+     "surname": "Howard",
+     "jersey": "0",
+     "season": {
+      "games": 12,
+      "fg": [
+       57,
+       128
+      ],
+      "three": [
+       33,
+       89
+      ],
+      "cns_three": [
+       21,
+       51
+      ],
+      "contested": [
+       46,
+       100
+      ],
+      "points": 189,
+      "picks": {
+       "n": 63,
+       "points": 28,
+       "turnovers": 6
+      },
+      "drives": {
+       "n": 55,
+       "blowby": 20,
+       "points": 41,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 1016.4,
+      "distance_ft": 6229.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 11,
+       "made": 6,
+       "three": 10,
+       "three_made": 5,
+       "quality": 35.809,
+       "points": 17
+      },
+      "assists": 1,
+      "turnovers": 2,
+      "passes": 16,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 11,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Samar",
+        "seconds": 184.0
+       },
+       {
+        "who": "Albicy",
+        "seconds": 76.0
+       },
+       {
+        "who": "Alocen",
+        "seconds": 41.0
+       }
+      ],
+      "extra": {
+       "mean": -0.04,
+       "within_3": 0.841,
+       "n": 1719
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 11.75,
+       "end": 4.25,
+       "pts": 0.714,
+       "actions": {
+        "shot": 3,
+        "drive": 3,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 3,
+       "distance": 5.35,
+       "quality": 36.586
+      },
+      "price": {
+       "value": 0.3,
+       "n": 6,
+       "kinds": {
+        "late close-out": 6
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      }
+     ]
+    },
+    {
+     "id": 59137,
+     "name": "Clement Frisch",
+     "surname": "Frisch",
+     "jersey": "25",
+     "season": {
+      "games": 31,
+      "fg": [
+       45,
+       119
+      ],
+      "three": [
+       27,
+       70
+      ],
+      "cns_three": [
+       25,
+       61
+      ],
+      "contested": [
+       31,
+       82
+      ],
+      "points": 127,
+      "picks": {
+       "n": 3,
+       "points": 6,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 32,
+       "blowby": 6,
+       "points": 10,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 993.0,
+      "distance_ft": 5950.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 4,
+       "three_made": 2,
+       "quality": 36.409,
+       "points": 6
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 11,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 11,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pelos",
+        "seconds": 105.0
+       },
+       {
+        "who": "Labeyrie",
+        "seconds": 104.0
+       },
+       {
+        "who": "Salvo",
+        "seconds": 68.0
+       }
+      ],
+      "extra": {
+       "mean": 0.54,
+       "within_3": 0.844,
+       "n": 1848
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 13.84,
+       "end": 5.85,
+       "pts": 1.0,
+       "actions": {
+        "drive": 1,
+        "pass": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 3,
+       "distance": 2.36,
+       "quality": 44.094
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 35096,
+     "name": "Rodions Kurucs",
+     "surname": "Kurucs",
+     "jersey": "7",
+     "season": {
+      "games": 24,
+      "fg": [
+       75,
+       163
+      ],
+      "three": [
+       32,
+       76
+      ],
+      "cns_three": [
+       25,
+       55
+      ],
+      "contested": [
+       42,
+       107
+      ],
+      "points": 214,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 62,
+       "blowby": 4,
+       "points": 40,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 972.4,
+      "distance_ft": 5336.0,
+      "top_speed": 15.3,
+      "shots": {
+       "n": 5,
+       "made": 3,
+       "three": 1,
+       "three_made": 0,
+       "quality": 47.054,
+       "points": 6
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 22,
+      "drives": 5,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 19,
+      "rebounds": [
+       5,
+       4
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Vila",
+        "seconds": 117.0
+       },
+       {
+        "who": "Pelos",
+        "seconds": 84.0
+       },
+       {
+        "who": "Kuath",
+        "seconds": 59.0
+       }
+      ],
+      "extra": {
+       "mean": 1.52,
+       "within_3": 0.756,
+       "n": 1704
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 11.55,
+       "end": 5.44,
+       "pts": 0.0,
+       "actions": {
+        "drive": 2,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 4.48,
+       "quality": 34.91
+      },
+      "price": {
+       "value": 0.72,
+       "n": 3,
+       "kinds": {
+        "late close-out": 2,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      }
+     ]
+    },
+    {
+     "id": 59136,
+     "name": "Gytis Radzevicius",
+     "surname": "Radzevicius",
+     "jersey": "17",
+     "season": {
+      "games": 23,
+      "fg": [
+       44,
+       88
+      ],
+      "three": [
+       20,
+       43
+      ],
+      "cns_three": [
+       16,
+       38
+      ],
+      "contested": [
+       23,
+       54
+      ],
+      "points": 117,
+      "picks": {
+       "n": 10,
+       "points": 10,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 41,
+       "blowby": 9,
+       "points": 29,
+       "assists": 4
+      }
+     },
+     "game": {
+      "seconds": 943.2,
+      "distance_ft": 6493.0,
+      "top_speed": 17.3,
+      "shots": {
+       "n": 3,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 41.473,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 10,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 3,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Brussino",
+        "seconds": 195.0
+       },
+       {
+        "who": "Salvo",
+        "seconds": 62.0
+       },
+       {
+        "who": "Kuath",
+        "seconds": 16.0
+       }
+      ],
+      "extra": {
+       "mean": 0.26,
+       "within_3": 0.869,
+       "n": 1689
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 5,
+       "made": 3,
+       "distance": 2.09,
+       "quality": 63.176
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-2-50",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "9:33",
+       "story": "Drive → 2 passes → Radzevicius, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-2-52",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "9:14",
+       "story": "Ball screen · over → 1 pass → Kuath, two, 92 %"
+      },
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      }
+     ]
+    },
+    {
+     "id": 59138,
+     "name": "Khalifa Diop",
+     "surname": "Diop",
+     "jersey": "18",
+     "season": {
+      "games": 19,
+      "fg": [
+       24,
+       39
+      ],
+      "three": [
+       1,
+       2
+      ],
+      "cns_three": [
+       1,
+       2
+      ],
+      "contested": [
+       11,
+       24
+      ],
+      "points": 67,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 0,
+       "points": 5,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 938.4,
+      "distance_ft": 5575.0,
+      "top_speed": 16.8,
+      "shots": {
+       "n": 4,
+       "made": 3,
+       "three": 0,
+       "three_made": 0,
+       "quality": 64.491,
+       "points": 6
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 13,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 25,
+      "rebounds": [
+       0,
+       5
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kuath",
+        "seconds": 261.0
+       },
+       {
+        "who": "Tobey",
+        "seconds": 61.0
+       },
+       {
+        "who": "Wong",
+        "seconds": 14.0
+       }
+      ],
+      "extra": {
+       "mean": 0.88,
+       "within_3": 0.802,
+       "n": 1827
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 11.12,
+       "end": 6.44,
+       "pts": 0.0,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 13,
+       "made": 7,
+       "distance": 4.11,
+       "quality": 46.158
+      },
+      "price": {
+       "value": 0.13,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-2-59",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "7:50",
+       "story": "Drive → no pass → Wong, two, 33 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-3-106",
+       "role": "play",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:50",
+       "story": "Hand-off → 1 pass → Samar, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 22724,
+     "name": "Eugene Omoruyi",
+     "surname": "Omoruyi",
+     "jersey": "5",
+     "season": {
+      "games": 21,
+      "fg": [
+       68,
+       123
+      ],
+      "three": [
+       12,
+       40
+      ],
+      "cns_three": [
+       8,
+       31
+      ],
+      "contested": [
+       44,
+       87
+      ],
+      "points": 187,
+      "picks": {
+       "n": 2,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 41,
+       "blowby": 5,
+       "points": 31,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 875.6,
+      "distance_ft": 4649.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 6,
+       "made": 2,
+       "three": 2,
+       "three_made": 0,
+       "quality": 61.198,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 10,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 10,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pelos",
+        "seconds": 126.0
+       },
+       {
+        "who": "Labeyrie",
+        "seconds": 92.0
+       },
+       {
+        "who": "Kuath",
+        "seconds": 40.0
+       }
+      ],
+      "extra": {
+       "mean": 0.35,
+       "within_3": 0.829,
+       "n": 1713
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 14.12,
+       "end": 4.61,
+       "pts": 3.0,
+       "actions": {
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 4,
+       "distance": 2.79,
+       "quality": 41.903
+      },
+      "price": {
+       "value": 0.17,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-2-67",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "6:28",
+       "story": "Hand-off → 1 pass → Labeyrie, three, 37 %"
+      },
+      {
+       "chance": "chance-114086-4-146",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "9:33",
+       "story": "Hand-off → 1 pass → Omoruyi, two, 70 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    },
+    {
+     "id": 24597,
+     "name": "Mamadi Diakite",
+     "surname": "Diakite",
+     "jersey": "1",
+     "season": {
+      "games": 31,
+      "fg": [
+       109,
+       192
+      ],
+      "three": [
+       27,
+       69
+      ],
+      "cns_three": [
+       25,
+       63
+      ],
+      "contested": [
+       69,
+       129
+      ],
+      "points": 306,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 54,
+       "blowby": 5,
+       "points": 43,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 819.8,
+      "distance_ft": 4670.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 6,
+       "made": 3,
+       "three": 2,
+       "three_made": 1,
+       "quality": 51.94,
+       "points": 7
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 12,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 20,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Kuath",
+        "seconds": 187.0
+       },
+       {
+        "who": "Pelos",
+        "seconds": 47.0
+       },
+       {
+        "who": "Tobey",
+        "seconds": 39.0
+       }
+      ],
+      "extra": {
+       "mean": 1.33,
+       "within_3": 0.756,
+       "n": 1560
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 17.26,
+       "end": 5.3,
+       "pts": 1.0,
+       "actions": {
+        "shot": 1,
+        "drive": 2
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 1,
+       "distance": 3.35,
+       "quality": 45.531
+      },
+      "price": {
+       "value": 0.12,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-21",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "5:34",
+       "story": "Hand-off → 2 passes → Diakite, two, 26 %"
+      },
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-3-114",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "6:08",
+       "story": "Drive → 1 pass → Diakite, three, 45 %"
+      },
+      {
+       "chance": "chance-114086-3-127",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "3:18",
+       "story": "Post-up → no pass → Salvo, two, 25 %"
+      }
+     ]
+    },
+    {
+     "id": 59139,
+     "name": "Rafael Villar Cornago",
+     "surname": "Cornago",
+     "jersey": "4",
+     "season": {
+      "games": 32,
+      "fg": [
+       26,
+       51
+      ],
+      "three": [
+       4,
+       16
+      ],
+      "cns_three": [
+       4,
+       13
+      ],
+      "contested": [
+       14,
+       30
+      ],
+      "points": 73,
+      "picks": {
+       "n": 34,
+       "points": 14,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 67,
+       "blowby": 13,
+       "points": 22,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 777.0,
+      "distance_ft": 4926.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 11,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 3,
+      "screens": 0,
+      "rebounds": [
+       1,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Wong",
+        "seconds": 111.0
+       },
+       {
+        "who": "Robertson",
+        "seconds": 88.0
+       },
+       {
+        "who": "Albicy",
+        "seconds": 66.0
+       }
+      ],
+      "extra": {
+       "mean": -0.4,
+       "within_3": 0.879,
+       "n": 1534
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 14.64,
+       "end": 4.45,
+       "pts": 2.0,
+       "actions": {
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 4.74,
+       "quality": 38.522
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-114086-1-35",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "2:32",
+       "story": "Drive → 1 pass → Pelos, three, 40 %"
+      },
+      {
+       "chance": "chance-114086-1-41",
+       "role": "play",
+       "side": "defence",
+       "period": 1,
+       "clock": "1:09",
+       "story": "Drive → 1 pass → Salvo, three, 43 %"
+      },
+      {
+       "chance": "chance-114086-1-44",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "0:30",
+       "story": "Hand-off → 1 pass → Kurucs, two, 56 %"
+      },
+      {
+       "chance": "chance-114086-4-180",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "1:59",
+       "story": "Ball screen · over → 3 passes → Omoruyi, three, 39 %"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3597 @@
+{
+ "schema": "courtlab.roster/1",
+ "source": {
+  "dataset": "SkillCorner Open Data, basketball (github.com/SkillCorner/opendata-basketball, MIT)",
+  "game_id": 179612,
+  "generated_by": "courtlab roster (nothing in this file is hand-edited; no data beyond SkillCorner's)",
+  "season": "SkillCorner's ACB 2025-2026 aggregates (shots, ball screens, drives)",
+  "league": {
+   "schema": "courtlab.league/1",
+   "generated": "2026-09-26",
+   "n_games": 10
+  }
+ },
+ "game": {
+  "home": "Malaga",
+  "away": "Valencia BC",
+  "score": [
+   89,
+   96
+  ],
+  "date": "2026-04-12",
+  "competition": "Liga ACB 2025-2026"
+ },
+ "teams": [
+  {
+   "team": "Malaga",
+   "side": "home",
+   "players": [
+    {
+     "id": 59123,
+     "name": "Alberto Diaz",
+     "surname": "Diaz",
+     "jersey": "9",
+     "season": {
+      "games": 30,
+      "fg": [
+       51,
+       115
+      ],
+      "three": [
+       28,
+       74
+      ],
+      "cns_three": [
+       20,
+       50
+      ],
+      "contested": [
+       24,
+       62
+      ],
+      "points": 167,
+      "picks": {
+       "n": 183,
+       "points": 123,
+       "turnovers": 5
+      },
+      "drives": {
+       "n": 45,
+       "blowby": 8,
+       "points": 21,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 1268.0,
+      "distance_ft": 8045.0,
+      "top_speed": 15.8,
+      "shots": {
+       "n": 5,
+       "made": 1,
+       "three": 2,
+       "three_made": 0,
+       "quality": 35.998,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 1,
+      "passes": 41,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 17,
+      "screens": 5,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Montero",
+        "seconds": 170.0
+       },
+       {
+        "who": "Thompson",
+        "seconds": 99.0
+       },
+       {
+        "who": "Moore",
+        "seconds": 36.0
+       }
+      ],
+      "extra": {
+       "mean": 0.32,
+       "within_3": 0.783,
+       "n": 2027
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 17.3,
+       "end": 4.42,
+       "pts": 0.714,
+       "actions": {
+        "shot": 4,
+        "drive": 1,
+        "pass": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 4.76,
+       "quality": 41.277
+      },
+      "price": {
+       "value": 0.2,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59127,
+     "name": "Aleksander Balcerowski",
+     "surname": "Balcerowski",
+     "jersey": "2",
+     "season": {
+      "games": 33,
+      "fg": [
+       119,
+       189
+      ],
+      "three": [
+       5,
+       16
+      ],
+      "cns_three": [
+       5,
+       14
+      ],
+      "contested": [
+       72,
+       126
+      ],
+      "points": 348,
+      "picks": {
+       "n": 4,
+       "points": 4,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 35,
+       "blowby": 7,
+       "points": 25,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1214.6,
+      "distance_ft": 7354.0,
+      "top_speed": 15.1,
+      "shots": {
+       "n": 2,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 64.028,
+       "points": 4
+      },
+      "assists": 4,
+      "turnovers": 2,
+      "passes": 20,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 43,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Reuvers",
+        "seconds": 166.0
+       },
+       {
+        "who": "Sako",
+        "seconds": 79.0
+       },
+       {
+        "who": "Sima",
+        "seconds": 50.0
+       }
+      ],
+      "extra": {
+       "mean": 1.24,
+       "within_3": 0.766,
+       "n": 1935
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 3,
+       "made": 0,
+       "distance": 2.35,
+       "quality": 49.132
+      },
+      "price": {
+       "value": 0.2,
+       "n": 3,
+       "kinds": {
+        "help not recovered": 3
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 35326,
+     "name": "James Webb",
+     "surname": "Webb",
+     "jersey": "3",
+     "season": {
+      "games": 30,
+      "fg": [
+       103,
+       202
+      ],
+      "three": [
+       41,
+       93
+      ],
+      "cns_three": [
+       39,
+       82
+      ],
+      "contested": [
+       61,
+       135
+      ],
+      "points": 292,
+      "picks": {
+       "n": 3,
+       "points": 0,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 41,
+       "blowby": 9,
+       "points": 28,
+       "assists": 5
+      }
+     },
+     "game": {
+      "seconds": 1202.6,
+      "distance_ft": 7248.0,
+      "top_speed": 16.0,
+      "shots": {
+       "n": 6,
+       "made": 2,
+       "three": 3,
+       "three_made": 0,
+       "quality": 44.122,
+       "points": 4
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 28,
+      "drives": 3,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 18,
+      "rebounds": [
+       0,
+       7
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Key",
+        "seconds": 186.0
+       },
+       {
+        "who": "Pradilla",
+        "seconds": 83.0
+       },
+       {
+        "who": "Taylor",
+        "seconds": 63.0
+       }
+      ],
+      "extra": {
+       "mean": 2.22,
+       "within_3": 0.706,
+       "n": 2046
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 11.01,
+       "end": 5.84,
+       "pts": 0.75,
+       "actions": {
+        "drive": 4
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 1,
+       "distance": 3.01,
+       "quality": 36.905
+      },
+      "price": {
+       "value": 0.37,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59125,
+     "name": "Jonathan Barreiro",
+     "surname": "Barreiro",
+     "jersey": "7",
+     "season": {
+      "games": 32,
+      "fg": [
+       46,
+       118
+      ],
+      "three": [
+       22,
+       79
+      ],
+      "cns_three": [
+       21,
+       72
+      ],
+      "contested": [
+       30,
+       80
+      ],
+      "points": 140,
+      "picks": {
+       "n": 3,
+       "points": 3,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 20,
+       "blowby": 5,
+       "points": 6,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 1191.8,
+      "distance_ft": 6707.0,
+      "top_speed": 15.5,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 28.908,
+       "points": 0
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 11,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 2,
+      "rebounds": [
+       0,
+       5
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Puerto",
+        "seconds": 161.0
+       },
+       {
+        "who": "Taylor",
+        "seconds": 94.0
+       },
+       {
+        "who": "Nogues",
+        "seconds": 50.0
+       }
+      ],
+      "extra": {
+       "mean": 0.43,
+       "within_3": 0.851,
+       "n": 2085
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 1,
+       "made": 1,
+       "distance": 4.5,
+       "quality": 47.233
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 22729,
+     "name": "Chris Duarte",
+     "surname": "Duarte",
+     "jersey": "27",
+     "season": {
+      "games": 27,
+      "fg": [
+       97,
+       216
+      ],
+      "three": [
+       43,
+       119
+      ],
+      "cns_three": [
+       15,
+       36
+      ],
+      "contested": [
+       70,
+       160
+      ],
+      "points": 309,
+      "picks": {
+       "n": 212,
+       "points": 174,
+       "turnovers": 24
+      },
+      "drives": {
+       "n": 172,
+       "blowby": 26,
+       "points": 118,
+       "assists": 17
+      }
+     },
+     "game": {
+      "seconds": 1137.6,
+      "distance_ft": 7135.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 12,
+       "made": 7,
+       "three": 9,
+       "three_made": 4,
+       "quality": 29.033,
+       "points": 18
+      },
+      "assists": 4,
+      "turnovers": 1,
+      "passes": 21,
+      "drives": 6,
+      "blowby": 1,
+      "picks_handler": 19,
+      "screens": 5,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Moore",
+        "seconds": 154.0
+       },
+       {
+        "who": "Badio",
+        "seconds": 58.0
+       },
+       {
+        "who": "Thompson",
+        "seconds": 55.0
+       }
+      ],
+      "extra": {
+       "mean": 1.08,
+       "within_3": 0.764,
+       "n": 1815
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 14.77,
+       "end": 5.3,
+       "pts": 0.75,
+       "actions": {
+        "pass": 1,
+        "other": 1,
+        "drive": 1,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 4.65,
+       "quality": 57.295
+      },
+      "price": {
+       "value": 0.06,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      }
+     ]
+    },
+    {
+     "id": 59213,
+     "name": "Kendrick Perry",
+     "surname": "Perry",
+     "jersey": "55",
+     "season": {
+      "games": 33,
+      "fg": [
+       123,
+       283
+      ],
+      "three": [
+       59,
+       141
+      ],
+      "cns_three": [
+       26,
+       53
+      ],
+      "contested": [
+       81,
+       192
+      ],
+      "points": 370,
+      "picks": {
+       "n": 362,
+       "points": 273,
+       "turnovers": 20
+      },
+      "drives": {
+       "n": 139,
+       "blowby": 50,
+       "points": 92,
+       "assists": 17
+      }
+     },
+     "game": {
+      "seconds": 1078.0,
+      "distance_ft": 6407.0,
+      "top_speed": 16.0,
+      "shots": {
+       "n": 9,
+       "made": 4,
+       "three": 6,
+       "three_made": 3,
+       "quality": 38.943,
+       "points": 11
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 42,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 26,
+      "screens": 0,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Badio",
+        "seconds": 118.0
+       },
+       {
+        "who": "Montero",
+        "seconds": 99.0
+       },
+       {
+        "who": "Thompson",
+        "seconds": 36.0
+       }
+      ],
+      "extra": {
+       "mean": 0.63,
+       "within_3": 0.777,
+       "n": 1653
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 18.48,
+       "end": 6.63,
+       "pts": 1.25,
+       "actions": {
+        "shot": 2,
+        "other": 1,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 4,
+       "distance": 3.29,
+       "quality": 54.996
+      },
+      "price": {
+       "value": 0.02,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 24056,
+     "name": "Killian Tillie",
+     "surname": "Tillie",
+     "jersey": "33",
+     "season": {
+      "games": 25,
+      "fg": [
+       53,
+       136
+      ],
+      "three": [
+       32,
+       85
+      ],
+      "cns_three": [
+       31,
+       77
+      ],
+      "contested": [
+       37,
+       96
+      ],
+      "points": 147,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 16,
+       "blowby": 2,
+       "points": 6,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1031.4,
+      "distance_ft": 6357.0,
+      "top_speed": 14.6,
+      "shots": {
+       "n": 4,
+       "made": 3,
+       "three": 4,
+       "three_made": 3,
+       "quality": 34.541,
+       "points": 9
+      },
+      "assists": 0,
+      "turnovers": 2,
+      "passes": 25,
+      "drives": 2,
+      "blowby": 1,
+      "picks_handler": 1,
+      "screens": 23,
+      "rebounds": [
+       2,
+       2
+      ],
+      "fouls": 4
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Pradilla",
+        "seconds": 140.0
+       },
+       {
+        "who": "Key",
+        "seconds": 121.0
+       },
+       {
+        "who": "Moore",
+        "seconds": 11.0
+       }
+      ],
+      "extra": {
+       "mean": 1.78,
+       "within_3": 0.707,
+       "n": 1573
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 18.48,
+       "end": 6.08,
+       "pts": 1.0,
+       "actions": {
+        "shot": 2,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 3.44,
+       "quality": 50.758
+      },
+      "price": {
+       "value": 0.09,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59237,
+     "name": "Nihad Dedovic",
+     "surname": "Dedovic",
+     "jersey": "14",
+     "season": {
+      "games": 23,
+      "fg": [
+       72,
+       144
+      ],
+      "three": [
+       16,
+       56
+      ],
+      "cns_three": [
+       12,
+       42
+      ],
+      "contested": [
+       41,
+       96
+      ],
+      "points": 188,
+      "picks": {
+       "n": 44,
+       "points": 34,
+       "turnovers": 8
+      },
+      "drives": {
+       "n": 58,
+       "blowby": 9,
+       "points": 43,
+       "assists": 6
+      }
+     },
+     "game": {
+      "seconds": 981.2,
+      "distance_ft": 6326.0,
+      "top_speed": 15.7,
+      "shots": {
+       "n": 7,
+       "made": 1,
+       "three": 4,
+       "three_made": 0,
+       "quality": 43.225,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 12,
+      "drives": 3,
+      "blowby": 0,
+      "picks_handler": 5,
+      "screens": 9,
+      "rebounds": [
+       1,
+       0
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Taylor",
+        "seconds": 72.0
+       },
+       {
+        "who": "Puerto",
+        "seconds": 57.0
+       },
+       {
+        "who": "Badio",
+        "seconds": 56.0
+       }
+      ],
+      "extra": {
+       "mean": 0.91,
+       "within_3": 0.768,
+       "n": 1479
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 24.49,
+       "end": 16.96,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 8,
+       "made": 4,
+       "distance": 3.19,
+       "quality": 47.875
+      },
+      "price": {
+       "value": 0.2,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      }
+     ]
+    },
+    {
+     "id": 15452,
+     "name": "Chase Audige",
+     "surname": "Audige",
+     "jersey": "1",
+     "season": {
+      "games": 24,
+      "fg": [
+       50,
+       115
+      ],
+      "three": [
+       21,
+       60
+      ],
+      "cns_three": [
+       20,
+       55
+      ],
+      "contested": [
+       37,
+       87
+      ],
+      "points": 131,
+      "picks": {
+       "n": 49,
+       "points": 37,
+       "turnovers": 5
+      },
+      "drives": {
+       "n": 65,
+       "blowby": 14,
+       "points": 47,
+       "assists": 9
+      }
+     },
+     "game": {
+      "seconds": 899.8,
+      "distance_ft": 5780.0,
+      "top_speed": 15.9,
+      "shots": {
+       "n": 8,
+       "made": 4,
+       "three": 4,
+       "three_made": 2,
+       "quality": 46.667,
+       "points": 10
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 12,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 12,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Thompson",
+        "seconds": 92.0
+       },
+       {
+        "who": "Taylor",
+        "seconds": 83.0
+       },
+       {
+        "who": "Badio",
+        "seconds": 49.0
+       }
+      ],
+      "extra": {
+       "mean": 0.68,
+       "within_3": 0.741,
+       "n": 1416
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 14.23,
+       "end": 2.7,
+       "pts": 0.25,
+       "actions": {
+        "shot": 4
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 4,
+       "distance": 5.24,
+       "quality": 54.532
+      },
+      "price": {
+       "value": 0.15,
+       "n": 4,
+       "kinds": {
+        "late close-out": 3,
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 59124,
+     "name": "Augustine Rubit",
+     "surname": "Rubit",
+     "jersey": "21",
+     "season": {
+      "games": 20,
+      "fg": [
+       46,
+       92
+      ],
+      "three": [
+       1,
+       7
+      ],
+      "cns_three": [
+       1,
+       3
+      ],
+      "contested": [
+       32,
+       66
+      ],
+      "points": 132,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 10,
+       "blowby": 3,
+       "points": 2,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 752.6,
+      "distance_ft": 4469.0,
+      "top_speed": 15.2,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 53.128,
+       "points": 4
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 22,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 28,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Sako",
+        "seconds": 106.0
+       },
+       {
+        "who": "Reuvers",
+        "seconds": 31.0
+       },
+       {
+        "who": "Montero",
+        "seconds": 27.0
+       }
+      ],
+      "extra": {
+       "mean": 0.46,
+       "within_3": 0.807,
+       "n": 1065
+      },
+      "closeouts": null,
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 3.94,
+       "quality": 34.965
+      },
+      "price": {
+       "value": -0.01,
+       "n": 1,
+       "kinds": {
+        "help not recovered": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "defence",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 59126,
+     "name": "Emir Sulejmanovic",
+     "surname": "Sulejmanovic",
+     "jersey": "19",
+     "season": {
+      "games": 28,
+      "fg": [
+       71,
+       143
+      ],
+      "three": [
+       19,
+       52
+      ],
+      "cns_three": [
+       18,
+       48
+      ],
+      "contested": [
+       36,
+       89
+      ],
+      "points": 181,
+      "picks": {
+       "n": 1,
+       "points": 2,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 13,
+       "blowby": 4,
+       "points": 10,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 577.0,
+      "distance_ft": 3546.0,
+      "top_speed": 16.3,
+      "shots": {
+       "n": 1,
+       "made": 0,
+       "three": 1,
+       "three_made": 0,
+       "quality": 35.387,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 8,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 10,
+      "rebounds": [
+       0,
+       1
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Sako",
+        "seconds": 77.0
+       },
+       {
+        "who": "Sima",
+        "seconds": 36.0
+       },
+       {
+        "who": "Pradilla",
+        "seconds": 34.0
+       }
+      ],
+      "extra": {
+       "mean": 1.28,
+       "within_3": 0.733,
+       "n": 1002
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 27.53,
+       "end": 10.54,
+       "pts": 3.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 3,
+       "distance": 5.69,
+       "quality": 50.348
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "defence",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      }
+     ]
+    },
+    {
+     "id": 58359,
+     "name": "Justin Cobbs",
+     "surname": "Cobbs",
+     "jersey": "11",
+     "season": {
+      "games": 12,
+      "fg": [
+       27,
+       50
+      ],
+      "three": [
+       12,
+       26
+      ],
+      "cns_three": [
+       6,
+       13
+      ],
+      "contested": [
+       19,
+       34
+      ],
+      "points": 82,
+      "picks": {
+       "n": 48,
+       "points": 40,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 26,
+       "blowby": 2,
+       "points": 22,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 339.4,
+      "distance_ft": 1862.0,
+      "top_speed": 14.3,
+      "shots": {
+       "n": 2,
+       "made": 2,
+       "three": 1,
+       "three_made": 1,
+       "quality": 32.863,
+       "points": 5
+      },
+      "assists": 2,
+      "turnovers": 0,
+      "passes": 8,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 1,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Badio",
+        "seconds": 33.0
+       },
+       {
+        "who": "Nogues",
+        "seconds": 30.0
+       },
+       {
+        "who": "Moore",
+        "seconds": 30.0
+       }
+      ],
+      "extra": {
+       "mean": 0.28,
+       "within_3": 0.834,
+       "n": 650
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": {
+       "value": 0.99,
+       "n": 1,
+       "kinds": {
+        "nobody on him": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "team": "Valencia BC",
+   "side": "away",
+   "players": [
+    {
+     "id": 59144,
+     "name": "Jean Claudio Montero",
+     "surname": "Montero",
+     "jersey": "8",
+     "season": {
+      "games": 24,
+      "fg": [
+       114,
+       251
+      ],
+      "three": [
+       50,
+       125
+      ],
+      "cns_three": [
+       21,
+       51
+      ],
+      "contested": [
+       80,
+       189
+      ],
+      "points": 340,
+      "picks": {
+       "n": 286,
+       "points": 198,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 160,
+       "blowby": 52,
+       "points": 91,
+       "assists": 15
+      }
+     },
+     "game": {
+      "seconds": 1384.0,
+      "distance_ft": 8464.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 14,
+       "made": 7,
+       "three": 6,
+       "three_made": 4,
+       "quality": 44.657,
+       "points": 18
+      },
+      "assists": 6,
+      "turnovers": 0,
+      "passes": 33,
+      "drives": 10,
+      "blowby": 2,
+      "picks_handler": 25,
+      "screens": 0,
+      "rebounds": [
+       1,
+       3
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Diaz",
+        "seconds": 147.0
+       },
+       {
+        "who": "Duarte",
+        "seconds": 118.0
+       },
+       {
+        "who": "Dedovic",
+        "seconds": 101.0
+       }
+      ],
+      "extra": {
+       "mean": 0.98,
+       "within_3": 0.73,
+       "n": 2637
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 16.68,
+       "end": 5.26,
+       "pts": 0.0,
+       "actions": {
+        "pass": 1,
+        "drive": 2,
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 7,
+       "made": 4,
+       "distance": 3.47,
+       "quality": 36.223
+      },
+      "price": {
+       "value": 0.03,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59142,
+     "name": "Brancou Badio",
+     "surname": "Badio",
+     "jersey": "0",
+     "season": {
+      "games": 29,
+      "fg": [
+       90,
+       229
+      ],
+      "three": [
+       48,
+       147
+      ],
+      "cns_three": [
+       34,
+       96
+      ],
+      "contested": [
+       58,
+       155
+      ],
+      "points": 271,
+      "picks": {
+       "n": 146,
+       "points": 79,
+       "turnovers": 18
+      },
+      "drives": {
+       "n": 113,
+       "blowby": 13,
+       "points": 62,
+       "assists": 8
+      }
+     },
+     "game": {
+      "seconds": 1304.2,
+      "distance_ft": 7946.0,
+      "top_speed": 16.1,
+      "shots": {
+       "n": 11,
+       "made": 6,
+       "three": 5,
+       "three_made": 2,
+       "quality": 49.077,
+       "points": 14
+      },
+      "assists": 3,
+      "turnovers": 1,
+      "passes": 23,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 17,
+      "screens": 4,
+      "rebounds": [
+       1,
+       1
+      ],
+      "fouls": 5
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Perry",
+        "seconds": 325.0
+       },
+       {
+        "who": "Duarte",
+        "seconds": 87.0
+       },
+       {
+        "who": "Diaz",
+        "seconds": 14.0
+       }
+      ],
+      "extra": {
+       "mean": -0.59,
+       "within_3": 0.846,
+       "n": 2327
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 14.51,
+       "end": 5.26,
+       "pts": 0.75,
+       "actions": {
+        "pass": 2,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 5,
+       "distance": 4.47,
+       "quality": 30.932
+      },
+      "price": {
+       "value": 0.01,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 59141,
+     "name": "Jaime Pradilla",
+     "surname": "Pradilla",
+     "jersey": "4",
+     "season": {
+      "games": 29,
+      "fg": [
+       118,
+       199
+      ],
+      "three": [
+       22,
+       63
+      ],
+      "cns_three": [
+       18,
+       56
+      ],
+      "contested": [
+       76,
+       138
+      ],
+      "points": 309,
+      "picks": {
+       "n": 7,
+       "points": 6,
+       "turnovers": 2
+      },
+      "drives": {
+       "n": 43,
+       "blowby": 7,
+       "points": 21,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 1293.0,
+      "distance_ft": 8069.0,
+      "top_speed": 16.7,
+      "shots": {
+       "n": 2,
+       "made": 1,
+       "three": 1,
+       "three_made": 0,
+       "quality": 48.878,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 2,
+      "passes": 24,
+      "drives": 2,
+      "blowby": 0,
+      "picks_handler": 2,
+      "screens": 12,
+      "rebounds": [
+       1,
+       5
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Tillie",
+        "seconds": 227.0
+       },
+       {
+        "who": "Webb",
+        "seconds": 163.0
+       },
+       {
+        "who": "Sulejmanovic",
+        "seconds": 91.0
+       }
+      ],
+      "extra": {
+       "mean": 1.48,
+       "within_3": 0.713,
+       "n": 2606
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 12.79,
+       "end": 4.11,
+       "pts": 1.143,
+       "actions": {
+        "other": 1,
+        "pass": 2,
+        "shot": 3,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 3,
+       "distance": 4.07,
+       "quality": 34.419
+      },
+      "price": {
+       "value": 0.23,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 446,
+     "name": "Kameron Taylor",
+     "surname": "Taylor",
+     "jersey": "1",
+     "season": {
+      "games": 22,
+      "fg": [
+       102,
+       194
+      ],
+      "three": [
+       29,
+       70
+      ],
+      "cns_three": [
+       24,
+       58
+      ],
+      "contested": [
+       71,
+       142
+      ],
+      "points": 252,
+      "picks": {
+       "n": 65,
+       "points": 43,
+       "turnovers": 8
+      },
+      "drives": {
+       "n": 139,
+       "blowby": 18,
+       "points": 101,
+       "assists": 16
+      }
+     },
+     "game": {
+      "seconds": 1234.2,
+      "distance_ft": 7309.0,
+      "top_speed": 17.3,
+      "shots": {
+       "n": 5,
+       "made": 1,
+       "three": 3,
+       "three_made": 0,
+       "quality": 47.287,
+       "points": 2
+      },
+      "assists": 2,
+      "turnovers": 5,
+      "passes": 18,
+      "drives": 7,
+      "blowby": 1,
+      "picks_handler": 10,
+      "screens": 0,
+      "rebounds": [
+       0,
+       4
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Dedovic",
+        "seconds": 127.0
+       },
+       {
+        "who": "Barreiro",
+        "seconds": 103.0
+       },
+       {
+        "who": "Audige",
+        "seconds": 61.0
+       }
+      ],
+      "extra": {
+       "mean": 1.53,
+       "within_3": 0.698,
+       "n": 2144
+      },
+      "closeouts": {
+       "n": 5,
+       "start": 17.61,
+       "end": 5.86,
+       "pts": 1.2,
+       "actions": {
+        "shot": 3,
+        "drive": 2
+       }
+      },
+      "conceded": {
+       "n": 9,
+       "made": 5,
+       "distance": 5.75,
+       "quality": 48.909
+      },
+      "price": {
+       "value": 0.08,
+       "n": 4,
+       "kinds": {
+        "late close-out": 4
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 31587,
+     "name": "Darius Thompson",
+     "surname": "Thompson",
+     "jersey": "13",
+     "season": {
+      "games": 27,
+      "fg": [
+       66,
+       153
+      ],
+      "three": [
+       27,
+       85
+      ],
+      "cns_three": [
+       14,
+       49
+      ],
+      "contested": [
+       37,
+       95
+      ],
+      "points": 194,
+      "picks": {
+       "n": 157,
+       "points": 108,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 95,
+       "blowby": 24,
+       "points": 50,
+       "assists": 7
+      }
+     },
+     "game": {
+      "seconds": 1088.6,
+      "distance_ft": 6654.0,
+      "top_speed": 17.1,
+      "shots": {
+       "n": 6,
+       "made": 1,
+       "three": 5,
+       "three_made": 1,
+       "quality": 50.123,
+       "points": 3
+      },
+      "assists": 1,
+      "turnovers": 1,
+      "passes": 22,
+      "drives": 2,
+      "blowby": 2,
+      "picks_handler": 10,
+      "screens": 1,
+      "rebounds": [
+       0,
+       2
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Diaz",
+        "seconds": 183.0
+       },
+       {
+        "who": "Audige",
+        "seconds": 139.0
+       },
+       {
+        "who": "Barreiro",
+        "seconds": 48.0
+       }
+      ],
+      "extra": {
+       "mean": -0.24,
+       "within_3": 0.865,
+       "n": 1931
+      },
+      "closeouts": {
+       "n": 4,
+       "start": 12.94,
+       "end": 4.83,
+       "pts": 0.75,
+       "actions": {
+        "drive": 1,
+        "pass": 1,
+        "shot": 2
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 1,
+       "distance": 4.6,
+       "quality": 33.698
+      },
+      "price": {
+       "value": 0.09,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 24598,
+     "name": "Braxton Key",
+     "surname": "Key",
+     "jersey": "7",
+     "season": {
+      "games": 20,
+      "fg": [
+       47,
+       94
+      ],
+      "three": [
+       9,
+       26
+      ],
+      "cns_three": [
+       8,
+       22
+      ],
+      "contested": [
+       26,
+       65
+      ],
+      "points": 118,
+      "picks": {
+       "n": 3,
+       "points": 2,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 39,
+       "blowby": 5,
+       "points": 12,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 1041.8,
+      "distance_ft": 6414.0,
+      "top_speed": 15.8,
+      "shots": {
+       "n": 8,
+       "made": 3,
+       "three": 2,
+       "three_made": 0,
+       "quality": 49.017,
+       "points": 6
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 15,
+      "drives": 4,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 9,
+      "rebounds": [
+       0,
+       3
+      ],
+      "fouls": 2
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Webb",
+        "seconds": 184.0
+       },
+       {
+        "who": "Tillie",
+        "seconds": 128.0
+       },
+       {
+        "who": "Audige",
+        "seconds": 14.0
+       }
+      ],
+      "extra": {
+       "mean": 2.72,
+       "within_3": 0.61,
+       "n": 1763
+      },
+      "closeouts": {
+       "n": 7,
+       "start": 14.05,
+       "end": 5.47,
+       "pts": 1.143,
+       "actions": {
+        "shot": 2,
+        "drive": 1,
+        "pass": 4
+       }
+      },
+      "conceded": {
+       "n": 6,
+       "made": 2,
+       "distance": 3.91,
+       "quality": 43.144
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      }
+     ]
+    },
+    {
+     "id": 59143,
+     "name": "Neal Sako",
+     "surname": "Sako",
+     "jersey": "12",
+     "season": {
+      "games": 24,
+      "fg": [
+       49,
+       79
+      ],
+      "three": [
+       0,
+       0
+      ],
+      "cns_three": [
+       0,
+       0
+      ],
+      "contested": [
+       21,
+       40
+      ],
+      "points": 115,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 2,
+       "blowby": 0,
+       "points": 0,
+       "assists": 0
+      }
+     },
+     "game": {
+      "seconds": 978.6,
+      "distance_ft": 6084.0,
+      "top_speed": 15.6,
+      "shots": {
+       "n": 4,
+       "made": 2,
+       "three": 0,
+       "three_made": 0,
+       "quality": 60.348,
+       "points": 4
+      },
+      "assists": 1,
+      "turnovers": 0,
+      "passes": 9,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 1,
+      "screens": 27,
+      "rebounds": [
+       4,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Rubit",
+        "seconds": 183.0
+       },
+       {
+        "who": "Balcerowski",
+        "seconds": 95.0
+       },
+       {
+        "who": "Sulejmanovic",
+        "seconds": 72.0
+       }
+      ],
+      "extra": {
+       "mean": -0.08,
+       "within_3": 0.858,
+       "n": 1857
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 11.46,
+       "end": 6.09,
+       "pts": 0.0,
+       "actions": {
+        "shot": 2,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 5,
+       "made": 2,
+       "distance": 4.65,
+       "quality": 56.616
+      },
+      "price": {
+       "value": 0.19,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-1-3",
+       "role": "moment",
+       "side": "attack",
+       "period": 1,
+       "clock": "9:18",
+       "story": "Ball screen · under → 2 passes → Thompson, two, 93 %"
+      },
+      {
+       "chance": "chance-179612-1-8",
+       "role": "moment",
+       "side": "defence",
+       "period": 1,
+       "clock": "8:14",
+       "story": "Ball screen · over → 1 pass → Webb, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-174",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:58",
+       "story": "Pass from Thompson → Pradilla, three, 34 %"
+      },
+      {
+       "chance": "chance-179612-4-178",
+       "role": "moment",
+       "side": "attack",
+       "period": 4,
+       "clock": "4:03",
+       "story": "Drive → 1 pass → Badio, three, 41 %"
+      }
+     ]
+    },
+    {
+     "id": 22740,
+     "name": "Nathan Reuvers",
+     "surname": "Reuvers",
+     "jersey": "3",
+     "season": {
+      "games": 31,
+      "fg": [
+       101,
+       193
+      ],
+      "three": [
+       32,
+       86
+      ],
+      "cns_three": [
+       32,
+       81
+      ],
+      "contested": [
+       61,
+       130
+      ],
+      "points": 284,
+      "picks": {
+       "n": 1,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": {
+       "n": 13,
+       "blowby": 4,
+       "points": 9,
+       "assists": 2
+      }
+     },
+     "game": {
+      "seconds": 965.0,
+      "distance_ft": 5602.0,
+      "top_speed": 15.3,
+      "shots": {
+       "n": 7,
+       "made": 4,
+       "three": 1,
+       "three_made": 0,
+       "quality": 53.08,
+       "points": 8
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 10,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 28,
+      "rebounds": [
+       2,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Balcerowski",
+        "seconds": 241.0
+       },
+       {
+        "who": "Rubit",
+        "seconds": 86.0
+       },
+       {
+        "who": "Tillie",
+        "seconds": 9.0
+       }
+      ],
+      "extra": {
+       "mean": 0.85,
+       "within_3": 0.808,
+       "n": 1797
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 15.83,
+       "end": 7.6,
+       "pts": 1.5,
+       "actions": {
+        "drive": 1,
+        "other": 1
+       }
+      },
+      "conceded": {
+       "n": 3,
+       "made": 1,
+       "distance": 2.44,
+       "quality": 50.827
+      },
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      },
+      {
+       "chance": "chance-179612-4-199",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "0:19",
+       "story": "Drive → no pass → Webb, two, 42 %"
+      }
+     ]
+    },
+    {
+     "id": 59140,
+     "name": "Josep Puerto",
+     "surname": "Puerto",
+     "jersey": "2",
+     "season": {
+      "games": 24,
+      "fg": [
+       54,
+       143
+      ],
+      "three": [
+       32,
+       99
+      ],
+      "cns_three": [
+       25,
+       77
+      ],
+      "contested": [
+       28,
+       94
+      ],
+      "points": 156,
+      "picks": {
+       "n": 12,
+       "points": 6,
+       "turnovers": 1
+      },
+      "drives": {
+       "n": 30,
+       "blowby": 6,
+       "points": 13,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 866.4,
+      "distance_ft": 5049.0,
+      "top_speed": 17.6,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 7,
+      "drives": 1,
+      "blowby": 1,
+      "picks_handler": 0,
+      "screens": 1,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 0
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Barreiro",
+        "seconds": 221.0
+       },
+       {
+        "who": "Dedovic",
+        "seconds": 79.0
+       },
+       {
+        "who": "Audige",
+        "seconds": 34.0
+       }
+      ],
+      "extra": {
+       "mean": 1.48,
+       "within_3": 0.782,
+       "n": 1809
+      },
+      "closeouts": {
+       "n": 2,
+       "start": 18.58,
+       "end": 6.27,
+       "pts": 0.0,
+       "actions": {
+        "shot": 1,
+        "drive": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 1,
+       "distance": 4.05,
+       "quality": 37.327
+      },
+      "price": {
+       "value": 0.21,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-107",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "8:11",
+       "story": "Ball screen · over → 4 passes → Perry, three, 31 %"
+      },
+      {
+       "chance": "chance-179612-3-109",
+       "role": "moment",
+       "side": "defence",
+       "period": 3,
+       "clock": "7:45",
+       "story": "Ball screen · over → 1 pass → Dedovic, three, 39 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      }
+     ]
+    },
+    {
+     "id": 15487,
+     "name": "Omari Moore",
+     "surname": "Moore",
+     "jersey": "10",
+     "season": {
+      "games": 28,
+      "fg": [
+       90,
+       187
+      ],
+      "three": [
+       28,
+       70
+      ],
+      "cns_three": [
+       19,
+       49
+      ],
+      "contested": [
+       54,
+       127
+      ],
+      "points": 247,
+      "picks": {
+       "n": 183,
+       "points": 148,
+       "turnovers": 19
+      },
+      "drives": {
+       "n": 227,
+       "blowby": 42,
+       "points": 139,
+       "assists": 19
+      }
+     },
+     "game": {
+      "seconds": 861.0,
+      "distance_ft": 5608.0,
+      "top_speed": 16.9,
+      "shots": {
+       "n": 3,
+       "made": 2,
+       "three": 1,
+       "three_made": 1,
+       "quality": 31.009,
+       "points": 5
+      },
+      "assists": 0,
+      "turnovers": 1,
+      "passes": 17,
+      "drives": 5,
+      "blowby": 1,
+      "picks_handler": 10,
+      "screens": 1,
+      "rebounds": [
+       1,
+       2
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Duarte",
+        "seconds": 154.0
+       },
+       {
+        "who": "Diaz",
+        "seconds": 73.0
+       },
+       {
+        "who": "Audige",
+        "seconds": 39.0
+       }
+      ],
+      "extra": {
+       "mean": -0.15,
+       "within_3": 0.85,
+       "n": 1732
+      },
+      "closeouts": {
+       "n": 3,
+       "start": 11.06,
+       "end": 6.43,
+       "pts": 1.0,
+       "actions": {
+        "shot": 2,
+        "pass": 1
+       }
+      },
+      "conceded": {
+       "n": 4,
+       "made": 2,
+       "distance": 4.94,
+       "quality": 34.764
+      },
+      "price": {
+       "value": 0.09,
+       "n": 2,
+       "kinds": {
+        "late close-out": 2
+       }
+      }
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-3-125",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "4:22",
+       "story": "Ball screen · over → 1 pass → Reuvers, two, 46 %"
+      },
+      {
+       "chance": "chance-179612-4-162",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "7:09",
+       "story": "Ball screen · over → 1 pass → Tillie, three, 35 %"
+      },
+      {
+       "chance": "chance-179612-4-163",
+       "role": "moment",
+       "side": "defence",
+       "period": 4,
+       "clock": "6:58",
+       "story": "Drive → no pass → Dedovic, two, 52 %"
+      }
+     ]
+    },
+    {
+     "id": 31918,
+     "name": "Yankuba Sima",
+     "surname": "Sima",
+     "jersey": "77",
+     "season": {
+      "games": 18,
+      "fg": [
+       20,
+       44
+      ],
+      "three": [
+       2,
+       9
+      ],
+      "cns_three": [
+       1,
+       8
+      ],
+      "contested": [
+       8,
+       26
+      ],
+      "points": 56,
+      "picks": {
+       "n": 0,
+       "points": 0,
+       "turnovers": 0
+      },
+      "drives": null
+     },
+     "game": {
+      "seconds": 391.2,
+      "distance_ft": 2100.0,
+      "top_speed": 14.8,
+      "shots": {
+       "n": 1,
+       "made": 1,
+       "three": 0,
+       "three_made": 0,
+       "quality": 98.591,
+       "points": 2
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 2,
+      "drives": 0,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 9,
+      "rebounds": [
+       1,
+       0
+      ],
+      "fouls": 3
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Balcerowski",
+        "seconds": 63.0
+       },
+       {
+        "who": "Sulejmanovic",
+        "seconds": 40.0
+       },
+       {
+        "who": "Rubit",
+        "seconds": 17.0
+       }
+      ],
+      "extra": {
+       "mean": 0.18,
+       "within_3": 0.815,
+       "n": 707
+      },
+      "closeouts": null,
+      "conceded": null,
+      "price": null
+     },
+     "plays": [
+      {
+       "chance": "chance-179612-2-88",
+       "role": "moment",
+       "side": "attack",
+       "period": 2,
+       "clock": "2:12",
+       "story": "Drive → 1 pass → Thompson, three, 43 %"
+      },
+      {
+       "chance": "chance-179612-2-92",
+       "role": "play",
+       "side": "attack",
+       "period": 2,
+       "clock": "1:41",
+       "story": "Drive → 1 pass → Thompson, three, 48 %"
+      },
+      {
+       "chance": "chance-179612-3-141",
+       "role": "moment",
+       "side": "attack",
+       "period": 3,
+       "clock": "1:08",
+       "story": "Pass from Taylor → Sima, two, 99 %"
+      }
+     ]
+    },
+    {
+     "id": 35475,
+     "name": "Isaac Nogues",
+     "surname": "Nogues",
+     "jersey": "32",
+     "season": {
+      "games": 17,
+      "fg": [
+       4,
+       17
+      ],
+      "three": [
+       1,
+       5
+      ],
+      "cns_three": [
+       0,
+       3
+      ],
+      "contested": [
+       2,
+       10
+      ],
+      "points": 12,
+      "picks": {
+       "n": 5,
+       "points": 5,
+       "turnovers": 3
+      },
+      "drives": {
+       "n": 20,
+       "blowby": 1,
+       "points": 4,
+       "assists": 1
+      }
+     },
+     "game": {
+      "seconds": 266.0,
+      "distance_ft": 1643.0,
+      "top_speed": 14.8,
+      "shots": {
+       "n": 0,
+       "made": 0,
+       "three": 0,
+       "three_made": 0,
+       "quality": null,
+       "points": 0
+      },
+      "assists": 0,
+      "turnovers": 0,
+      "passes": 1,
+      "drives": 1,
+      "blowby": 0,
+      "picks_handler": 0,
+      "screens": 0,
+      "rebounds": [
+       0,
+       0
+      ],
+      "fouls": 1
+     },
+     "defence": {
+      "guarded": [
+       {
+        "who": "Cobbs",
+        "seconds": 56.0
+       },
+       {
+        "who": "Diaz",
+        "seconds": 30.0
+       },
+       {
+        "who": "Tillie",
+        "seconds": 7.0
+       }
+      ],
+      "extra": {
+       "mean": 1.25,
+       "within_3": 0.741,
+       "n": 537
+      },
+      "closeouts": {
+       "n": 1,
+       "start": 12.05,
+       "end": 4.77,
+       "pts": 3.0,
+       "actions": {
+        "shot": 1
+       }
+      },
+      "conceded": {
+       "n": 2,
+       "made": 2,
+       "distance": 3.79,
+       "quality": 32.326
+      },
+      "price": {
+       "value": 0.0,
+       "n": 1,
+       "kinds": {
+        "late close-out": 1
+       }
+      }
+     },
+     "plays": []
+    }
+   ]
+  }
+ ]
+}
