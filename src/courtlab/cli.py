@@ -51,6 +51,7 @@ def main() -> None:
     v.add_argument("--port", type=int, default=8000)
     st = sub.add_parser("site", help="write the viewer and its data as a static site")
     st.add_argument("--out", default=str(LAB / "outputs" / "site"))
+    st.add_argument("--clips", action="store_true", help="also publish the broadcast clips in broadcast/ (shown beside the animation, never read as data)")
     args = ap.parse_args()
 
     if args.cmd == "fetch":
@@ -81,7 +82,7 @@ def main() -> None:
     elif args.cmd == "serve":
         serve.serve(OUT, args.port)
     elif args.cmd == "site":
-        out = serve.write_site(OUT, Path(args.out))
+        out = serve.write_site(OUT, Path(args.out), clips=args.clips)
         n = sum(1 for p in out.rglob("*") if p.is_file())
         mb = sum(p.stat().st_size for p in out.rglob("*") if p.is_file()) / 1e6
         print(f"wrote {out}  ({n} files, {mb:.0f} MB) · serve it from any static host, or try it: python3 -m http.server -d {out} 8001")

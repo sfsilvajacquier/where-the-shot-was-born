@@ -87,3 +87,22 @@ def test_report_matches_the_contract():
                 assert len(t["detail"]) <= 5
             for m in team["moments"]:
                 check(m, {"chance": str, "i": int, "clock": str, "shooter": str, "shot": dict, "origin": str, "rotation": str, "price": dict, "thumb": list}, f"{path.name} moment")
+
+
+@pytest.mark.skipif(not list((LAB / "outputs" / "possessions").glob("*.json")) if (LAB / "outputs" / "possessions").exists() else True,
+                    reason="run `courtlab export` first")
+@pytest.mark.parametrize("clips", [False, True])
+def test_the_site_never_advertises_a_clip_it_does_not_carry(tmp_path, clips):
+    """Home and the match page tag a play `TV clip` straight from the games index. The index is built on this machine, where the
+    clips live, so a site written without them used to promise a clip whose viewer had none to show."""
+    from courtlab import serve
+
+    out = serve.write_site(LAB / "outputs" / "possessions", tmp_path / "site", clips=clips)
+    index = json.loads((out / "games" / "index.json").read_text())
+    sync = json.loads((out / "broadcast" / "sync.json").read_text())
+    for game in index:
+        for play in game["plays"]:
+            if play["clip"]:
+                entry = sync.get(play["chance"])
+                assert entry, f"{play['chance']}: tagged as having a clip, but the site carries no entry for it"
+                assert (out / "broadcast" / entry["file"]).exists(), f"{play['chance']}: its clip file was not published"

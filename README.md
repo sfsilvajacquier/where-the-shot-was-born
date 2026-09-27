@@ -17,7 +17,7 @@ uv run courtlab league               # the league figures every screen quotes
 uv run courtlab report --all         # every match as a defensive staff reads it
 uv run courtlab export --per-game 1  # the best story of every game (or --best N)
 uv run courtlab serve                # http://localhost:8000, no build step
-uv run courtlab site                 # the same viewer as a static folder, for any host
+uv run courtlab site                 # the same viewer as a static folder, for any host (--clips to carry the broadcast clips)
 uv run --group dev pytest -q         # 21 checks; run them after export and report
 ```
 

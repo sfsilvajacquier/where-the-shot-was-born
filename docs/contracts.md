@@ -164,7 +164,9 @@ derived: ft_per_min, price_per_conceded (three or more conceded), co_end and co_
 player as a scouting card (a strip per metric with every player shown and his mark) and opens the roster on Enter.
 
 **The static site.** `courtlab site` writes `outputs/site/`: the viewer's files plus every JSON the server would answer (`games/index.json`, `court.json`,
-`possessions/`, `reports/`, `rosters/`, `players/index.json`, and an empty `broadcast/sync.json`), so any static host serves it unchanged; every path the pages use is relative.
+`possessions/`, `reports/`, `rosters/`, `players/index.json`, and `broadcast/sync.json`), so any static host serves it unchanged; every path the pages use is relative.
+`--clips` also copies the broadcast clips of `broadcast/` and keeps their entries in `sync.json`; without it the clips stay behind AND every `clip` in the games index
+is cleared, so no page tags a play `TV clip` whose viewer would have none to show (`tests/test_contracts.py` checks both modes).
 It is generated, never committed to this repository; `scripts/console.py --site outputs/site` checks it served as a plain folder.
 
 ## 7. Shared viewer components (`viewer/ui.js`)

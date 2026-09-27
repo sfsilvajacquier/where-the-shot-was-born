@@ -194,14 +194,23 @@ def handler(possessions: Path) -> type[SimpleHTTPRequestHandler]:
     return Handler
 
 
-def write_site(possessions: Path, out: Path) -> Path:
+def write_site(possessions: Path, out: Path, clips: bool = False) -> Path:
     """The viewer as a static site: the pages and their assets, and every JSON this server would answer, written as files. Any static host
-    serves it (GitHub Pages, Vercel, a folder on disk); nothing in it is computed on request. No broadcast clip is ever included."""
+    serves it (GitHub Pages, Vercel, a folder on disk); nothing in it is computed on request.
+
+    `clips` decides whether the broadcast clips in `broadcast/` travel with the site. Either way the site is honest about it: without
+    them the games index is written with every `clip` cleared, so no page advertises a clip whose viewer has none to show. A clip is
+    only ever shown beside the animation; nothing is read from one."""
     if out.exists():
         shutil.rmtree(out)
     shutil.copytree(VIEWER, out, ignore=shutil.ignore_patterns("__pycache__", ".DS_Store"))
     (out / "games").mkdir()
-    (out / "games" / "index.json").write_text(json.dumps(games(possessions), ensure_ascii=False))
+    index = games(possessions)
+    if not clips:  # the index is grouped by game, and the tag lives on each play inside it
+        for game in index:
+            for play in game["plays"]:
+                play["clip"] = False
+    (out / "games" / "index.json").write_text(json.dumps(index, ensure_ascii=False))
     (out / "court.json").write_text(json.dumps(court.as_dict()))
     (out / "players").mkdir()
     (out / "players" / "index.json").write_text(json.dumps(players(), ensure_ascii=False))
@@ -211,7 +220,16 @@ def write_site(possessions: Path, out: Path) -> Path:
             for p in sorted(folder.glob("*.json")):
                 shutil.copy(p, out / name / p.name)
     (out / "broadcast").mkdir()
-    (out / "broadcast" / "sync.json").write_text("{}")  # no clip, and no 404 when a page looks for one
+    sync = BROADCAST / "sync.json"
+    if clips and sync.exists():
+        entries = json.loads(sync.read_text())
+        kept = {k: v for k, v in entries.items() if k.startswith("_") or (BROADCAST / v["file"]).exists()}
+        (out / "broadcast" / "sync.json").write_text(json.dumps(kept, ensure_ascii=False))
+        for v in kept.values():
+            if isinstance(v, dict):
+                shutil.copy(BROADCAST / v["file"], out / "broadcast" / v["file"])
+    else:
+        (out / "broadcast" / "sync.json").write_text("{}")  # no clip, and no 404 when a page looks for one
     (out / ".nojekyll").write_text("")  # GitHub Pages: serve every file as is
     return out
 
