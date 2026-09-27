@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>courtlab · the players</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="report.css">
+  <link rel="stylesheet" href="roster.css">
+  <link rel="stylesheet" href="players.css">
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <div id="stage" class="report players">
+    <canvas id="gl"></canvas>
+    <div class="dip" id="dip"></div>
+    <div class="scrim"></div>
+
+    <header class="title">
+      <div class="matchline"><button id="back" class="back" title="Home  (Esc)" aria-label="Back to Home">‹</button><span class="match">Players</span></div>
+      <p class="context" id="context"></p>
+    </header>
+    <div class="topright controls">
+      <label class="ctl"><span>View</span><select id="view" aria-label="The question the chart asks"></select></label>
+      <label class="ctl custom"><span>x</span><select id="x" aria-label="Horizontal axis"></select></label>
+      <label class="ctl custom"><span>y</span><select id="y" aria-label="Vertical axis"></select></label>
+      <label class="ctl"><span>Team</span><select id="team" aria-label="Team"></select></label>
+      <div class="seg mins" id="mins" role="radiogroup" aria-label="Minutes on the tracked play, at least" title="Minutes on the tracked play, at least  (M)"><button data-tab="10" role="radio">10 min</button><button data-tab="20" role="radio">20 min</button></div>
+    </div>
+
+    <section class="plot glass" id="plot">
+      <p class="question" id="question"></p>
+      <svg id="svg" viewBox="0 0 1180 560" width="1180" height="560" role="img" aria-label="Every player of these games, one point per player and game"></svg>
+      <p class="note" id="plot-note"></p>
+    </section>
+    <section class="profile glass" id="profile">
+      <div class="head"><span class="num" id="p-num"></span><div><h1 id="p-name"></h1><p class="sub" id="p-sub"></p></div><canvas class="badge" id="p-badge" width="80" height="80"></canvas></div>
+      <p class="pinline" id="pinline" hidden></p>
+      <p class="caption" id="caption"></p>
+      <div class="rows" id="p-rows"></div>
+      <p class="open" id="p-open">Press <kbd>↵</kbd> to open his profile in the roster · <kbd>Space</kbd> pins him to compare</p>
+    </section>
+    <section class="ranks" id="ranks"></section>
+    <div class="tip glass" id="tip" hidden></div>
+    <div class="keys"></div>
+    <p class="error" id="error" hidden></p>
+  </div>
+  <script type="module" src="players.js"></script>
+</body>
+</html>

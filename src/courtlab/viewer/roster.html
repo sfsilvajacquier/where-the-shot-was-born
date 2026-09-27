@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>courtlab · the roster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="report.css">
+  <link rel="stylesheet" href="roster.css">
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <div id="stage" class="report roster">
+    <canvas id="gl"></canvas>
+    <div class="dip" id="dip"></div>
+    <div class="scrim"></div>
+
+    <header class="title">
+      <div class="matchline"><button id="back" class="back" title="Back to the match  (Esc)" aria-label="Back to the match">‹</button><canvas class="badge" id="badge-home" width="80" height="80"></canvas><span class="match" id="match"></span><canvas class="badge" id="badge-away" width="80" height="80"></canvas></div>
+      <p class="context" id="context"></p>
+    </header>
+    <div class="topright"><div class="seg teams" id="teams" role="tablist" aria-label="Which team"><button data-tab="home" role="tab"></button><button data-tab="away" role="tab"></button></div></div>
+
+    <section class="players-col">
+      <p class="section" id="players-section">Roster</p>
+      <div class="list" id="players" role="listbox" aria-label="Players"></div>
+    </section>
+    <section class="profile glass" id="profile">
+      <div class="head"><span class="num" id="p-num"></span><div><h1 id="p-name"></h1><p class="sub" id="p-sub"></p></div><canvas class="badge" id="p-badge" width="80" height="80"></canvas></div>
+      <div class="cols" id="cols"></div>
+      <p class="section plays-head" id="plays-head">Plays on this machine he appears in</p>
+      <div class="chips playlist" id="p-plays"></div>
+      <p class="foot">Every number is SkillCorner's: the tracking, its labels and its season aggregates. Nothing biographical: the data carries a name, a number and an id, and so does this page. Minutes, distance and speed are read off the positions on the tracked play, five times a second.</p>
+    </section>
+    <div class="keys"></div>
+    <p class="error" id="error" hidden></p>
+  </div>
+  <script type="module" src="roster.js"></script>
+</body>
+</html>

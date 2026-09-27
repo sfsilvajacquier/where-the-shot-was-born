@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>courtlab · the match</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="report.css">
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <div id="stage" class="report">
+    <canvas id="gl"></canvas>
+    <div class="dip" id="dip"></div>
+    <div class="scrim"></div>
+
+    <header class="title">
+      <div class="matchline"><button id="back" class="back" title="Home  (Esc)" aria-label="Back to the start screen">‹</button><canvas class="badge" id="badge-home" width="80" height="80"></canvas><span class="match" id="match"></span><canvas class="badge" id="badge-away" width="80" height="80"></canvas></div>
+      <p class="context" id="context"></p>
+    </header>
+    <div class="topright"><button id="roster" class="pill" title="The roster of both teams  (R)">Roster <span class="arr">›</span></button><div class="seg teams" id="teams" role="tablist" aria-label="Which defence"><button data-tab="home" role="tab"></button><button data-tab="away" role="tab"></button></div></div>
+
+    <section class="cards-col">
+      <p class="section" id="cards-section">When they defended</p>
+      <div class="cards" id="cards" role="listbox" aria-label="The defence, as a coach reads it"></div>
+      <div class="dim"></div>
+    </section>
+    <section class="plays-col">
+      <p class="section">Plays · the featured one, then the costliest rotations</p>
+      <div class="list" id="plays" role="listbox" aria-label="Plays"></div>
+    </section>
+    <div class="detail glass" id="detail" hidden></div>
+    <div class="keys"></div>
+    <p class="error" id="error" hidden></p>
+  </div>
+  <script type="module" src="report.js"></script>
+</body>
+</html>

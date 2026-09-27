@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>courtlab · where the shot was born</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="gl"></canvas>
+    <div class="dip" id="dip"></div>
+    <div class="vignette"></div>
+    <div id="labels"></div>
+
+    <header class="title">
+      <div class="matchline"><button id="back" class="back" title="Back to the match  (Esc)" aria-label="Back to the match">‹</button><canvas class="badge" id="badge-attack" width="80" height="80"></canvas><span class="match" id="match"></span><canvas class="badge" id="badge-defence" width="80" height="80"></canvas></div>
+      <p class="context" id="context"></p>
+      <p class="disclaimer" id="camnote" hidden>Eye-level view · positions are real; where he looks is a rule: on the ball, at the rim; otherwise, at the ball.</p>
+      <p class="disclaimer" id="disclaimer" hidden>Bodies are generated from position, speed and events · the data has no body pose.</p>
+    </header>
+
+    <div class="bug glass" id="bug">
+      <div><span class="k">Period</span><span class="v" id="period"></span></div>
+      <div><span class="k">Clock</span><span class="v" id="clock"></span></div>
+      <div><span class="k">Shot clock</span><span class="v" id="shotclock"></span></div>
+      <div><span class="k">Score</span><span class="v" id="score"></span></div>
+    </div>
+
+    <aside class="readout glass" id="panel">
+      <div class="head">
+        <h2 id="panel-title">Beyond his normal spot</h2>
+        <div class="seg mini" id="tabs" role="tablist"><button data-tab="marks" role="tab" aria-selected="true">Marks</button><button data-tab="story" role="tab" aria-selected="false" disabled title="The chapter the play is in">Story</button></div>
+        <button class="chev" id="fold-card" title="Fold the card  (P)" aria-label="Fold or unfold the card">⌃</button>
+        <span class="info" tabindex="0" aria-label="What this measures">i
+          <span class="pop glass">
+            <b>Feet from his man, compared with where he normally stands.</b> Below zero he is tighter than normal; above, he has been pulled away.
+            <span class="ends"><span>−6 ft · tighter</span><span>pulled away · +15 ft</span></span>
+            <span class="foot" id="model"></span>
+            <a class="foot reflink" href="reference.html">All the references →</a>
+          </span>
+        </span>
+      </div>
+      <div class="body">
+        <div class="tab" id="tab-marks">
+          <div id="rows"></div>
+          <div class="legend">
+            <div class="ramp" id="ramp"></div>
+            <div class="ticks" id="ticks"></div>
+          </div>
+        </div>
+        <div class="tab" id="tab-story" hidden>
+          <p class="chapter-no" id="story-no"></p>
+          <div class="pair"><span class="big" id="story-big"></span><span class="unit" id="story-unit"></span></div>
+          <p class="line" id="story-context"></p>
+          <p class="line price" id="story-price" hidden></p>
+          <p class="line look" id="story-look" hidden></p>
+          <p class="league" id="story-league"></p>
+        </div>
+      </div>
+    </aside>
+
+    <figure class="broadcast glass" id="broadcast" hidden><video playsinline muted preload="auto"></video><figcaption>TV · shown for reference, not used as data</figcaption></figure>
+    <div class="subtitle" id="subtitle" hidden></div>
+    <div class="scrub" id="scrub"><div class="segs"></div><div class="head"></div></div>
+    <div class="now glass" id="now"><span class="t" id="nowt"></span><span id="nowtext"></span><span class="cam" id="camlive"></span></div>
+
+    <section class="strip glass">
+      <div class="transport">
+        <div class="group">
+          <button id="play" title="Play / pause  (space)" aria-label="Play or pause"><svg viewBox="0 0 24 24" id="playicon"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+          <button id="speed" title="Playback speed" aria-label="Playback speed">1×</button>
+        </div>
+        <div class="group">
+          <div class="seg" id="view" role="radiogroup" aria-label="Pucks or figures"><button data-mode="pucks" role="radio">Pucks</button><button data-mode="figures" role="radio">Figures</button></div>
+          <select id="cam" title="Camera" aria-label="Camera"></select>
+          <select id="eyes" title="Whose eyes" aria-label="Whose eyes" hidden></select>
+        </div>
+        <div class="group">
+          <label class="layer" id="tvlab" title="Sit where the TV camera was"><input type="checkbox" id="tv"><span>TV side</span></label>
+          <label class="layer" id="bclab" hidden title="The real footage, synced"><input type="checkbox" id="bc"><span>TV clip</span></label>
+          <label class="layer" title="Feet between each defender and his man"><input type="checkbox" id="lay-distances"><span>Distances</span></label>
+          <label class="layer" title="Every pass so far, drawn on the floor"><input type="checkbox" id="lay-path"><span>Path of the ball</span></label>
+        </div>
+        <button class="chev" id="fold-strip" title="Fold the strip  (S)" aria-label="Fold or unfold the strip">⌃</button>
+        <div class="group hud"><span class="cap">HUD</span><div class="seg" id="hudsel" role="radiogroup" aria-label="How much to show" title="How much to show  (H)"><button data-tab="full" role="radio">Full</button><button data-tab="minimal" role="radio">Minimal</button><button data-tab="none" role="radio">None</button></div></div>
+      </div>
+      <canvas id="strip"></canvas>
+    </section>
+
+    <section class="start" id="start" hidden>
+      <div class="scrim"></div>
+      <div class="col">
+        <p class="eyebrow"><img class="mark" src="assets/skillcorner.png" alt="SkillCorner" width="18" height="18"><span id="start-eyebrow">SkillCorner open data</span></p>
+        <h1>Where the shot was born</h1>
+        <p class="dek">Ten games of tracking, read backwards from the shot: the action that opened it, who paid for the help, and what the rotation cost.</p>
+        <p class="section row"><span>Matches</span><button class="pill mini" id="players" title="Every player of these games, compared  (P)">Players <span class="arr">›</span></button></p>
+        <div class="plays" id="games" role="listbox" aria-label="Matches"></div>
+        <p class="section row"><span>How to read it</span><button class="pill mini" id="refs" title="Every name on these pages, and where each figure came from  (G)">References <span class="arr">›</span></button></p>
+        <div class="tiles">
+          <div class="tile"><span class="glyph band"></span><span>Bands: how far a defender is pulled from his normal spot. Blue is tighter, amber is farther.</span></div>
+          <div class="tile"><span class="glyph rows"><i></i><i></i><i></i><i></i><i></i></span><span>The strip: the whole possession, one row per attacker. Drag it to move in time.</span></div>
+          <div class="tile"><span class="glyph cam"></span><span>Cameras: the Director cuts with the play; pick any. Bodies and eye-level gaze are generated.</span></div>
+        </div>
+        <p class="foot">Every number comes from the data. Nothing from video. <a href="reference.html">What each one means, and whose it is →</a></p>
+      </div>
+      <div class="detail glass" id="detail" hidden><p class="section" id="detail-section"></p><p class="story" id="detail-story"></p><div class="chips" id="detail-chips"></div><p class="line" id="detail-line"></p><p class="open">Press <kbd>↵</kbd> to open the match</p></div>
+      <div class="keys"></div>
+    </section>
+    <div class="tip glass" id="tip" hidden></div>
+    <p class="error" id="error" hidden></p>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

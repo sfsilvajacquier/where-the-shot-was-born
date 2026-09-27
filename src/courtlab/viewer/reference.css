@@ -1,0 +1,30 @@
+/* The references: one page, three groups, every term the rest of the viewer uses. It is the long form of the `i` panels, and it
+   reads as a document rather than as a dashboard, so it is set on a plain dark ground with no court behind it. */
+
+#stage.reference { background: radial-gradient(120% 90% at 20% 0%, #0b1220 0%, var(--bg) 60%); }
+#stage.reference .title { position: absolute; left: var(--margin); top: 40px; }
+#stage.reference .context { max-width: 900px; margin-top: 10px; font-size: 20px; line-height: 28px; color: var(--ink-2); }
+#stage.reference .topright { position: absolute; right: var(--margin); top: 48px; }
+
+.ref-col { position: absolute; left: var(--margin); right: var(--margin); top: 190px; bottom: 96px; overflow: auto; padding-right: 8px; }
+.ref-col::-webkit-scrollbar { width: 8px; }
+.ref-col::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.14); border-radius: 4px; }
+
+.ref-group + .ref-group { margin-top: 34px; }
+.ref-group > .section { display: flex; align-items: baseline; gap: 12px; font-size: 13px; font-weight: 600; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--ink-2); }
+.ref-group > .section .hint { letter-spacing: 0; text-transform: none; font-weight: 400; font-size: 15px; color: var(--ink-3); }
+
+/* three across: a definition is a paragraph, and three columns keep every one of them above the fold-and-a-half */
+.ref-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); margin-top: 14px; }
+.ref-card { padding: 20px 22px 18px; border-radius: var(--r-card); min-width: 0; }
+.ref-card h3 { display: flex; align-items: baseline; gap: 10px; font-size: 20px; font-weight: 600; color: var(--ink); }
+.ref-card .ifrom { flex: none; margin-left: auto; padding: 2px 8px; border-radius: 999px; font-size: 13px; line-height: 18px;
+  border: 1px solid rgba(255,255,255,0.16); color: var(--ink-2); white-space: nowrap; }
+.ref-card .ifrom.sc { color: #33ff6b; border-color: rgba(51,255,107,0.34); }  /* SkillCorner's mark colour: whose number it is, not how big */
+.ref-card .what { margin-top: 8px; font-size: 17px; line-height: 25px; color: var(--ink); }
+.ref-card .more { margin-top: 8px; font-size: 15px; line-height: 23px; color: var(--ink-3); }
+.ref-card.out { display: none; }
+
+.reffoot { position: absolute; left: var(--margin); bottom: 40px; font-size: 14px; color: var(--ink-3); }
+.reffoot code { font-family: inherit; color: var(--ink-2); }

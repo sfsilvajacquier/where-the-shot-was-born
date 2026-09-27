@@ -1,0 +1,222 @@
+/* The match page: the empty court behind a scrim; on the left the defence as a coach reads it (the bill, then how the set broke, then
+   inside and where they shot from), on the right its plays; one focus, one detail card. Everything else (tokens, glass, header, rows,
+   detail, keys) comes from style.css. Colour keeps the project's rule: the tension palette marks better/worse than the league and the
+   price of a rotation; nothing else is coloured. */
+
+#stage.report .scrim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5,8,14,0.9) 0%, rgba(5,8,14,0.72) 45%, rgba(5,8,14,0.88) 100%); }
+#stage.report .title { z-index: 2; }
+#stage.report .context { padding-left: 48px; }
+/* the shot popup is the one place on this page that behaves like a modal (everything else is a peer card); it should look like one.
+   The rest of the grid dims while it's up, instead of sitting there at full brightness looking like an unrelated panel that happened
+   to open next to it. This is a plain opaque overlay painted OVER the cards (`.dim`, report.html), not opacity/filter on .cards-col
+   itself: that was tried first, and even just declaring a transition on that element (with no class active yet) promotes it to its
+   own compositing layer and visibly breaks every child card's backdrop-filter — the blur stops sampling the live 3D scene correctly
+   and the court's paint reappears sharply through every card, the exact bug two rounds of work went into removing. A plain overlay
+   on top never touches how the cards underneath it composite. */
+/* .dim is a direct child of .cards-col like every card is, so the page's own entrance rule (".cards-col > *", below) swept it up too —
+   `rise` ends at opacity: 1 and holds there (`animation-fill-mode: both`), which silently overrode this element's opacity: 0 forever
+   after the entrance played, blacking out every card behind it while pointer-events: none still let hover/click reach them (that's
+   why the cards worked but nothing was visible). animation: none here is more specific than that rule and wins regardless of source
+   order, so .dim never enters that animation at all. */
+.cards-col .dim { position: absolute; inset: -8px; border-radius: 20px; background: #05070c; opacity: 0; pointer-events: none; transition: opacity 0.25s; animation: none; }
+#stage.report.zones-open .cards-col .dim { opacity: 0.62; pointer-events: auto; }
+
+/* top right: the roster button and the large segmented control for which defence */
+.topright { position: absolute; right: var(--margin); top: 44px; display: flex; gap: 12px; z-index: 2; }
+.seg.teams { height: 44px; padding: 4px; border-radius: 22px; }
+.seg.teams button { height: 34px; padding: 0 18px; border-radius: 17px; font: inherit; font-size: 16px; font-weight: 600; cursor: pointer; }
+
+.section { font-size: 14px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-3); }
+
+/* the left column: a grid of cards in three bands, each band with its own eyebrow */
+.cards-col { position: absolute; left: var(--margin); top: 136px; width: 1120px; }
+/* the two tile rows are a fixed module (--unit), not "auto" sized to whatever's inside them: that's what let the shot card's own
+   content (title, court, a six-row table, a footnote) grow the grid to fit itself, instead of the other way around — a coach-facing
+   number should never depend on how tall a fixed pane can make itself, because the next game's numbers will always be a different
+   length. The shot card now gets exactly 2 × --unit + the gap between them and nothing more; its own content is built to fit that,
+   not to ask for more of it. */
+.cards { --unit: 210px; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto auto var(--unit) var(--unit); gap: 16px; margin-top: 12px; }
+.cards .band { grid-column: 1 / -1; font-size: 13px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-3); margin: 8px 0 -4px; }
+/* the same frosted surface as everything else (.glass in style.css, and .detail here): without it a card is nearly transparent and shows
+   whatever the 3D court behind it happens to be — a blue paint diagonal under one card, the centre logo under another, plain wood under
+   a third — so cards that are meant to read as one family (the same kind of tile) looked unrelated to each other. A layered shadow gives
+   every card real elevation off the court behind it (the flat glass read as pasted onto the background, not floating above it), which
+   also carries a card whose box happens to be shorter than its row: rim and glass don't need to match zones' height to read as the same
+   kind of object once each one visibly sits above the scene on its own, the way a card, not a hole cut in the surface, should. */
+.card { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 14px 18px 12px; border-radius: 16px; text-align: left; cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.12); background: linear-gradient(180deg, rgba(22,29,46,0.74), rgba(10,14,24,0.82)); backdrop-filter: blur(30px) saturate(1.35); -webkit-backdrop-filter: blur(30px) saturate(1.35);
+  box-shadow: 0 28px 70px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.16);  /* .glass's own recipe (style.css), not a new one, so a card and the detail beside it read as the same material */
+  color: var(--ink); font: inherit; opacity: 0.86; position: relative;
+  transition: background 0.18s, border-color 0.18s, opacity 0.18s, translate 0.18s, box-shadow 0.18s; }
+/* height comes from the grid row (--unit) now via the default grid stretch, not a second, separately-maintained number here — one
+   source of truth for the tile height instead of two that can quietly drift apart. */
+.card.wide { grid-column: span 2; }
+.card.bill { grid-column: span 2; height: 331px; }
+.card.who { grid-column: span 2; height: 331px; }
+/* the shot card is this band's 4th column now (report.js orders the cards so it auto-flows there): one column wide, two rows tall,
+   exactly 2 × --unit + the gap between them (the grid enforces it; see .cards above), never a separate guess. overflow: hidden is
+   the backstop — content is sized to fit that budget on purpose (see .card.zones .half below), but a clipped edge beats a card that
+   silently grows the whole grid out of alignment again. The border and icon mark it as deliberately the bigger card in its row
+   (see TARGET_ICON in report.js) instead of leaving size as the only signal that it's not mis-aligned, just different. */
+.card.zones { grid-row: span 2; min-width: 0; overflow: hidden; border-color: rgba(255,255,255,0.22); }
+.card.zones .k { display: inline-flex; align-items: center; gap: 6px; }
+.card.zones .k .hero-icon { color: var(--ink-3); flex: none; }
+.card .k { font-size: 13px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--ink-2); white-space: nowrap; }
+.card .pair { display: flex; align-items: baseline; gap: 8px; margin-top: 2px; }
+.card .big { font-size: 36px; font-weight: 700; letter-spacing: -1px; line-height: 40px; font-variation-settings: 'opsz' 32; }
+.card .unit { font-size: 13px; color: var(--ink-2); line-height: 16px; max-width: 132px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+/* the comparison: a track with the league's tick and this game's marker, on one scale; the dot says which way is worse */
+.card .cmp { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px; width: 100%; margin-top: auto; }
+.card .cmp .track { position: relative; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.12); }
+.card .cmp .track i { position: absolute; top: 0; bottom: 0; border-radius: 3px; }
+.card .cmp .track b { position: absolute; top: -4px; width: 2px; height: 14px; background: rgba(255,255,255,0.7); }
+.card .cmp .vs { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); font-feature-settings: 'tnum'; white-space: nowrap; }
+.card .cmp .vs i { width: 8px; height: 8px; border-radius: 50%; }
+/* the one second-order fact under the headline (UNDER_HEAD in report.js): what the tile's own detail card would tell you first,
+   so the height the tile takes is height it earns rather than padding under a big number. */
+.card .more { display: flex; flex-direction: column; gap: 1px; margin-top: 9px; max-width: 100%; }
+.card .more .ml { font-size: 11px; line-height: 14px; color: var(--ink-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card .more .mv { font-size: 13px; line-height: 17px; color: var(--ink-2); font-feature-settings: 'tnum'; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .n { font-size: 12px; color: var(--ink-3); font-feature-settings: 'tnum'; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card[aria-selected="true"] { opacity: 1; background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.32); translate: 0 -2px;
+  box-shadow: 0 34px 80px rgba(0,0,0,0.58), inset 0 1px 0 rgba(255,255,255,0.22); }  /* the same shadow, a little deeper, to match the lift */
+.card:focus-visible { outline: 2px solid rgba(255,255,255,0.7); outline-offset: 2px; }
+
+/* the bill: the two figures that summarise the defence, then the game by quarter */
+.card.bill .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
+.card.bill .two .pair { flex-direction: column; align-items: flex-start; gap: 0; }
+.card.bill .two .big { font-size: 36px; line-height: 40px; }
+.card.bill .two .unit { max-width: none; display: block; }
+.card.bill .two .vs { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); margin-top: 4px; }
+.card.bill .two .vs i { width: 8px; height: 8px; border-radius: 50%; }
+.card.bill svg { display: block; flex: none; width: 100%; height: 156px; margin-top: 2px; }  /* flex: none, or the card's fixed height shrinks it and the chart scales down with it */
+.card .q-axis { font-size: 11px; fill: var(--ink-3); letter-spacing: 1px; }
+.card .q-val { font-size: 12px; fill: var(--ink); font-feature-settings: 'tnum'; }
+.card .q-exp { fill: rgba(255,255,255,0.22); }
+.card .q-got { fill: var(--ink); }
+.card .q-price { font-size: 12px; font-feature-settings: 'tnum'; }
+.card .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-3); margin-top: 2px; white-space: nowrap; }
+.card .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+
+/* who paid: a short list inside a card */
+/* the ledger fills the card it is given rather than sitting cramped at the top of it: six names is all this card ever has, so the
+   room goes into making each one readable instead of into a gap underneath them. */
+.card.who .list-in { display: flex; flex-direction: column; gap: 5px; width: 100%; margin-top: 8px; }
+.card.who .row-in { display: grid; grid-template-columns: 1fr 64px 110px 120px; align-items: center; gap: 10px; font-size: 16px; line-height: 31px; }
+.card.who .row-in .v { text-align: right; font-feature-settings: 'tnum'; font-weight: 600; }
+.card.who .row-in .s { text-align: right; font-size: 12px; color: var(--ink-3); font-feature-settings: 'tnum'; }
+
+/* where they shot from: a half court with every conceded shot, made filled, missed hollow. The card is a single column now (it used to
+   be two, side by side): the court sits on top, the zone table below it — `object-fit: contain` so the court keeps its own shape
+   (roughly 3:2, wide) instead of being stretched to whatever shape its flex slot happens to be, which is what quietly ate ~200px of
+   dead space in the large popup below before this same fix went on it too. */
+.card.zones .half { display: flex; flex-direction: column; gap: 8px; width: 100%; flex: 1; min-width: 0; min-height: 0; }
+.card.zones .half > svg { flex: 1; min-width: 0; min-height: 0; width: 100%; display: block; object-fit: contain; }
+/* the half court, on the zones card and on the detail card opened large (unscoped, or the SVG's default black fill takes over).
+   Contrast: the court was drawn at 4 % white on a dark card, which is barely a surface at all, so a dot's position told you nothing
+   without reading the table; and made and missed were the same near-white at the same weight, separated only by fill versus outline,
+   which stops working exactly where it matters most, in the cluster at the rim. The court now reads as a court, the key is filled as
+   well as outlined, and the two outcomes are separated by weight and brightness rather than by hue, which keeps colour on this page
+   meaning only what it has always meant: better or worse than the league, and the price of a rotation. */
+.court-line { fill: none; stroke: rgba(255,255,255,0.42); stroke-width: 0.5; vector-effect: non-scaling-stroke; }
+.court-fill { fill: rgba(255,255,255,0.07); }
+.court-paint { fill: rgba(255,255,255,0.07); }
+/* a make is SkillCorner's green with a dark rim; a miss is a dark cross on a pale one, so the two differ in SHAPE and not only in
+   fill, which is what survives a dozen of them overlapping at the rim. The green is the project's mark colour, not the tension
+   palette (amber/blue), so it cannot be read as "better or worse than the league" — that rule still holds everywhere else. */
+.shot.made { fill: #33ff6b; stroke: #05080e; stroke-width: 0.5; }
+.shot.miss .x-halo { fill: none; stroke: rgba(244,247,251,0.92); stroke-width: 0.82; stroke-linecap: round; }
+.shot.miss .x-mark { fill: none; stroke: #05080e; stroke-width: 0.5; stroke-linecap: round; }
+.card.zones .ztable { display: grid; grid-template-columns: 1fr 38px 38px; gap: 2px 6px; font-size: 12px; line-height: 15px; width: 100%; flex: none; }
+.card.zones .ztable .h { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-3); }
+.card.zones .ztable .v { text-align: right; font-feature-settings: 'tnum'; }
+.card.zones .ztable .z { color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card.zones .n { white-space: normal; overflow: visible; text-overflow: unset; font-size: 11px; line-height: 13px; margin-top: 2px; }  /* this column is a quarter of the row now, not half of it — the footnote wraps instead of truncating to an ellipsis, and stays small: it's the least important line in the card */
+
+/* the plays: rows like Home's, with the price at the end */
+.plays-col { position: absolute; left: 1200px; top: 136px; width: 680px; }
+/* the list used to stop at 372px regardless of how far down the detail card actually sits (bottom: 96px, so its top varies with viewport
+   height only, not with this list) — on a game with enough plays to need the scroll cue, that left a tall dead gap of plain 3D court
+   between the list and the detail card, which stood out once the cards beside it became solid glass. Tall enough to reach close to the
+   detail card on this stage size, with the same scroll cue for whatever still doesn't fit. */
+.list { display: flex; flex-direction: column; gap: 4px; margin-top: 12px; margin-left: -12px; max-height: 540px; overflow: hidden auto; scrollbar-width: none; padding-right: 8px;
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(180deg, #000 calc(100% - 28px), transparent); }
+.list::-webkit-scrollbar { display: none; }
+.list.fits { -webkit-mask-image: none; mask-image: none; }
+.item { display: grid; grid-template-columns: 1fr 160px 76px; align-items: center; column-gap: 16px; flex: none; height: 56px; padding: 0 14px 0 12px; border: 0; border-radius: 12px;
+  background: transparent; color: var(--ink); font: inherit; text-align: left; cursor: pointer; opacity: 0.72; transition: background 0.18s, opacity 0.18s, box-shadow 0.18s, translate 0.18s; }
+.item .teams { display: block; font-size: 17px; font-weight: 600; line-height: 21px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.item .sub { display: block; font-size: 13px; line-height: 17px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.item .sub em { font-style: normal; color: var(--ink-3); }
+.item canvas { width: 160px; height: 24px; display: block; border-radius: 3px; }
+.item .price { font-size: 20px; font-weight: 600; text-align: right; font-feature-settings: 'tnum'; letter-spacing: -0.3px; }
+.item[aria-selected="true"] { opacity: 1; background: rgba(255,255,255,0.1); box-shadow: inset 3px 0 0 var(--ink); translate: 4px 0; }
+.item:focus-visible { outline: 2px solid rgba(255,255,255,0.7); outline-offset: 2px; }
+
+/* the detail card: the focused play (its four chapters, each a number and a title), the focused moment, or the focused card's rows */
+#stage.report .detail { left: 1200px; right: auto; width: 680px; bottom: 96px; padding: 18px 22px 18px; }
+.detail .lead { font-size: 18px; line-height: 25px; margin-top: 8px; }
+.detail .row { display: flex; justify-content: space-between; gap: 16px; font-size: 15px; line-height: 22px; }
+.detail .row + .row { border-top: 1px solid rgba(255,255,255,0.08); }
+.detail .row .k { color: var(--ink-2); white-space: nowrap; }
+.detail .row .v { color: var(--ink); text-align: right; font-feature-settings: 'tnum'; }
+.detail .rows { margin-top: 10px; }
+.detail .line b { color: var(--ink); font-weight: 600; }
+.detail .price { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); }
+.detail .foot { font-size: 13px; color: var(--ink-3); margin-top: 10px; }
+.detail .open { font-size: 13px; color: var(--ink-3); margin-top: 10px; }
+/* the zones card opened: the detail card grows into a large half court with the shooters as a filter */
+/* the same hero mark the small card carries (border, icon): this is the card that card opened into, not a different, unrelated
+   overlay — and it now enters with a short rise (see @keyframes zonesRise) instead of just appearing, so that relationship reads
+   in motion too. */
+#stage.report .detail.large { top: 136px; bottom: 96px; width: 680px; display: flex; flex-direction: column; border-color: rgba(255,255,255,0.22);
+  animation: zonesRise 0.28s cubic-bezier(0.2,0.7,0.2,1) both; }
+#stage.report .detail.large .section { display: inline-flex; align-items: center; gap: 8px; }
+#stage.report .detail.large .section .hero-icon { color: var(--ink-3); flex: none; }
+/* round 1 of this fix used object-fit: contain to stop the court being stretched into a shape it doesn't have — correct, but it sat
+   the court beside the zone table (flex: 1.6 vs a 200px column), and a court that's wide-and-short next to a narrow side column means
+   the box offered to it is tall-and-narrow: contain still has to fit the WIDTH first, so most of that tall box went unused above and
+   below the court, the exact "espacio desaprovechado" this was meant to fix in the first place. Stacked instead: the court gets the
+   card's full width, at its own aspect ratio (written on the svg itself — see halfCourt() in report.js — so this never depends on a
+   guessed ratio here), and the zone table sits below it using the width that freed up, with real room to be read at a size that
+   matches the rest of the card instead of a cramped side column. */
+/* the court is the flexible one, not the table: full width fixed the court's own aspect ratio getting starved of width by a side
+   column, but blindly deriving its height FROM that width (height: auto) then left the table starved of height instead — the same
+   mistake in the other axis, with the table's rows painting straight past its own box into the shooter chips below it. The table's
+   own content (however many zones it has) sizes itself first (flex: none, natural height); the court gets whatever's left
+   (flex: 1, min-height: 0) and object-fit: contain keeps it at its true proportions within that, however much or little that is —
+   the one sizing rule that's honest about not knowing in advance which of the two needs more room. */
+#stage.report .detail.large .shotrow { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 18px; margin-top: 10px; }
+#stage.report .detail.large .court-large { flex: 1; min-height: 0; min-width: 0; width: 100%; display: flex; justify-content: center; }
+#stage.report .detail.large .court-large svg { display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: contain; }
+#stage.report .detail.large .zbreak { flex: none; width: 100%; display: grid; grid-template-columns: 1fr 80px 80px; align-content: center; gap: 8px 16px; font-size: 15px; line-height: 20px; }
+#stage.report .detail.large .zbreak .h { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-3); }
+#stage.report .detail.large .zbreak .v { text-align: right; font-feature-settings: 'tnum'; }
+#stage.report .detail.large .zbreak .z { color: var(--ink-2); }
+#stage.report .detail.large .zbreak-note { grid-column: 1 / -1; font-size: 12px; line-height: 16px; color: var(--ink-3); margin-top: 10px; }
+/* filtered out, not erased: still above the court's own 7 % fill, but clearly behind the shooter being kept */
+#stage.report .detail.large .shot.made.dim { fill: rgba(51,255,107,0.22); stroke: rgba(5,8,14,0.45); }
+#stage.report .detail.large .shot.miss.dim .x-halo { stroke: rgba(244,247,251,0.2); }
+#stage.report .detail.large .shot.miss.dim .x-mark { stroke: rgba(5,8,14,0.35); }
+#stage.report .detail.large .lead { margin-top: 4px; }
+/* a grid, not a wrapped row of chips sized to their own text: the old layout left ragged edges (nothing in row two lined up under
+   row one) that read as unaligned even though each name sat centred fine inside its own chip. Same 4-column rhythm the play detail's
+   chapter chips already use (`.detail .chips`, below), so this popup finally borrows the app's own pattern instead of inventing one. */
+#stage.report .detail.large .shooters { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 12px; }
+#stage.report .detail.large .shooters .chip { display: flex; align-items: center; justify-content: center; height: 28px; padding: 0 10px; border-radius: 14px; cursor: pointer; font: inherit; font-size: 13px; color: var(--ink-2); border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.06); transition: background 0.15s; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#stage.report .detail.large .shooters .chip:hover, #stage.report .detail.large .shooters .chip.on { background: rgba(255,255,255,0.16); color: var(--ink); }
+#stage.report .detail .chips { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
+#stage.report .detail .chip { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; height: auto; padding: 8px 10px; border-radius: 10px; white-space: normal; }
+#stage.report .detail .chip b { font-size: 18px; line-height: 22px; letter-spacing: -0.3px; }
+#stage.report .detail .chip span { font-size: 12px; line-height: 15px; color: var(--ink-3); }
+
+/* the entrance, as on Home */
+#stage.report .title, #stage.report .topright, .cards-col > *, .plays-col > *, #stage.report .detail, #stage.report .keys { animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both; animation-delay: calc(var(--i, 0) * 60ms); }
+.card, .item { animation: rise 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both; animation-delay: calc(200ms + var(--i, 0) * 45ms); }
+@keyframes zonesRise { from { opacity: 0; transform: scale(0.97) translateY(6px); } to { opacity: 1; transform: none; } }
+#stage.nomotion .title, #stage.nomotion .topright, #stage.nomotion .cards-col > *, #stage.nomotion .plays-col > *, #stage.nomotion .detail, #stage.nomotion .detail.large, #stage.nomotion .keys, #stage.nomotion .card, #stage.nomotion .item { animation: none; transition: none; }
+
+/* The `i` sits in the card's top-right corner rather than after the title: one place on every card whatever its heading is as long
+   as, and no heading ever has to make room for it (the shot card's is 21 px wider than its column). */
+.card .k { display: flex; align-items: center; padding-right: 26px; }
+.card .k .inf { position: absolute; right: 14px; top: 13px; margin: 0; }

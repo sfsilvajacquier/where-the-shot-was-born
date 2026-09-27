@@ -1,0 +1,23 @@
+[project]
+name = "courtlab"
+version = "1.0.0"
+description = "Man-to-man defence as a system in tension, from SkillCorner's basketball open data (Liga ACB 2025-2026)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE.md"]
+authors = [{ name = "Santiago Silva Jacquier" }]
+requires-python = ">=3.11"
+dependencies = ["numpy"]
+
+[project.scripts]
+courtlab = "courtlab.cli:main"
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/courtlab"]

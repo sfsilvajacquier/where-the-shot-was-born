@@ -1,21 +1,26 @@
-MIT License
+# MIT License
 
-Copyright (c) 2025 PySport
+Copyright (c) 2026 Santiago Silva Jacquier
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+This repository holds code and documentation only. The data it reads is SkillCorner's basketball open data
+(github.com/SkillCorner/opendata-basketball, MIT licence), downloaded by `courtlab fetch` and never redistributed here.
+Vendored in `src/courtlab/viewer/vendor/`: three.js (MIT, `three.LICENSE`) and the Inter typeface (SIL Open Font License 1.1, `inter.LICENSE`).
+The body in `src/courtlab/viewer/assets/models/` is Quaternius' "Animated Base Character" (CC0 1.0, `models.LICENSE`); its animation clips
+are not used, every pose is generated from the data.
+The club crests in `src/courtlab/viewer/assets/crests/` are the trademarks of their clubs, shown only to identify the teams of a game in this
+non-commercial research viewer; SkillCorner's mark (`assets/skillcorner.png`, `assets/favicon.png`) is SkillCorner's trademark, shown only to credit
+the source of the data. Neither is covered by the licence above nor to be reused from here.
